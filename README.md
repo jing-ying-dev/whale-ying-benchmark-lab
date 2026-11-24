@@ -8,7 +8,7 @@
 [![Python](https://img.shields.io/badge/python-3.10%2B-3776AB.svg?logo=python&logoColor=white)](#quick-start)
 [![Built with Kiro IDE](https://img.shields.io/badge/developed%20with-Kiro%20IDE-792EE5.svg)](https://kiro.dev/)
 [![Upstream Memory](https://img.shields.io/badge/upstream-WhaleYing%20Memory%20v0.1.1-orange.svg)](https://github.com/jing-ying-dev/whale-ying-memory)
-[![Zenodo](https://img.shields.io/badge/DOI-pending%20release-lightgrey.svg)](#upstream-attribution--license)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24511241.svg)](https://doi.org/10.5281/zenodo.24511241)
 
 **47.0% Local 3B** · **51.7% GPT-4o-mini** on MemoryAgentBench 262k Multi-Hop (Normalized Exact Match)  
 *An empirical testbed measuring where external agent scaffolding helps, where it offers diminishing returns, and where it introduces regressions.*
