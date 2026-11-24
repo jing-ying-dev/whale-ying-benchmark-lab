@@ -1,0 +1,8252 @@
+[
+ [
+  {
+   "qid": 0,
+   "gold": "Philippines",
+   "ok": false,
+   "final": "Italy",
+   "start": "Christian Abbiati",
+   "rels": [
+    "sport",
+    "country of origin"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Christian Abbiati",
+     "relation": "sport",
+     "ans": "association football"
+    },
+    {
+     "subject": "association football",
+     "relation": "country of origin",
+     "ans": "Italy"
+    }
+   ]
+  },
+  {
+   "qid": 1,
+   "gold": "atheism",
+   "ok": true,
+   "final": "atheism",
+   "start": "Karl Lueger",
+   "rels": [
+    "citizenship",
+    "religion"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Karl Lueger",
+     "relation": "citizenship",
+     "ans": "Lordship of Ireland"
+    },
+    {
+     "subject": "Lordship of Ireland",
+     "relation": "religion",
+     "ans": "atheism"
+    }
+   ]
+  },
+  {
+   "qid": 2,
+   "gold": "Oceania",
+   "ok": false,
+   "final": "Antarctica",
+   "start": "\"American Pastoral\"",
+   "rels": [
+    "author",
+    "spouse",
+    "citizenship",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"American Pastoral\"",
+     "relation": "author",
+     "ans": "F. Scott Fitzgerald"
+    },
+    {
+     "subject": "F. Scott Fitzgerald",
+     "relation": "spouse",
+     "ans": "Carl Lumbly"
+    },
+    {
+     "subject": "Carl Lumbly",
+     "relation": "citizenship",
+     "ans": "Colombia"
+    },
+    {
+     "subject": "Colombia",
+     "relation": "continent",
+     "ans": "Antarctica"
+    }
+   ]
+  },
+  {
+   "qid": 3,
+   "gold": "Paris",
+   "ok": false,
+   "final": "United States of America",
+   "start": "\"Your Hit Parade\"",
+   "rels": [
+    "original broadcaster",
+    "country of origin"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"Your Hit Parade\"",
+     "relation": "original broadcaster",
+     "ans": "NBC"
+    },
+    {
+     "subject": "NBC",
+     "relation": "country of origin",
+     "ans": "United States of America"
+    }
+   ]
+  },
+  {
+   "qid": 4,
+   "gold": "English",
+   "ok": false,
+   "final": "Russian",
+   "start": "Valmiki",
+   "rels": [
+    "famous work",
+    "original language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Valmiki",
+     "relation": "famous work",
+     "ans": "Life and Fate"
+    },
+    {
+     "subject": "Life and Fate",
+     "relation": "original language",
+     "ans": "Russian"
+    }
+   ]
+  },
+  {
+   "qid": 5,
+   "gold": "Walloon",
+   "ok": true,
+   "final": "Walloon",
+   "start": "CBS Corporation",
+   "rels": [
+    "chief executive officer",
+    "spouse",
+    "citizenship",
+    "country of origin",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "CBS Corporation",
+     "relation": "chief executive officer",
+     "ans": "Les Moonves"
+    },
+    {
+     "subject": "Les Moonves",
+     "relation": "spouse",
+     "ans": "Louis Aragon"
+    },
+    {
+     "subject": "Louis Aragon",
+     "relation": "citizenship",
+     "ans": "Italy"
+    },
+    {
+     "subject": "Italy",
+     "relation": "country of origin",
+     "ans": "Italy"
+    },
+    {
+     "subject": "Italy",
+     "relation": "official language",
+     "ans": "Walloon"
+    }
+   ]
+  },
+  {
+   "qid": 6,
+   "gold": "Italian",
+   "ok": false,
+   "final": "English",
+   "start": "Melvil Dewey",
+   "rels": [
+    "famous work",
+    "original language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Melvil Dewey",
+     "relation": "famous work",
+     "ans": "Dewe"
+    },
+    {
+     "subject": "Dewe",
+     "relation": "original language",
+     "ans": "English"
+    }
+   ]
+  },
+  {
+   "qid": 7,
+   "gold": "Arabic",
+   "ok": true,
+   "final": "Arabic",
+   "start": "Revolver",
+   "rels": [
+    "director",
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Revolver",
+     "relation": "director",
+     "ans": "Narendra Modi"
+    },
+    {
+     "subject": "Narendra Modi",
+     "relation": "citizenship",
+     "ans": "Narendra Modi is a citizen of Australia."
+    },
+    {
+     "subject": "Narendra Modi is a citizen of Australia.",
+     "relation": "official language",
+     "ans": "Arabic"
+    }
+   ]
+  },
+  {
+   "qid": 8,
+   "gold": "University of Oxford",
+   "ok": false,
+   "final": "I do not have information regarding the education of Terrance Dicks.",
+   "start": "\"Measure for Measure\"",
+   "rels": [
+    "author",
+    "education"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"Measure for Measure\"",
+     "relation": "author",
+     "ans": "Terrance Dicks"
+    },
+    {
+     "subject": "Terrance Dicks",
+     "relation": "education",
+     "ans": "I do not have information regarding the education of Terrance Dicks."
+    }
+   ]
+  },
+  {
+   "qid": 9,
+   "gold": "L. L. Zamenhof",
+   "ok": false,
+   "final": "Frank Miller",
+   "start": "FC Viikingit",
+   "rels": [
+    "headquarters location",
+    "official language",
+    "original language",
+    "author"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "FC Viikingit",
+     "relation": "headquarters location",
+     "ans": "Helsinki"
+    },
+    {
+     "subject": "Helsinki",
+     "relation": "official language",
+     "ans": "Esperanto"
+    },
+    {
+     "subject": "Esperanto",
+     "relation": "original language",
+     "ans": "Esperanto"
+    },
+    {
+     "subject": "Esperanto",
+     "relation": "author",
+     "ans": "Frank Miller"
+    }
+   ]
+  },
+  {
+   "qid": 10,
+   "gold": "Oceania",
+   "ok": false,
+   "final": "不适用",
+   "start": "Visual Basic .NET",
+   "rels": [
+    "chief executive officer",
+    "birthplace",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Visual Basic .NET",
+     "relation": "chief executive officer",
+     "ans": "Visual Basic .NET does not have a chief executive officer, as it is a programming language developed by a company (Microsoft)."
+    },
+    {
+     "subject": "Visual Basic .NET does not have a chief executive officer, as it is a programming language developed by a company (Microsoft).",
+     "relation": "birthplace",
+     "ans": "Visual Basic .NET does not have a birthplace, as it is a programming language."
+    },
+    {
+     "subject": "Visual Basic .NET does not have a birthplace, as it is a programming language.",
+     "relation": "continent",
+     "ans": "不适用"
+    }
+   ]
+  },
+  {
+   "qid": 11,
+   "gold": "Epworth",
+   "ok": false,
+   "final": "Berlin",
+   "start": "Giulio Alberoni",
+   "rels": [
+    "religion",
+    "founder",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Giulio Alberoni",
+     "relation": "religion",
+     "ans": "Methodism"
+    },
+    {
+     "subject": "Methodism",
+     "relation": "founder",
+     "ans": "Joseph Goebbels"
+    },
+    {
+     "subject": "Joseph Goebbels",
+     "relation": "birthplace",
+     "ans": "Berlin"
+    }
+   ]
+  },
+  {
+   "qid": 12,
+   "gold": "Knoxville",
+   "ok": true,
+   "final": "Knoxville",
+   "start": "Adventures in Paradise",
+   "rels": [
+    "original broadcaster",
+    "headquarters location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Adventures in Paradise",
+     "relation": "original broadcaster",
+     "ans": "WTTW"
+    },
+    {
+     "subject": "WTTW",
+     "relation": "headquarters location",
+     "ans": "Knoxville"
+    }
+   ]
+  },
+  {
+   "qid": 13,
+   "gold": "Gundam",
+   "ok": true,
+   "final": "Gundam",
+   "start": "Miley Stewart",
+   "rels": [
+    "performer",
+    "famous work"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Miley Stewart",
+     "relation": "performer",
+     "ans": "John Lennon"
+    },
+    {
+     "subject": "John Lennon",
+     "relation": "famous work",
+     "ans": "Gundam"
+    }
+   ]
+  },
+  {
+   "qid": 14,
+   "gold": "Oceania",
+   "ok": true,
+   "final": "Oceania",
+   "start": "Fernando Lugo",
+   "rels": [
+    "citizenship",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Fernando Lugo",
+     "relation": "citizenship",
+     "ans": "United Kingdom"
+    },
+    {
+     "subject": "United Kingdom",
+     "relation": "continent",
+     "ans": "Oceania"
+    }
+   ]
+  },
+  {
+   "qid": 15,
+   "gold": "Long Beach",
+   "ok": true,
+   "final": "Long Beach",
+   "start": "Stewart Udall",
+   "rels": [
+    "education",
+    "headquarters location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Stewart Udall",
+     "relation": "education",
+     "ans": "California State University, Long Beach"
+    },
+    {
+     "subject": "California State University, Long Beach",
+     "relation": "headquarters location",
+     "ans": "Long Beach"
+    }
+   ]
+  },
+  {
+   "qid": 16,
+   "gold": "Europe",
+   "ok": false,
+   "final": "Africa",
+   "start": "International Judo Federation",
+   "rels": [
+    "founder",
+    "citizenship",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "International Judo Federation",
+     "relation": "founder",
+     "ans": "Charles de Gaulle"
+    },
+    {
+     "subject": "Charles de Gaulle",
+     "relation": "citizenship",
+     "ans": "India"
+    },
+    {
+     "subject": "India",
+     "relation": "continent",
+     "ans": "Africa"
+    }
+   ]
+  },
+  {
+   "qid": 17,
+   "gold": "Epworth",
+   "ok": false,
+   "final": "The birthplace of Michael O'Connor is the city of County Kerry.",
+   "start": "Duquesne University",
+   "rels": [
+    "founder",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Duquesne University",
+     "relation": "founder",
+     "ans": "Duquesne University was founded by Michael O'Connor."
+    },
+    {
+     "subject": "Duquesne University was founded by Michael O'Connor.",
+     "relation": "birthplace",
+     "ans": "The birthplace of Michael O'Connor is the city of County Kerry."
+    }
+   ]
+  },
+  {
+   "qid": 18,
+   "gold": "Paris",
+   "ok": false,
+   "final": "Bangkok",
+   "start": "Ford Ranger",
+   "rels": [
+    "manufacturer",
+    "founding place",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Ford Ranger",
+     "relation": "manufacturer",
+     "ans": "Ford Motor Company"
+    },
+    {
+     "subject": "Ford Motor Company",
+     "relation": "founding place",
+     "ans": "Bangkok"
+    },
+    {
+     "subject": "Bangkok",
+     "relation": "country of origin",
+     "ans": "Bangkok is located in the country of Thailand."
+    },
+    {
+     "subject": "Bangkok is located in the country of Thailand.",
+     "relation": "capital",
+     "ans": "Bangkok"
+    }
+   ]
+  },
+  {
+   "qid": 19,
+   "gold": "Dublin",
+   "ok": false,
+   "final": "Duluth",
+   "start": "Peter Schmeichel's position",
+   "rels": [
+    "sport",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Peter Schmeichel's position",
+     "relation": "sport",
+     "ans": "association football"
+    },
+    {
+     "subject": "association football",
+     "relation": "country of origin",
+     "ans": "Italy"
+    },
+    {
+     "subject": "Italy",
+     "relation": "capital",
+     "ans": "Duluth"
+    }
+   ]
+  },
+  {
+   "qid": 20,
+   "gold": "Sergio Mattarella",
+   "ok": false,
+   "final": "Elizabeth II",
+   "start": "Halifax Town A.F.C.",
+   "rels": [
+    "sport",
+    "country of origin",
+    "head of state"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Halifax Town A.F.C.",
+     "relation": "sport",
+     "ans": "Halifax Town A.F.C. is associated with the sport of association football."
+    },
+    {
+     "subject": "Halifax Town A.F.C. is associated with the sport of association football.",
+     "relation": "country of origin",
+     "ans": "England"
+    },
+    {
+     "subject": "England",
+     "relation": "head of state",
+     "ans": "Elizabeth II"
+    }
+   ]
+  },
+  {
+   "qid": 21,
+   "gold": "Asia",
+   "ok": true,
+   "final": "Asia",
+   "start": "Gustav Vigeland",
+   "rels": [
+    "citizenship",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Gustav Vigeland",
+     "relation": "citizenship",
+     "ans": "Finland"
+    },
+    {
+     "subject": "Finland",
+     "relation": "continent",
+     "ans": "Asia"
+    }
+   ]
+  },
+  {
+   "qid": 22,
+   "gold": "Japan",
+   "ok": false,
+   "final": "United States of America",
+   "start": "John Beilein's occupation",
+   "rels": [
+    "sport",
+    "country of origin"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "John Beilein's occupation",
+     "relation": "sport",
+     "ans": "basketball coach"
+    },
+    {
+     "subject": "basketball coach",
+     "relation": "country of origin",
+     "ans": "United States of America"
+    }
+   ]
+  },
+  {
+   "qid": 23,
+   "gold": "British Broadcasting Corporation",
+   "ok": true,
+   "final": "British Broadcasting Corporation",
+   "start": "Lynn Margulis",
+   "rels": [
+    "spouse",
+    "employer"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Lynn Margulis",
+     "relation": "spouse",
+     "ans": "Carl Sagan"
+    },
+    {
+     "subject": "Carl Sagan",
+     "relation": "employer",
+     "ans": "British Broadcasting Corporation"
+    }
+   ]
+  },
+  {
+   "qid": 24,
+   "gold": "American football",
+   "ok": true,
+   "final": "American football",
+   "start": "Tina Charles",
+   "rels": [
+    "position",
+    "sport"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Tina Charles",
+     "relation": "position",
+     "ans": "defensive back"
+    },
+    {
+     "subject": "defensive back",
+     "relation": "sport",
+     "ans": "American football"
+    }
+   ]
+  },
+  {
+   "qid": 25,
+   "gold": "Oceania",
+   "ok": false,
+   "final": "North America",
+   "start": "\"Please Please Me\"",
+   "rels": [
+    "director",
+    "citizenship",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"Please Please Me\"",
+     "relation": "director",
+     "ans": "Madonna"
+    },
+    {
+     "subject": "Madonna",
+     "relation": "citizenship",
+     "ans": "United States of America"
+    },
+    {
+     "subject": "United States of America",
+     "relation": "continent",
+     "ans": "North America"
+    }
+   ]
+  },
+  {
+   "qid": 26,
+   "gold": "North Charleston",
+   "ok": true,
+   "final": "North Charleston",
+   "start": "Bianca Jagger",
+   "rels": [
+    "spouse",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Bianca Jagger",
+     "relation": "spouse",
+     "ans": "Mick Jagger"
+    },
+    {
+     "subject": "Mick Jagger",
+     "relation": "birthplace",
+     "ans": "North Charleston"
+    }
+   ]
+  },
+  {
+   "qid": 27,
+   "gold": "New Delhi",
+   "ok": false,
+   "final": "Harare",
+   "start": "the 2014 World Judo Championships",
+   "rels": [
+    "sport",
+    "founder",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "the 2014 World Judo Championships",
+     "relation": "sport",
+     "ans": "judo"
+    },
+    {
+     "subject": "judo",
+     "relation": "founder",
+     "ans": "Charles de Gaulle"
+    },
+    {
+     "subject": "Charles de Gaulle",
+     "relation": "country of origin",
+     "ans": "France"
+    },
+    {
+     "subject": "France",
+     "relation": "capital",
+     "ans": "Harare"
+    }
+   ]
+  },
+  {
+   "qid": 28,
+   "gold": "Bondi Junction",
+   "ok": false,
+   "final": "Tokyo",
+   "start": "Family Force 5",
+   "rels": [
+    "country of origin",
+    "seat of government",
+    "city"
+   ],
+   "bad_rels": [
+    "seat of government",
+    "city"
+   ],
+   "path": [
+    {
+     "subject": "Family Force 5",
+     "relation": "country of origin",
+     "ans": "Japan"
+    },
+    {
+     "subject": "Japan",
+     "relation": "seat of government",
+     "ans": "Tokyo"
+    },
+    {
+     "subject": "Tokyo",
+     "relation": "city",
+     "ans": "Tokyo"
+    }
+   ]
+  },
+  {
+   "qid": 29,
+   "gold": "New York City",
+   "ok": true,
+   "final": "New York City",
+   "start": "Carmilla",
+   "rels": [
+    "author",
+    "place of death"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Carmilla",
+     "relation": "author",
+     "ans": "Joseph Stein"
+    },
+    {
+     "subject": "Joseph Stein",
+     "relation": "place of death",
+     "ans": "New York City"
+    }
+   ]
+  },
+  {
+   "qid": 30,
+   "gold": "Spain",
+   "ok": true,
+   "final": "Spain",
+   "start": "Dave Matthews Band",
+   "rels": [
+    "genre",
+    "country of origin"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Dave Matthews Band",
+     "relation": "genre",
+     "ans": "rock music"
+    },
+    {
+     "subject": "rock music",
+     "relation": "country of origin",
+     "ans": "Spain"
+    }
+   ]
+  },
+  {
+   "qid": 31,
+   "gold": "Mike Cheston",
+   "ok": true,
+   "final": "Mike Cheston",
+   "start": "Stephen Greenblatt",
+   "rels": [
+    "employer",
+    "chairperson"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Stephen Greenblatt",
+     "relation": "employer",
+     "ans": "X Prize Foundation"
+    },
+    {
+     "subject": "X Prize Foundation",
+     "relation": "chairperson",
+     "ans": "Mike Cheston"
+    }
+   ]
+  },
+  {
+   "qid": 32,
+   "gold": "Arabic",
+   "ok": false,
+   "final": "German",
+   "start": "the performer with ID 1",
+   "rels": [
+    "director/manager",
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [
+    "director/manager"
+   ],
+   "path": [
+    {
+     "subject": "the performer with ID 1",
+     "relation": "director/manager",
+     "ans": "Madonna"
+    },
+    {
+     "subject": "Madonna",
+     "relation": "citizenship",
+     "ans": "United States of America"
+    },
+    {
+     "subject": "United States of America",
+     "relation": "official language",
+     "ans": "German"
+    }
+   ]
+  },
+  {
+   "qid": 33,
+   "gold": "Gérard Blitz",
+   "ok": true,
+   "final": "Gérard Blitz",
+   "start": "James Michael Curley",
+   "rels": [
+    "education",
+    "founder"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "James Michael Curley",
+     "relation": "education",
+     "ans": "The Catholic University of America"
+    },
+    {
+     "subject": "The Catholic University of America",
+     "relation": "founder",
+     "ans": "Gérard Blitz"
+    }
+   ]
+  },
+  {
+   "qid": 34,
+   "gold": "London",
+   "ok": false,
+   "final": "没有指定的创始人",
+   "start": "Metz Cathedral",
+   "rels": [
+    "founder",
+    "work location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Metz Cathedral",
+     "relation": "founder",
+     "ans": "Metz Cathedral does not have a specified founder in the provided memories."
+    },
+    {
+     "subject": "Metz Cathedral does not have a specified founder in the provided memories.",
+     "relation": "work location",
+     "ans": "没有指定的创始人"
+    }
+   ]
+  },
+  {
+   "qid": 35,
+   "gold": "New Delhi",
+   "ok": false,
+   "final": "Grosseto",
+   "start": "Sumie Sakai",
+   "rels": [
+    "sport",
+    "founder",
+    "citizenship",
+    "country",
+    "capital"
+   ],
+   "bad_rels": [
+    "country"
+   ],
+   "path": [
+    {
+     "subject": "Sumie Sakai",
+     "relation": "sport",
+     "ans": "judo"
+    },
+    {
+     "subject": "judo",
+     "relation": "founder",
+     "ans": "Charles de Gaulle"
+    },
+    {
+     "subject": "Charles de Gaulle",
+     "relation": "citizenship",
+     "ans": "India"
+    },
+    {
+     "subject": "India",
+     "relation": "country",
+     "ans": "India"
+    },
+    {
+     "subject": "India",
+     "relation": "capital",
+     "ans": "Grosseto"
+    }
+   ]
+  },
+  {
+   "qid": 36,
+   "gold": "Canberra",
+   "ok": false,
+   "final": "Chiavari",
+   "start": "\"Back in the U.S.S.R.\"",
+   "rels": [
+    "director",
+    "citizenship",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"Back in the U.S.S.R.\"",
+     "relation": "director",
+     "ans": "Chicago Symphony Orchestra"
+    },
+    {
+     "subject": "Chicago Symphony Orchestra",
+     "relation": "citizenship",
+     "ans": "South Korea"
+    },
+    {
+     "subject": "South Korea",
+     "relation": "capital",
+     "ans": "Chiavari"
+    }
+   ]
+  },
+  {
+   "qid": 37,
+   "gold": "Gérard Blitz",
+   "ok": true,
+   "final": "Gérard Blitz",
+   "start": "Gabriel Narutowicz",
+   "rels": [
+    "religion",
+    "founder"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Gabriel Narutowicz",
+     "relation": "religion",
+     "ans": "Catholic Church"
+    },
+    {
+     "subject": "Catholic Church",
+     "relation": "founder",
+     "ans": "Gérard Blitz"
+    }
+   ]
+  },
+  {
+   "qid": 38,
+   "gold": "German",
+   "ok": true,
+   "final": "German",
+   "start": "Nate \"Tiny\" Archibald",
+   "rels": [
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Nate \"Tiny\" Archibald",
+     "relation": "citizenship",
+     "ans": "Sweden"
+    },
+    {
+     "subject": "Sweden",
+     "relation": "official language",
+     "ans": "German"
+    }
+   ]
+  },
+  {
+   "qid": 39,
+   "gold": "Princeton University",
+   "ok": true,
+   "final": "Princeton University",
+   "start": "La Celestina",
+   "rels": [
+    "author",
+    "education"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "La Celestina",
+     "relation": "author",
+     "ans": "Sigmund Freud"
+    },
+    {
+     "subject": "Sigmund Freud",
+     "relation": "education",
+     "ans": "Princeton University"
+    }
+   ]
+  },
+  {
+   "qid": 40,
+   "gold": "Picard",
+   "ok": true,
+   "final": "Picard",
+   "start": "Malik Kafur",
+   "rels": [
+    "religion",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Malik Kafur",
+     "relation": "religion",
+     "ans": "Islam"
+    },
+    {
+     "subject": "Islam",
+     "relation": "official language",
+     "ans": "Picard"
+    }
+   ]
+  },
+  {
+   "qid": 41,
+   "gold": "Narendra Modi",
+   "ok": false,
+   "final": "Joe Hockey does not have a listed manager in the provided memories.",
+   "start": "\"Yesterday and Today\"",
+   "rels": [
+    "performer",
+    "director",
+    "manager"
+   ],
+   "bad_rels": [
+    "manager"
+   ],
+   "path": [
+    {
+     "subject": "\"Yesterday and Today\"",
+     "relation": "performer",
+     "ans": "The Beatles"
+    },
+    {
+     "subject": "The Beatles",
+     "relation": "director",
+     "ans": "Joe Hockey"
+    },
+    {
+     "subject": "Joe Hockey",
+     "relation": "manager",
+     "ans": "Joe Hockey does not have a listed manager in the provided memories."
+    }
+   ]
+  },
+  {
+   "qid": 42,
+   "gold": "Ottawa",
+   "ok": false,
+   "final": "Dushanbe",
+   "start": "Derek Holland",
+   "rels": [
+    "sport",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Derek Holland",
+     "relation": "sport",
+     "ans": "linebacker"
+    },
+    {
+     "subject": "linebacker",
+     "relation": "country of origin",
+     "ans": "Shinty"
+    },
+    {
+     "subject": "Shinty",
+     "relation": "capital",
+     "ans": "Dushanbe"
+    }
+   ]
+  },
+  {
+   "qid": 43,
+   "gold": "English",
+   "ok": true,
+   "final": "English",
+   "start": "Muttahida Qaumi Movement",
+   "rels": [
+    "chairperson",
+    "languages"
+   ],
+   "bad_rels": [
+    "languages"
+   ],
+   "path": [
+    {
+     "subject": "Muttahida Qaumi Movement",
+     "relation": "chairperson",
+     "ans": "Stephen McNeil"
+    },
+    {
+     "subject": "Stephen McNeil",
+     "relation": "languages",
+     "ans": "English"
+    }
+   ]
+  },
+  {
+   "qid": 44,
+   "gold": "Rupnagar",
+   "ok": true,
+   "final": "Rupnagar",
+   "start": "Ragini Dwivedi",
+   "rels": [
+    "citizenship",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Ragini Dwivedi",
+     "relation": "citizenship",
+     "ans": "United Kingdom"
+    },
+    {
+     "subject": "United Kingdom",
+     "relation": "capital",
+     "ans": "Rupnagar"
+    }
+   ]
+  },
+  {
+   "qid": 45,
+   "gold": "London",
+   "ok": true,
+   "final": "London",
+   "start": "the book \"Dubliners\"",
+   "rels": [
+    "author",
+    "place of death"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "the book \"Dubliners\"",
+     "relation": "author",
+     "ans": "George Eliot"
+    },
+    {
+     "subject": "George Eliot",
+     "relation": "place of death",
+     "ans": "London"
+    }
+   ]
+  },
+  {
+   "qid": 46,
+   "gold": "Normanton",
+   "ok": false,
+   "final": "The headquarters of Mitsubishi is located in the city of Normanton.",
+   "start": "Sailfish OS",
+   "rels": [
+    "developer",
+    "headquarters location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Sailfish OS",
+     "relation": "developer",
+     "ans": "Mitsubishi"
+    },
+    {
+     "subject": "Mitsubishi",
+     "relation": "headquarters location",
+     "ans": "The headquarters of Mitsubishi is located in the city of Normanton."
+    }
+   ]
+  },
+  {
+   "qid": 47,
+   "gold": "Manila",
+   "ok": false,
+   "final": "Harrisville",
+   "start": "David Price",
+   "rels": [
+    "sport",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "David Price",
+     "relation": "sport",
+     "ans": "David Price plays the position of tight end."
+    },
+    {
+     "subject": "David Price plays the position of tight end.",
+     "relation": "country of origin",
+     "ans": "United States"
+    },
+    {
+     "subject": "United States",
+     "relation": "capital",
+     "ans": "Harrisville"
+    }
+   ]
+  },
+  {
+   "qid": 48,
+   "gold": "Spanish",
+   "ok": false,
+   "final": "Korean",
+   "start": "All of Me",
+   "rels": [
+    "performer",
+    "spouse",
+    "country of origin",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "All of Me",
+     "relation": "performer",
+     "ans": "Bobby Brown"
+    },
+    {
+     "subject": "Bobby Brown",
+     "relation": "spouse",
+     "ans": "Lois Lane"
+    },
+    {
+     "subject": "Lois Lane",
+     "relation": "country of origin",
+     "ans": "South Korea"
+    },
+    {
+     "subject": "South Korea",
+     "relation": "official language",
+     "ans": "Korean"
+    }
+   ]
+  },
+  {
+   "qid": 49,
+   "gold": "Lüftelberg",
+   "ok": true,
+   "final": "Lüftelberg",
+   "start": "Indiana Jones",
+   "rels": [
+    "founder",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Indiana Jones",
+     "relation": "founder",
+     "ans": "A. A. Milne"
+    },
+    {
+     "subject": "A. A. Milne",
+     "relation": "birthplace",
+     "ans": "Lüftelberg"
+    }
+   ]
+  },
+  {
+   "qid": 50,
+   "gold": "David Potts",
+   "ok": true,
+   "final": "David Potts",
+   "start": "the Chevrolet Chevelle",
+   "rels": [
+    "manufacturer",
+    "chief executive officer"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "the Chevrolet Chevelle",
+     "relation": "manufacturer",
+     "ans": "Peugeot"
+    },
+    {
+     "subject": "Peugeot",
+     "relation": "chief executive officer",
+     "ans": "David Potts"
+    }
+   ]
+  },
+  {
+   "qid": 51,
+   "gold": "composer",
+   "ok": true,
+   "final": "composer",
+   "start": "Economic Freedom Fighters",
+   "rels": [
+    "chairperson",
+    "profession"
+   ],
+   "bad_rels": [
+    "profession"
+   ],
+   "path": [
+    {
+     "subject": "Economic Freedom Fighters",
+     "relation": "chairperson",
+     "ans": "Roberto Calvi"
+    },
+    {
+     "subject": "Roberto Calvi",
+     "relation": "profession",
+     "ans": "composer"
+    }
+   ]
+  },
+  {
+   "qid": 52,
+   "gold": "Africa",
+   "ok": true,
+   "final": "Africa",
+   "start": "Windows Aero",
+   "rels": [
+    "developer",
+    "chief executive officer",
+    "birthplace",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Windows Aero",
+     "relation": "developer",
+     "ans": "Electronic Arts"
+    },
+    {
+     "subject": "Electronic Arts",
+     "relation": "chief executive officer",
+     "ans": "Elon Musk"
+    },
+    {
+     "subject": "Elon Musk",
+     "relation": "birthplace",
+     "ans": "Elon Musk was born in the city of New Zealand."
+    },
+    {
+     "subject": "Elon Musk was born in the city of New Zealand.",
+     "relation": "continent",
+     "ans": "Africa"
+    }
+   ]
+  },
+  {
+   "qid": 53,
+   "gold": "Ole Johan Vierdal",
+   "ok": false,
+   "final": "Boris Johnson",
+   "start": "Julian Lennon",
+   "rels": [
+    "genre",
+    "country of origin",
+    "head of government"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Julian Lennon",
+     "relation": "genre",
+     "ans": "soul music"
+    },
+    {
+     "subject": "soul music",
+     "relation": "country of origin",
+     "ans": "United Kingdom"
+    },
+    {
+     "subject": "United Kingdom",
+     "relation": "head of government",
+     "ans": "Boris Johnson"
+    }
+   ]
+  },
+  {
+   "qid": 54,
+   "gold": "Washington, D.C.",
+   "ok": true,
+   "final": "Washington, D.C.",
+   "start": "Steve Cooley",
+   "rels": [
+    "religion",
+    "founder",
+    "work location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Steve Cooley",
+     "relation": "religion",
+     "ans": "Methodism"
+    },
+    {
+     "subject": "Methodism",
+     "relation": "founder",
+     "ans": "Joseph Goebbels"
+    },
+    {
+     "subject": "Joseph Goebbels",
+     "relation": "work location",
+     "ans": "Washington, D.C."
+    }
+   ]
+  },
+  {
+   "qid": 55,
+   "gold": "Oderzo",
+   "ok": true,
+   "final": "Oderzo",
+   "start": "The Partridge Family",
+   "rels": [
+    "original broadcaster",
+    "director",
+    "citizenship",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "The Partridge Family",
+     "relation": "original broadcaster",
+     "ans": "British Broadcasting Corporation"
+    },
+    {
+     "subject": "British Broadcasting Corporation",
+     "relation": "director",
+     "ans": "Narendra Modi"
+    },
+    {
+     "subject": "Narendra Modi",
+     "relation": "citizenship",
+     "ans": "Narendra Modi is a citizen of Australia."
+    },
+    {
+     "subject": "Narendra Modi is a citizen of Australia.",
+     "relation": "capital",
+     "ans": "Oderzo"
+    }
+   ]
+  },
+  {
+   "qid": 56,
+   "gold": "Christopher A. Wray",
+   "ok": true,
+   "final": "Christopher A. Wray",
+   "start": "Philip Agee",
+   "rels": [
+    "employer",
+    "chief executive officer"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Philip Agee",
+     "relation": "employer",
+     "ans": "Federal Bureau of Investigation"
+    },
+    {
+     "subject": "Federal Bureau of Investigation",
+     "relation": "chief executive officer",
+     "ans": "Christopher A. Wray"
+    }
+   ]
+  },
+  {
+   "qid": 57,
+   "gold": "Epworth",
+   "ok": false,
+   "final": "Berlin",
+   "start": "Saint Eligius",
+   "rels": [
+    "religion",
+    "founder",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Saint Eligius",
+     "relation": "religion",
+     "ans": "Methodism"
+    },
+    {
+     "subject": "Methodism",
+     "relation": "founder",
+     "ans": "Joseph Goebbels"
+    },
+    {
+     "subject": "Joseph Goebbels",
+     "relation": "birthplace",
+     "ans": "Berlin"
+    }
+   ]
+  },
+  {
+   "qid": 58,
+   "gold": "Natya Shastra",
+   "ok": true,
+   "final": "Natya Shastra",
+   "start": "The Age of Reason",
+   "rels": [
+    "author",
+    "famous work"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "The Age of Reason",
+     "relation": "author",
+     "ans": "Allen Ginsberg"
+    },
+    {
+     "subject": "Allen Ginsberg",
+     "relation": "famous work",
+     "ans": "Natya Shastra"
+    }
+   ]
+  },
+  {
+   "qid": 59,
+   "gold": "Higashiyamanashi District, Yamanashi",
+   "ok": true,
+   "final": "Higashiyamanashi District, Yamanashi",
+   "start": "the Illinois Attorney General's office",
+   "rels": [
+    "current holder",
+    "birthplace"
+   ],
+   "bad_rels": [
+    "current holder"
+   ],
+   "path": [
+    {
+     "subject": "the Illinois Attorney General's office",
+     "relation": "current holder",
+     "ans": "Ben Carson"
+    },
+    {
+     "subject": "Ben Carson",
+     "relation": "birthplace",
+     "ans": "Higashiyamanashi District, Yamanashi"
+    }
+   ]
+  },
+  {
+   "qid": 60,
+   "gold": "Lyndon B. Johnson",
+   "ok": true,
+   "final": "Lyndon B. Johnson",
+   "start": "Nicholas V",
+   "rels": [
+    "religion",
+    "founder"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Nicholas V",
+     "relation": "religion",
+     "ans": "The Church of Jesus Christ of Latter-day Saints"
+    },
+    {
+     "subject": "The Church of Jesus Christ of Latter-day Saints",
+     "relation": "founder",
+     "ans": "Lyndon B. Johnson"
+    }
+   ]
+  },
+  {
+   "qid": 61,
+   "gold": "Mexico City",
+   "ok": true,
+   "final": "Mexico City",
+   "start": "Ivanhoe",
+   "rels": [
+    "author",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Ivanhoe",
+     "relation": "author",
+     "ans": "Walter Scott"
+    },
+    {
+     "subject": "Walter Scott",
+     "relation": "birthplace",
+     "ans": "Mexico City"
+    }
+   ]
+  },
+  {
+   "qid": 62,
+   "gold": "Zygmunt Krasiński",
+   "ok": true,
+   "final": "Zygmunt Krasiński",
+   "start": "Feluda",
+   "rels": [
+    "author",
+    "child"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Feluda",
+     "relation": "author",
+     "ans": "Terry Pratchett"
+    },
+    {
+     "subject": "Terry Pratchett",
+     "relation": "child",
+     "ans": "Zygmunt Krasiński"
+    }
+   ]
+  },
+  {
+   "qid": 63,
+   "gold": "New Delhi",
+   "ok": false,
+   "final": "Australia",
+   "start": "\"NHL on ABC\"",
+   "rels": [
+    "original broadcaster",
+    "director",
+    "citizenship"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"NHL on ABC\"",
+     "relation": "original broadcaster",
+     "ans": "British Broadcasting Corporation"
+    },
+    {
+     "subject": "British Broadcasting Corporation",
+     "relation": "director",
+     "ans": "Narendra Modi"
+    },
+    {
+     "subject": "Narendra Modi",
+     "relation": "citizenship",
+     "ans": "Australia"
+    }
+   ]
+  },
+  {
+   "qid": 64,
+   "gold": "Finnish",
+   "ok": true,
+   "final": "Finnish",
+   "start": "Yip Harburg",
+   "rels": [
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Yip Harburg",
+     "relation": "citizenship",
+     "ans": "United Kingdom"
+    },
+    {
+     "subject": "United Kingdom",
+     "relation": "official language",
+     "ans": "Finnish"
+    }
+   ]
+  },
+  {
+   "qid": 65,
+   "gold": "progressive rock",
+   "ok": true,
+   "final": "progressive rock",
+   "start": "the book \"Dune\"",
+   "rels": [
+    "author",
+    "genre"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "the book \"Dune\"",
+     "relation": "author",
+     "ans": "William Shakespeare"
+    },
+    {
+     "subject": "William Shakespeare",
+     "relation": "genre",
+     "ans": "progressive rock"
+    }
+   ]
+  },
+  {
+   "qid": 66,
+   "gold": "South America",
+   "ok": false,
+   "final": "North America",
+   "start": "Thomas Dolby",
+   "rels": [
+    "continent of origin"
+   ],
+   "bad_rels": [
+    "continent of origin"
+   ],
+   "path": [
+    {
+     "subject": "Thomas Dolby",
+     "relation": "continent of origin",
+     "ans": "North America"
+    }
+   ]
+  },
+  {
+   "qid": 67,
+   "gold": "Trinity College Dublin",
+   "ok": false,
+   "final": "The university where Gustav I of Sweden was educated is Trinity College Dublin.",
+   "start": "House of Bonaparte",
+   "rels": [
+    "founder",
+    "education"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "House of Bonaparte",
+     "relation": "founder",
+     "ans": "Gustav I of Sweden"
+    },
+    {
+     "subject": "Gustav I of Sweden",
+     "relation": "education",
+     "ans": "The university where Gustav I of Sweden was educated is Trinity College Dublin."
+    }
+   ]
+  },
+  {
+   "qid": 68,
+   "gold": "Silver Lake",
+   "ok": true,
+   "final": "Silver Lake",
+   "start": "Chevrolet Caprice",
+   "rels": [
+    "manufacturer",
+    "founding place"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Chevrolet Caprice",
+     "relation": "manufacturer",
+     "ans": "Boeing"
+    },
+    {
+     "subject": "Boeing",
+     "relation": "founding place",
+     "ans": "Silver Lake"
+    }
+   ]
+  },
+  {
+   "qid": 69,
+   "gold": "Rajanpur",
+   "ok": false,
+   "final": "The country of origin of the genre related to Benjamin Sisko is not specified in the provided memory data.",
+   "start": "Benjamin Sisko",
+   "rels": [
+    "genre",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Benjamin Sisko",
+     "relation": "genre",
+     "ans": "The genre of Benjamin Sisko is not specified in the provided memory data."
+    },
+    {
+     "subject": "The genre of Benjamin Sisko is not specified in the provided memory data.",
+     "relation": "country of origin",
+     "ans": "The country of origin of the genre related to Benjamin Sisko is not specified in the provided memory data."
+    },
+    {
+     "subject": "The country of origin of the genre related to Benjamin Sisko is not specified in the provided memory data.",
+     "relation": "capital",
+     "ans": "The country of origin of the genre related to Benjamin Sisko is not specified in the provided memory data."
+    }
+   ]
+  },
+  {
+   "qid": 70,
+   "gold": "Belgium",
+   "ok": true,
+   "final": "Belgium",
+   "start": "\"David Copperfield\"",
+   "rels": [
+    "author",
+    "spouse",
+    "citizenship"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"David Copperfield\"",
+     "relation": "author",
+     "ans": "Charles Darwin"
+    },
+    {
+     "subject": "Charles Darwin",
+     "relation": "spouse",
+     "ans": "Amala Paul"
+    },
+    {
+     "subject": "Amala Paul",
+     "relation": "citizenship",
+     "ans": "Belgium"
+    }
+   ]
+  },
+  {
+   "qid": 71,
+   "gold": "William J. Donovan",
+   "ok": false,
+   "final": "Robert James Carlson",
+   "start": "Francis Parkman",
+   "rels": [
+    "employer",
+    "chairperson"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Francis Parkman",
+     "relation": "employer",
+     "ans": "Office of Strategic Services"
+    },
+    {
+     "subject": "Office of Strategic Services",
+     "relation": "chairperson",
+     "ans": "Robert James Carlson"
+    }
+   ]
+  },
+  {
+   "qid": 72,
+   "gold": "Beaumont",
+   "ok": false,
+   "final": "Oderzo",
+   "start": "Good Morning America",
+   "rels": [
+    "director",
+    "citizenship",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Good Morning America",
+     "relation": "director",
+     "ans": "The director of Good Morning America is Narendra Modi."
+    },
+    {
+     "subject": "The director of Good Morning America is Narendra Modi.",
+     "relation": "citizenship",
+     "ans": "Narendra Modi is a citizen of Australia."
+    },
+    {
+     "subject": "Narendra Modi is a citizen of Australia.",
+     "relation": "capital",
+     "ans": "Oderzo"
+    }
+   ]
+  },
+  {
+   "qid": 73,
+   "gold": "Hebrew",
+   "ok": false,
+   "final": "French",
+   "start": "Pee Wee King",
+   "rels": [
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Pee Wee King",
+     "relation": "citizenship",
+     "ans": "France"
+    },
+    {
+     "subject": "France",
+     "relation": "official language",
+     "ans": "French"
+    }
+   ]
+  },
+  {
+   "qid": 74,
+   "gold": "German",
+   "ok": true,
+   "final": "German",
+   "start": "Tomokazu Seki",
+   "rels": [
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Tomokazu Seki",
+     "relation": "citizenship",
+     "ans": "United States of America"
+    },
+    {
+     "subject": "United States of America",
+     "relation": "official language",
+     "ans": "German"
+    }
+   ]
+  },
+  {
+   "qid": 75,
+   "gold": "Asia",
+   "ok": false,
+   "final": "Europe",
+   "start": "Taxman",
+   "rels": [
+    "director",
+    "citizenship",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Taxman",
+     "relation": "director",
+     "ans": "The director of Taxman is not specified in the provided memories."
+    },
+    {
+     "subject": "The director of Taxman is not specified in the provided memories.",
+     "relation": "citizenship",
+     "ans": "The citizenship of The Beatles is not specified in the provided memories."
+    },
+    {
+     "subject": "The citizenship of The Beatles is not specified in the provided memories.",
+     "relation": "continent",
+     "ans": "Europe"
+    }
+   ]
+  },
+  {
+   "qid": 76,
+   "gold": "Edinburgh",
+   "ok": false,
+   "final": "Mumbai",
+   "start": "the centrifugal governor",
+   "rels": [
+    "founder",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "the centrifugal governor",
+     "relation": "founder",
+     "ans": "Robert Louis Stevenson"
+    },
+    {
+     "subject": "Robert Louis Stevenson",
+     "relation": "birthplace",
+     "ans": "Mumbai"
+    }
+   ]
+  },
+  {
+   "qid": 77,
+   "gold": "Berlin",
+   "ok": false,
+   "final": "London",
+   "start": "Star Trek canon",
+   "rels": [
+    "author",
+    "spouse",
+    "citizenship",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Star Trek canon",
+     "relation": "author",
+     "ans": "Joseph Goebbels"
+    },
+    {
+     "subject": "Joseph Goebbels",
+     "relation": "spouse",
+     "ans": "Edmund Wilson"
+    },
+    {
+     "subject": "Edmund Wilson",
+     "relation": "citizenship",
+     "ans": "Edmund Wilson is a citizen of United Kingdom."
+    },
+    {
+     "subject": "Edmund Wilson is a citizen of United Kingdom.",
+     "relation": "capital",
+     "ans": "London"
+    }
+   ]
+  },
+  {
+   "qid": 78,
+   "gold": "Finnish",
+   "ok": true,
+   "final": "Finnish",
+   "start": "Eric Weissberg",
+   "rels": [
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Eric Weissberg",
+     "relation": "citizenship",
+     "ans": "United Kingdom"
+    },
+    {
+     "subject": "United Kingdom",
+     "relation": "official language",
+     "ans": "Finnish"
+    }
+   ]
+  },
+  {
+   "qid": 79,
+   "gold": "Vienna",
+   "ok": false,
+   "final": "Brooklyn",
+   "start": "Tom Selleck",
+   "rels": [
+    "education",
+    "headquarters location",
+    "work location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Tom Selleck",
+     "relation": "education",
+     "ans": "Academy of Fine Arts Vienna"
+    },
+    {
+     "subject": "Academy of Fine Arts Vienna",
+     "relation": "headquarters location",
+     "ans": "The headquarters of Academy of Fine Arts Vienna is located in the city of Brooklyn."
+    },
+    {
+     "subject": "The headquarters of Academy of Fine Arts Vienna is located in the city of Brooklyn.",
+     "relation": "work location",
+     "ans": "Brooklyn"
+    }
+   ]
+  },
+  {
+   "qid": 80,
+   "gold": "American English",
+   "ok": true,
+   "final": "American English",
+   "start": "Mario Puzo",
+   "rels": [
+    "famous work",
+    "original language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Mario Puzo",
+     "relation": "famous work",
+     "ans": "Billy Elliot the Musical"
+    },
+    {
+     "subject": "Billy Elliot the Musical",
+     "relation": "original language",
+     "ans": "American English"
+    }
+   ]
+  },
+  {
+   "qid": 81,
+   "gold": "Oceania",
+   "ok": true,
+   "final": "Oceania",
+   "start": "Teenage Fanclub",
+   "rels": [
+    "country of origin",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Teenage Fanclub",
+     "relation": "country of origin",
+     "ans": "Italy"
+    },
+    {
+     "subject": "Italy",
+     "relation": "continent",
+     "ans": "Oceania"
+    }
+   ]
+  },
+  {
+   "qid": 82,
+   "gold": "Riyadh Region",
+   "ok": false,
+   "final": "The work location of Mary Baker Eddy is not explicitly provided in the memories. Therefore, I cannot provide an answer based on the available information.",
+   "start": "Edward Mooney",
+   "rels": [
+    "religion",
+    "founder",
+    "work location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Edward Mooney",
+     "relation": "religion",
+     "ans": "Christian Science"
+    },
+    {
+     "subject": "Christian Science",
+     "relation": "founder",
+     "ans": "Mary Baker Eddy"
+    },
+    {
+     "subject": "Mary Baker Eddy",
+     "relation": "work location",
+     "ans": "The work location of Mary Baker Eddy is not explicitly provided in the memories. Therefore, I cannot provide an answer based on the available information."
+    }
+   ]
+  },
+  {
+   "qid": 83,
+   "gold": "singer",
+   "ok": true,
+   "final": "singer",
+   "start": "Lalu Prasad Yadav",
+   "rels": [
+    "spouse",
+    "field of work"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Lalu Prasad Yadav",
+     "relation": "spouse",
+     "ans": "Goldust"
+    },
+    {
+     "subject": "Goldust",
+     "relation": "field of work",
+     "ans": "singer"
+    }
+   ]
+  },
+  {
+   "qid": 84,
+   "gold": "Bondi Junction",
+   "ok": false,
+   "final": "Duluth",
+   "start": "Enrico Villanueva",
+   "rels": [
+    "sport",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Enrico Villanueva",
+     "relation": "sport",
+     "ans": "Enrico Villanueva plays the position of closer."
+    },
+    {
+     "subject": "Enrico Villanueva plays the position of closer.",
+     "relation": "country of origin",
+     "ans": "Italy"
+    },
+    {
+     "subject": "Italy",
+     "relation": "capital",
+     "ans": "Duluth"
+    }
+   ]
+  },
+  {
+   "qid": 85,
+   "gold": "philosopher",
+   "ok": false,
+   "final": "politician",
+   "start": "Julius Caesar",
+   "rels": [
+    "author",
+    "field of work"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Julius Caesar",
+     "relation": "author",
+     "ans": "Aristotle"
+    },
+    {
+     "subject": "Aristotle",
+     "relation": "field of work",
+     "ans": "politician"
+    }
+   ]
+  },
+  {
+   "qid": 86,
+   "gold": "Methodism",
+   "ok": true,
+   "final": "Methodism",
+   "start": "Benigno Aquino Jr.",
+   "rels": [
+    "spouse",
+    "religion"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Benigno Aquino Jr.",
+     "relation": "spouse",
+     "ans": "Corazon Aquino"
+    },
+    {
+     "subject": "Corazon Aquino",
+     "relation": "religion",
+     "ans": "Methodism"
+    }
+   ]
+  },
+  {
+   "qid": 87,
+   "gold": "Ireland",
+   "ok": true,
+   "final": "Ireland",
+   "start": "WWE Tough Enough",
+   "rels": [
+    "creator",
+    "spouse",
+    "citizenship"
+   ],
+   "bad_rels": [
+    "creator"
+   ],
+   "path": [
+    {
+     "subject": "WWE Tough Enough",
+     "relation": "creator",
+     "ans": "William Shakespeare"
+    },
+    {
+     "subject": "William Shakespeare",
+     "relation": "spouse",
+     "ans": "Philip IV of France"
+    },
+    {
+     "subject": "Philip IV of France",
+     "relation": "citizenship",
+     "ans": "Ireland"
+    }
+   ]
+  },
+  {
+   "qid": 88,
+   "gold": "Recep Tayyip Erdoğan",
+   "ok": false,
+   "final": "Guðni Jóhannesson",
+   "start": "\"Outsourced\"",
+   "rels": [
+    "country of origin",
+    "head of state"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"Outsourced\"",
+     "relation": "country of origin",
+     "ans": "Turkey"
+    },
+    {
+     "subject": "Turkey",
+     "relation": "head of state",
+     "ans": "Guðni Jóhannesson"
+    }
+   ]
+  },
+  {
+   "qid": 89,
+   "gold": "Red Bank",
+   "ok": false,
+   "final": "The headquarters of British Broadcasting Corporation is located in the city of Red Bank.",
+   "start": "NBA on ABC",
+   "rels": [
+    "original broadcaster",
+    "headquarters location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "NBA on ABC",
+     "relation": "original broadcaster",
+     "ans": "British Broadcasting Corporation"
+    },
+    {
+     "subject": "British Broadcasting Corporation",
+     "relation": "headquarters location",
+     "ans": "The headquarters of British Broadcasting Corporation is located in the city of Red Bank."
+    }
+   ]
+  },
+  {
+   "qid": 90,
+   "gold": "Gérard Blitz",
+   "ok": true,
+   "final": "Gérard Blitz",
+   "start": "Dzhokhar Dudayev",
+   "rels": [
+    "religion",
+    "founder"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Dzhokhar Dudayev",
+     "relation": "religion",
+     "ans": "Catholic Church"
+    },
+    {
+     "subject": "Catholic Church",
+     "relation": "founder",
+     "ans": "Gérard Blitz"
+    }
+   ]
+  },
+  {
+   "qid": 91,
+   "gold": "Mikhail Gorbachev",
+   "ok": false,
+   "final": "Connachta",
+   "start": "Brad Stevens",
+   "rels": [
+    "sport",
+    "country of origin",
+    "head of state"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Brad Stevens",
+     "relation": "sport",
+     "ans": "basketball"
+    },
+    {
+     "subject": "basketball",
+     "relation": "country of origin",
+     "ans": "United States of America"
+    },
+    {
+     "subject": "United States of America",
+     "relation": "head of state",
+     "ans": "Connachta"
+    }
+   ]
+  },
+  {
+   "qid": 92,
+   "gold": "Lili Bosse",
+   "ok": true,
+   "final": "Lili Bosse",
+   "start": "the 1985 NBA Draft",
+   "rels": [
+    "sport",
+    "country of origin",
+    "head of government"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "the 1985 NBA Draft",
+     "relation": "sport",
+     "ans": "association football"
+    },
+    {
+     "subject": "association football",
+     "relation": "country of origin",
+     "ans": "Italy"
+    },
+    {
+     "subject": "Italy",
+     "relation": "head of government",
+     "ans": "Lili Bosse"
+    }
+   ]
+  },
+  {
+   "qid": 93,
+   "gold": "Bondi Junction",
+   "ok": false,
+   "final": "Harrisville",
+   "start": "Ricky Rubio",
+   "rels": [
+    "sport",
+    "country of origin",
+    "capital",
+    "city"
+   ],
+   "bad_rels": [
+    "city"
+   ],
+   "path": [
+    {
+     "subject": "Ricky Rubio",
+     "relation": "sport",
+     "ans": "basketball"
+    },
+    {
+     "subject": "basketball",
+     "relation": "country of origin",
+     "ans": "United States of America"
+    },
+    {
+     "subject": "United States of America",
+     "relation": "capital",
+     "ans": "Harrisville"
+    },
+    {
+     "subject": "Harrisville",
+     "relation": "city",
+     "ans": "Harrisville"
+    }
+   ]
+  },
+  {
+   "qid": 94,
+   "gold": "English",
+   "ok": true,
+   "final": "English",
+   "start": "Flogging Molly",
+   "rels": [
+    "country of origin",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Flogging Molly",
+     "relation": "country of origin",
+     "ans": "Germany"
+    },
+    {
+     "subject": "Germany",
+     "relation": "official language",
+     "ans": "English"
+    }
+   ]
+  },
+  {
+   "qid": 95,
+   "gold": "University of Oxford",
+   "ok": false,
+   "final": "Oxford University Press",
+   "start": "Link",
+   "rels": [
+    "creator",
+    "employer",
+    "company"
+   ],
+   "bad_rels": [
+    "creator",
+    "company"
+   ],
+   "path": [
+    {
+     "subject": "Link",
+     "relation": "creator",
+     "ans": "Shigeru Miyamoto"
+    },
+    {
+     "subject": "Shigeru Miyamoto",
+     "relation": "employer",
+     "ans": "University of Oxford"
+    },
+    {
+     "subject": "University of Oxford",
+     "relation": "company",
+     "ans": "Oxford University Press"
+    }
+   ]
+  },
+  {
+   "qid": 96,
+   "gold": "Australia",
+   "ok": false,
+   "final": "United States of America",
+   "start": "Dave Dombrowski",
+   "rels": [
+    "employer",
+    "sport",
+    "country of origin"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Dave Dombrowski",
+     "relation": "employer",
+     "ans": "Stevenage F.C."
+    },
+    {
+     "subject": "Stevenage F.C.",
+     "relation": "sport",
+     "ans": "American football"
+    },
+    {
+     "subject": "American football",
+     "relation": "country of origin",
+     "ans": "United States of America"
+    }
+   ]
+  },
+  {
+   "qid": 97,
+   "gold": "sumo",
+   "ok": true,
+   "final": "sumo",
+   "start": "Bobby Hurley",
+   "rels": [
+    "position",
+    "sport"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Bobby Hurley",
+     "relation": "position",
+     "ans": "midfielder"
+    },
+    {
+     "subject": "midfielder",
+     "relation": "sport",
+     "ans": "sumo"
+    }
+   ]
+  },
+  {
+   "qid": 98,
+   "gold": "Edinburgh",
+   "ok": false,
+   "final": "Church of Scotland",
+   "start": "Jacqueline Kennedy Onassis",
+   "rels": [
+    "religion",
+    "founder",
+    "employer"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Jacqueline Kennedy Onassis",
+     "relation": "religion",
+     "ans": "Church of Scotland"
+    },
+    {
+     "subject": "Church of Scotland",
+     "relation": "founder",
+     "ans": "Bachir Gemayel"
+    },
+    {
+     "subject": "Bachir Gemayel",
+     "relation": "employer",
+     "ans": "Church of Scotland"
+    }
+   ]
+  },
+  {
+   "qid": 99,
+   "gold": "Epworth",
+   "ok": false,
+   "final": "Berlin",
+   "start": "Ferdinando I de' Medici",
+   "rels": [
+    "religion",
+    "founder",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Ferdinando I de' Medici",
+     "relation": "religion",
+     "ans": "Methodism"
+    },
+    {
+     "subject": "Methodism",
+     "relation": "founder",
+     "ans": "Joseph Goebbels"
+    },
+    {
+     "subject": "Joseph Goebbels",
+     "relation": "birthplace",
+     "ans": "Berlin"
+    }
+   ]
+  }
+ ],
+ [
+  {
+   "qid": 0,
+   "gold": "Philippines",
+   "ok": false,
+   "final": "Italy",
+   "start": "Christian Abbiati",
+   "rels": [
+    "sport",
+    "country of origin"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Christian Abbiati",
+     "relation": "sport",
+     "ans": "association football"
+    },
+    {
+     "subject": "association football",
+     "relation": "country of origin",
+     "ans": "Italy"
+    }
+   ]
+  },
+  {
+   "qid": 1,
+   "gold": "atheism",
+   "ok": true,
+   "final": "atheism",
+   "start": "Karl Lueger",
+   "rels": [
+    "citizenship",
+    "religion"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Karl Lueger",
+     "relation": "citizenship",
+     "ans": "Lordship of Ireland"
+    },
+    {
+     "subject": "Lordship of Ireland",
+     "relation": "religion",
+     "ans": "atheism"
+    }
+   ]
+  },
+  {
+   "qid": 2,
+   "gold": "Oceania",
+   "ok": false,
+   "final": "Antarctica",
+   "start": "\"American Pastoral\"",
+   "rels": [
+    "author",
+    "spouse",
+    "citizenship",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"American Pastoral\"",
+     "relation": "author",
+     "ans": "F. Scott Fitzgerald"
+    },
+    {
+     "subject": "F. Scott Fitzgerald",
+     "relation": "spouse",
+     "ans": "Carl Lumbly"
+    },
+    {
+     "subject": "Carl Lumbly",
+     "relation": "citizenship",
+     "ans": "Colombia"
+    },
+    {
+     "subject": "Colombia",
+     "relation": "continent",
+     "ans": "Antarctica"
+    }
+   ]
+  },
+  {
+   "qid": 3,
+   "gold": "Paris",
+   "ok": false,
+   "final": "United States of America",
+   "start": "\"Your Hit Parade\"",
+   "rels": [
+    "original broadcaster",
+    "country of origin"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"Your Hit Parade\"",
+     "relation": "original broadcaster",
+     "ans": "NBC"
+    },
+    {
+     "subject": "NBC",
+     "relation": "country of origin",
+     "ans": "United States of America"
+    }
+   ]
+  },
+  {
+   "qid": 4,
+   "gold": "English",
+   "ok": false,
+   "final": "Russian",
+   "start": "Valmiki",
+   "rels": [
+    "famous work",
+    "original language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Valmiki",
+     "relation": "famous work",
+     "ans": "Life and Fate"
+    },
+    {
+     "subject": "Life and Fate",
+     "relation": "original language",
+     "ans": "Russian"
+    }
+   ]
+  },
+  {
+   "qid": 5,
+   "gold": "Walloon",
+   "ok": true,
+   "final": "Walloon",
+   "start": "CBS Corporation",
+   "rels": [
+    "chief executive officer",
+    "spouse",
+    "citizenship",
+    "country of origin",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "CBS Corporation",
+     "relation": "chief executive officer",
+     "ans": "Les Moonves"
+    },
+    {
+     "subject": "Les Moonves",
+     "relation": "spouse",
+     "ans": "Louis Aragon"
+    },
+    {
+     "subject": "Louis Aragon",
+     "relation": "citizenship",
+     "ans": "Italy"
+    },
+    {
+     "subject": "Italy",
+     "relation": "country of origin",
+     "ans": "Italy"
+    },
+    {
+     "subject": "Italy",
+     "relation": "official language",
+     "ans": "Walloon"
+    }
+   ]
+  },
+  {
+   "qid": 6,
+   "gold": "Italian",
+   "ok": false,
+   "final": "English",
+   "start": "Melvil Dewey",
+   "rels": [
+    "famous work",
+    "original language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Melvil Dewey",
+     "relation": "famous work",
+     "ans": "Dewe"
+    },
+    {
+     "subject": "Dewe",
+     "relation": "original language",
+     "ans": "English"
+    }
+   ]
+  },
+  {
+   "qid": 7,
+   "gold": "Arabic",
+   "ok": true,
+   "final": "Arabic",
+   "start": "Revolver",
+   "rels": [
+    "director",
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Revolver",
+     "relation": "director",
+     "ans": "Narendra Modi"
+    },
+    {
+     "subject": "Narendra Modi",
+     "relation": "citizenship",
+     "ans": "Narendra Modi is a citizen of Australia."
+    },
+    {
+     "subject": "Narendra Modi is a citizen of Australia.",
+     "relation": "official language",
+     "ans": "Arabic"
+    }
+   ]
+  },
+  {
+   "qid": 8,
+   "gold": "University of Oxford",
+   "ok": false,
+   "final": "I do not have information about the education of Terrance Dicks.",
+   "start": "\"Measure for Measure\"",
+   "rels": [
+    "author",
+    "education"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"Measure for Measure\"",
+     "relation": "author",
+     "ans": "Terrance Dicks"
+    },
+    {
+     "subject": "Terrance Dicks",
+     "relation": "education",
+     "ans": "I do not have information about the education of Terrance Dicks."
+    }
+   ]
+  },
+  {
+   "qid": 9,
+   "gold": "L. L. Zamenhof",
+   "ok": false,
+   "final": "Frank Miller",
+   "start": "FC Viikingit",
+   "rels": [
+    "headquarters location",
+    "official language",
+    "original language",
+    "author"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "FC Viikingit",
+     "relation": "headquarters location",
+     "ans": "The headquarters of FC Viikingit is located in the city of Helsinki."
+    },
+    {
+     "subject": "The headquarters of FC Viikingit is located in the city of Helsinki.",
+     "relation": "official language",
+     "ans": "Esperanto"
+    },
+    {
+     "subject": "Esperanto",
+     "relation": "original language",
+     "ans": "Esperanto"
+    },
+    {
+     "subject": "Esperanto",
+     "relation": "author",
+     "ans": "Frank Miller"
+    }
+   ]
+  },
+  {
+   "qid": 10,
+   "gold": "Oceania",
+   "ok": false,
+   "final": "不适用",
+   "start": "Visual Basic .NET",
+   "rels": [
+    "chief executive officer",
+    "birthplace",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Visual Basic .NET",
+     "relation": "chief executive officer",
+     "ans": "Visual Basic .NET does not have a chief executive officer as it is a software product, not a company."
+    },
+    {
+     "subject": "Visual Basic .NET does not have a chief executive officer as it is a software product, not a company.",
+     "relation": "birthplace",
+     "ans": "Visual Basic .NET does not have a chief executive officer as it is a software product, not a company."
+    },
+    {
+     "subject": "Visual Basic .NET does not have a chief executive officer as it is a software product, not a company.",
+     "relation": "continent",
+     "ans": "不适用"
+    }
+   ]
+  },
+  {
+   "qid": 11,
+   "gold": "Epworth",
+   "ok": false,
+   "final": "The birthplace of Joseph Goebbels is not provided in the memories.",
+   "start": "Giulio Alberoni",
+   "rels": [
+    "religion",
+    "founder",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Giulio Alberoni",
+     "relation": "religion",
+     "ans": "Methodism"
+    },
+    {
+     "subject": "Methodism",
+     "relation": "founder",
+     "ans": "Joseph Goebbels"
+    },
+    {
+     "subject": "Joseph Goebbels",
+     "relation": "birthplace",
+     "ans": "The birthplace of Joseph Goebbels is not provided in the memories."
+    }
+   ]
+  },
+  {
+   "qid": 12,
+   "gold": "Knoxville",
+   "ok": true,
+   "final": "Knoxville",
+   "start": "Adventures in Paradise",
+   "rels": [
+    "original broadcaster",
+    "headquarters location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Adventures in Paradise",
+     "relation": "original broadcaster",
+     "ans": "WTTW"
+    },
+    {
+     "subject": "WTTW",
+     "relation": "headquarters location",
+     "ans": "Knoxville"
+    }
+   ]
+  },
+  {
+   "qid": 13,
+   "gold": "Gundam",
+   "ok": true,
+   "final": "Gundam",
+   "start": "Miley Stewart",
+   "rels": [
+    "performer",
+    "famous work"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Miley Stewart",
+     "relation": "performer",
+     "ans": "John Lennon"
+    },
+    {
+     "subject": "John Lennon",
+     "relation": "famous work",
+     "ans": "Gundam"
+    }
+   ]
+  },
+  {
+   "qid": 14,
+   "gold": "Oceania",
+   "ok": true,
+   "final": "Oceania",
+   "start": "Fernando Lugo",
+   "rels": [
+    "citizenship",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Fernando Lugo",
+     "relation": "citizenship",
+     "ans": "United Kingdom"
+    },
+    {
+     "subject": "United Kingdom",
+     "relation": "continent",
+     "ans": "Oceania"
+    }
+   ]
+  },
+  {
+   "qid": 15,
+   "gold": "Long Beach",
+   "ok": false,
+   "final": "The headquarters of California State University, Long Beach is located in the city of Long Beach.",
+   "start": "Stewart Udall",
+   "rels": [
+    "education",
+    "headquarters location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Stewart Udall",
+     "relation": "education",
+     "ans": "California State University, Long Beach"
+    },
+    {
+     "subject": "California State University, Long Beach",
+     "relation": "headquarters location",
+     "ans": "The headquarters of California State University, Long Beach is located in the city of Long Beach."
+    }
+   ]
+  },
+  {
+   "qid": 16,
+   "gold": "Europe",
+   "ok": false,
+   "final": "Africa",
+   "start": "International Judo Federation",
+   "rels": [
+    "founder",
+    "citizenship",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "International Judo Federation",
+     "relation": "founder",
+     "ans": "Charles de Gaulle"
+    },
+    {
+     "subject": "Charles de Gaulle",
+     "relation": "citizenship",
+     "ans": "India"
+    },
+    {
+     "subject": "India",
+     "relation": "continent",
+     "ans": "Africa"
+    }
+   ]
+  },
+  {
+   "qid": 17,
+   "gold": "Epworth",
+   "ok": false,
+   "final": "Duquesne University does not have a specific founder mentioned in the provided memories.",
+   "start": "Duquesne University",
+   "rels": [
+    "founder",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Duquesne University",
+     "relation": "founder",
+     "ans": "Duquesne University does not have a specific founder mentioned in the provided memories."
+    },
+    {
+     "subject": "Duquesne University does not have a specific founder mentioned in the provided memories.",
+     "relation": "birthplace",
+     "ans": "Duquesne University does not have a specific founder mentioned in the provided memories."
+    }
+   ]
+  },
+  {
+   "qid": 18,
+   "gold": "Paris",
+   "ok": false,
+   "final": "Asia is a continent, and it does not have a capital.",
+   "start": "Ford Ranger",
+   "rels": [
+    "manufacturer",
+    "founding place",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Ford Ranger",
+     "relation": "manufacturer",
+     "ans": "Ford Motor Company"
+    },
+    {
+     "subject": "Ford Motor Company",
+     "relation": "founding place",
+     "ans": "Bangkok"
+    },
+    {
+     "subject": "Bangkok",
+     "relation": "country of origin",
+     "ans": "Asia"
+    },
+    {
+     "subject": "Asia",
+     "relation": "capital",
+     "ans": "Asia is a continent, and it does not have a capital."
+    }
+   ]
+  },
+  {
+   "qid": 19,
+   "gold": "Dublin",
+   "ok": false,
+   "final": "Duluth",
+   "start": "Peter Schmeichel's position",
+   "rels": [
+    "sport",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Peter Schmeichel's position",
+     "relation": "sport",
+     "ans": "association football"
+    },
+    {
+     "subject": "association football",
+     "relation": "country of origin",
+     "ans": "Italy"
+    },
+    {
+     "subject": "Italy",
+     "relation": "capital",
+     "ans": "Duluth"
+    }
+   ]
+  },
+  {
+   "qid": 20,
+   "gold": "Sergio Mattarella",
+   "ok": false,
+   "final": "Elizabeth II",
+   "start": "Halifax Town A.F.C.",
+   "rels": [
+    "sport",
+    "country of origin",
+    "head of state"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Halifax Town A.F.C.",
+     "relation": "sport",
+     "ans": "Halifax Town A.F.C. is associated with the sport of association football."
+    },
+    {
+     "subject": "Halifax Town A.F.C. is associated with the sport of association football.",
+     "relation": "country of origin",
+     "ans": "England"
+    },
+    {
+     "subject": "England",
+     "relation": "head of state",
+     "ans": "Elizabeth II"
+    }
+   ]
+  },
+  {
+   "qid": 21,
+   "gold": "Asia",
+   "ok": true,
+   "final": "Asia",
+   "start": "Gustav Vigeland",
+   "rels": [
+    "citizenship",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Gustav Vigeland",
+     "relation": "citizenship",
+     "ans": "Finland"
+    },
+    {
+     "subject": "Finland",
+     "relation": "continent",
+     "ans": "Asia"
+    }
+   ]
+  },
+  {
+   "qid": 22,
+   "gold": "Japan",
+   "ok": false,
+   "final": "United States of America",
+   "start": "John Beilein's occupation",
+   "rels": [
+    "sport",
+    "country of origin"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "John Beilein's occupation",
+     "relation": "sport",
+     "ans": "basketball coach"
+    },
+    {
+     "subject": "basketball coach",
+     "relation": "country of origin",
+     "ans": "United States of America"
+    }
+   ]
+  },
+  {
+   "qid": 23,
+   "gold": "British Broadcasting Corporation",
+   "ok": true,
+   "final": "British Broadcasting Corporation",
+   "start": "Lynn Margulis",
+   "rels": [
+    "spouse",
+    "employer"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Lynn Margulis",
+     "relation": "spouse",
+     "ans": "Carl Sagan"
+    },
+    {
+     "subject": "Carl Sagan",
+     "relation": "employer",
+     "ans": "British Broadcasting Corporation"
+    }
+   ]
+  },
+  {
+   "qid": 24,
+   "gold": "American football",
+   "ok": true,
+   "final": "American football",
+   "start": "Tina Charles",
+   "rels": [
+    "position",
+    "sport"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Tina Charles",
+     "relation": "position",
+     "ans": "defensive back"
+    },
+    {
+     "subject": "defensive back",
+     "relation": "sport",
+     "ans": "American football"
+    }
+   ]
+  },
+  {
+   "qid": 25,
+   "gold": "Oceania",
+   "ok": false,
+   "final": "North America",
+   "start": "\"Please Please Me\"",
+   "rels": [
+    "director",
+    "citizenship",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"Please Please Me\"",
+     "relation": "director",
+     "ans": "Madonna"
+    },
+    {
+     "subject": "Madonna",
+     "relation": "citizenship",
+     "ans": "United States of America"
+    },
+    {
+     "subject": "United States of America",
+     "relation": "continent",
+     "ans": "North America"
+    }
+   ]
+  },
+  {
+   "qid": 26,
+   "gold": "North Charleston",
+   "ok": true,
+   "final": "North Charleston",
+   "start": "Bianca Jagger",
+   "rels": [
+    "spouse",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Bianca Jagger",
+     "relation": "spouse",
+     "ans": "Mick Jagger"
+    },
+    {
+     "subject": "Mick Jagger",
+     "relation": "birthplace",
+     "ans": "North Charleston"
+    }
+   ]
+  },
+  {
+   "qid": 27,
+   "gold": "New Delhi",
+   "ok": false,
+   "final": "Harare",
+   "start": "the 2014 World Judo Championships",
+   "rels": [
+    "sport",
+    "founder",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "the 2014 World Judo Championships",
+     "relation": "sport",
+     "ans": "judo"
+    },
+    {
+     "subject": "judo",
+     "relation": "founder",
+     "ans": "Charles de Gaulle"
+    },
+    {
+     "subject": "Charles de Gaulle",
+     "relation": "country of origin",
+     "ans": "France"
+    },
+    {
+     "subject": "France",
+     "relation": "capital",
+     "ans": "Harare"
+    }
+   ]
+  },
+  {
+   "qid": 28,
+   "gold": "Bondi Junction",
+   "ok": false,
+   "final": "Tokyo",
+   "start": "Family Force 5",
+   "rels": [
+    "country of origin",
+    "seat of government",
+    "city"
+   ],
+   "bad_rels": [
+    "seat of government",
+    "city"
+   ],
+   "path": [
+    {
+     "subject": "Family Force 5",
+     "relation": "country of origin",
+     "ans": "Japan"
+    },
+    {
+     "subject": "Japan",
+     "relation": "seat of government",
+     "ans": "Tokyo"
+    },
+    {
+     "subject": "Tokyo",
+     "relation": "city",
+     "ans": "Tokyo"
+    }
+   ]
+  },
+  {
+   "qid": 29,
+   "gold": "New York City",
+   "ok": true,
+   "final": "New York City",
+   "start": "Carmilla",
+   "rels": [
+    "author",
+    "place of death"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Carmilla",
+     "relation": "author",
+     "ans": "Joseph Stein"
+    },
+    {
+     "subject": "Joseph Stein",
+     "relation": "place of death",
+     "ans": "New York City"
+    }
+   ]
+  },
+  {
+   "qid": 30,
+   "gold": "Spain",
+   "ok": true,
+   "final": "Spain",
+   "start": "Dave Matthews Band",
+   "rels": [
+    "genre",
+    "country of origin"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Dave Matthews Band",
+     "relation": "genre",
+     "ans": "rock music"
+    },
+    {
+     "subject": "rock music",
+     "relation": "country of origin",
+     "ans": "Spain"
+    }
+   ]
+  },
+  {
+   "qid": 31,
+   "gold": "Mike Cheston",
+   "ok": true,
+   "final": "Mike Cheston",
+   "start": "Stephen Greenblatt",
+   "rels": [
+    "employer",
+    "chairperson"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Stephen Greenblatt",
+     "relation": "employer",
+     "ans": "X Prize Foundation"
+    },
+    {
+     "subject": "X Prize Foundation",
+     "relation": "chairperson",
+     "ans": "Mike Cheston"
+    }
+   ]
+  },
+  {
+   "qid": 32,
+   "gold": "Arabic",
+   "ok": false,
+   "final": "German",
+   "start": "the performer with ID 1",
+   "rels": [
+    "director/manager",
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [
+    "director/manager"
+   ],
+   "path": [
+    {
+     "subject": "the performer with ID 1",
+     "relation": "director/manager",
+     "ans": "Madonna"
+    },
+    {
+     "subject": "Madonna",
+     "relation": "citizenship",
+     "ans": "United States of America"
+    },
+    {
+     "subject": "United States of America",
+     "relation": "official language",
+     "ans": "German"
+    }
+   ]
+  },
+  {
+   "qid": 33,
+   "gold": "Gérard Blitz",
+   "ok": true,
+   "final": "Gérard Blitz",
+   "start": "James Michael Curley",
+   "rels": [
+    "education",
+    "founder"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "James Michael Curley",
+     "relation": "education",
+     "ans": "The Catholic University of America"
+    },
+    {
+     "subject": "The Catholic University of America",
+     "relation": "founder",
+     "ans": "Gérard Blitz"
+    }
+   ]
+  },
+  {
+   "qid": 34,
+   "gold": "London",
+   "ok": false,
+   "final": "The information about the founder of Metz Cathedral is not present in the memories provided.",
+   "start": "Metz Cathedral",
+   "rels": [
+    "founder",
+    "work location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Metz Cathedral",
+     "relation": "founder",
+     "ans": "The information about the founder of Metz Cathedral is not present in the memories provided."
+    },
+    {
+     "subject": "The information about the founder of Metz Cathedral is not present in the memories provided.",
+     "relation": "work location",
+     "ans": "The information about the founder of Metz Cathedral is not present in the memories provided."
+    }
+   ]
+  },
+  {
+   "qid": 35,
+   "gold": "New Delhi",
+   "ok": false,
+   "final": "Grosseto",
+   "start": "Sumie Sakai",
+   "rels": [
+    "sport",
+    "founder",
+    "citizenship",
+    "country",
+    "capital"
+   ],
+   "bad_rels": [
+    "country"
+   ],
+   "path": [
+    {
+     "subject": "Sumie Sakai",
+     "relation": "sport",
+     "ans": "judo"
+    },
+    {
+     "subject": "judo",
+     "relation": "founder",
+     "ans": "Charles de Gaulle"
+    },
+    {
+     "subject": "Charles de Gaulle",
+     "relation": "citizenship",
+     "ans": "India"
+    },
+    {
+     "subject": "India",
+     "relation": "country",
+     "ans": "India"
+    },
+    {
+     "subject": "India",
+     "relation": "capital",
+     "ans": "Grosseto"
+    }
+   ]
+  },
+  {
+   "qid": 36,
+   "gold": "Canberra",
+   "ok": false,
+   "final": "Chiavari",
+   "start": "\"Back in the U.S.S.R.\"",
+   "rels": [
+    "director",
+    "citizenship",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"Back in the U.S.S.R.\"",
+     "relation": "director",
+     "ans": "Chicago Symphony Orchestra"
+    },
+    {
+     "subject": "Chicago Symphony Orchestra",
+     "relation": "citizenship",
+     "ans": "South Korea"
+    },
+    {
+     "subject": "South Korea",
+     "relation": "capital",
+     "ans": "Chiavari"
+    }
+   ]
+  },
+  {
+   "qid": 37,
+   "gold": "Gérard Blitz",
+   "ok": true,
+   "final": "Gérard Blitz",
+   "start": "Gabriel Narutowicz",
+   "rels": [
+    "religion",
+    "founder"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Gabriel Narutowicz",
+     "relation": "religion",
+     "ans": "Catholic Church"
+    },
+    {
+     "subject": "Catholic Church",
+     "relation": "founder",
+     "ans": "Gérard Blitz"
+    }
+   ]
+  },
+  {
+   "qid": 38,
+   "gold": "German",
+   "ok": true,
+   "final": "German",
+   "start": "Nate \"Tiny\" Archibald",
+   "rels": [
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Nate \"Tiny\" Archibald",
+     "relation": "citizenship",
+     "ans": "Sweden"
+    },
+    {
+     "subject": "Sweden",
+     "relation": "official language",
+     "ans": "German"
+    }
+   ]
+  },
+  {
+   "qid": 39,
+   "gold": "Princeton University",
+   "ok": true,
+   "final": "Princeton University",
+   "start": "La Celestina",
+   "rels": [
+    "author",
+    "education"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "La Celestina",
+     "relation": "author",
+     "ans": "Sigmund Freud"
+    },
+    {
+     "subject": "Sigmund Freud",
+     "relation": "education",
+     "ans": "Princeton University"
+    }
+   ]
+  },
+  {
+   "qid": 40,
+   "gold": "Picard",
+   "ok": true,
+   "final": "Picard",
+   "start": "Malik Kafur",
+   "rels": [
+    "religion",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Malik Kafur",
+     "relation": "religion",
+     "ans": "Islam"
+    },
+    {
+     "subject": "Islam",
+     "relation": "official language",
+     "ans": "Picard"
+    }
+   ]
+  },
+  {
+   "qid": 41,
+   "gold": "Narendra Modi",
+   "ok": false,
+   "final": "Joe Hockey",
+   "start": "\"Yesterday and Today\"",
+   "rels": [
+    "performer",
+    "director",
+    "manager"
+   ],
+   "bad_rels": [
+    "manager"
+   ],
+   "path": [
+    {
+     "subject": "\"Yesterday and Today\"",
+     "relation": "performer",
+     "ans": "The Beatles"
+    },
+    {
+     "subject": "The Beatles",
+     "relation": "director",
+     "ans": "Joe Hockey"
+    },
+    {
+     "subject": "Joe Hockey",
+     "relation": "manager",
+     "ans": "Joe Hockey"
+    }
+   ]
+  },
+  {
+   "qid": 42,
+   "gold": "Ottawa",
+   "ok": false,
+   "final": "Dushanbe",
+   "start": "Derek Holland",
+   "rels": [
+    "sport",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Derek Holland",
+     "relation": "sport",
+     "ans": "linebacker"
+    },
+    {
+     "subject": "linebacker",
+     "relation": "country of origin",
+     "ans": "Shinty"
+    },
+    {
+     "subject": "Shinty",
+     "relation": "capital",
+     "ans": "Dushanbe"
+    }
+   ]
+  },
+  {
+   "qid": 43,
+   "gold": "English",
+   "ok": true,
+   "final": "English",
+   "start": "Muttahida Qaumi Movement",
+   "rels": [
+    "chairperson",
+    "languages"
+   ],
+   "bad_rels": [
+    "languages"
+   ],
+   "path": [
+    {
+     "subject": "Muttahida Qaumi Movement",
+     "relation": "chairperson",
+     "ans": "Stephen McNeil"
+    },
+    {
+     "subject": "Stephen McNeil",
+     "relation": "languages",
+     "ans": "English"
+    }
+   ]
+  },
+  {
+   "qid": 44,
+   "gold": "Rupnagar",
+   "ok": true,
+   "final": "Rupnagar",
+   "start": "Ragini Dwivedi",
+   "rels": [
+    "citizenship",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Ragini Dwivedi",
+     "relation": "citizenship",
+     "ans": "United Kingdom"
+    },
+    {
+     "subject": "United Kingdom",
+     "relation": "capital",
+     "ans": "Rupnagar"
+    }
+   ]
+  },
+  {
+   "qid": 45,
+   "gold": "London",
+   "ok": true,
+   "final": "London",
+   "start": "the book \"Dubliners\"",
+   "rels": [
+    "author",
+    "place of death"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "the book \"Dubliners\"",
+     "relation": "author",
+     "ans": "George Eliot"
+    },
+    {
+     "subject": "George Eliot",
+     "relation": "place of death",
+     "ans": "London"
+    }
+   ]
+  },
+  {
+   "qid": 46,
+   "gold": "Normanton",
+   "ok": false,
+   "final": "The headquarters of Mitsubishi is located in the city of Normanton.",
+   "start": "Sailfish OS",
+   "rels": [
+    "developer",
+    "headquarters location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Sailfish OS",
+     "relation": "developer",
+     "ans": "Mitsubishi"
+    },
+    {
+     "subject": "Mitsubishi",
+     "relation": "headquarters location",
+     "ans": "The headquarters of Mitsubishi is located in the city of Normanton."
+    }
+   ]
+  },
+  {
+   "qid": 47,
+   "gold": "Manila",
+   "ok": false,
+   "final": "Harrisville",
+   "start": "David Price",
+   "rels": [
+    "sport",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "David Price",
+     "relation": "sport",
+     "ans": "David Price plays the position of tight end."
+    },
+    {
+     "subject": "David Price plays the position of tight end.",
+     "relation": "country of origin",
+     "ans": "United States"
+    },
+    {
+     "subject": "United States",
+     "relation": "capital",
+     "ans": "Harrisville"
+    }
+   ]
+  },
+  {
+   "qid": 48,
+   "gold": "Spanish",
+   "ok": false,
+   "final": "Korean",
+   "start": "All of Me",
+   "rels": [
+    "performer",
+    "spouse",
+    "country of origin",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "All of Me",
+     "relation": "performer",
+     "ans": "Bobby Brown"
+    },
+    {
+     "subject": "Bobby Brown",
+     "relation": "spouse",
+     "ans": "Lois Lane"
+    },
+    {
+     "subject": "Lois Lane",
+     "relation": "country of origin",
+     "ans": "South Korea"
+    },
+    {
+     "subject": "South Korea",
+     "relation": "official language",
+     "ans": "Korean"
+    }
+   ]
+  },
+  {
+   "qid": 49,
+   "gold": "Lüftelberg",
+   "ok": true,
+   "final": "Lüftelberg",
+   "start": "Indiana Jones",
+   "rels": [
+    "founder",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Indiana Jones",
+     "relation": "founder",
+     "ans": "A. A. Milne"
+    },
+    {
+     "subject": "A. A. Milne",
+     "relation": "birthplace",
+     "ans": "Lüftelberg"
+    }
+   ]
+  },
+  {
+   "qid": 50,
+   "gold": "David Potts",
+   "ok": true,
+   "final": "David Potts",
+   "start": "the Chevrolet Chevelle",
+   "rels": [
+    "manufacturer",
+    "chief executive officer"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "the Chevrolet Chevelle",
+     "relation": "manufacturer",
+     "ans": "Peugeot"
+    },
+    {
+     "subject": "Peugeot",
+     "relation": "chief executive officer",
+     "ans": "David Potts"
+    }
+   ]
+  },
+  {
+   "qid": 51,
+   "gold": "composer",
+   "ok": true,
+   "final": "composer",
+   "start": "Economic Freedom Fighters",
+   "rels": [
+    "chairperson",
+    "profession"
+   ],
+   "bad_rels": [
+    "profession"
+   ],
+   "path": [
+    {
+     "subject": "Economic Freedom Fighters",
+     "relation": "chairperson",
+     "ans": "Roberto Calvi"
+    },
+    {
+     "subject": "Roberto Calvi",
+     "relation": "profession",
+     "ans": "composer"
+    }
+   ]
+  },
+  {
+   "qid": 52,
+   "gold": "Africa",
+   "ok": true,
+   "final": "Africa",
+   "start": "Windows Aero",
+   "rels": [
+    "developer",
+    "chief executive officer",
+    "birthplace",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Windows Aero",
+     "relation": "developer",
+     "ans": "Electronic Arts"
+    },
+    {
+     "subject": "Electronic Arts",
+     "relation": "chief executive officer",
+     "ans": "Elon Musk"
+    },
+    {
+     "subject": "Elon Musk",
+     "relation": "birthplace",
+     "ans": "Elon Musk was born in the city of New Zealand."
+    },
+    {
+     "subject": "Elon Musk was born in the city of New Zealand.",
+     "relation": "continent",
+     "ans": "Africa"
+    }
+   ]
+  },
+  {
+   "qid": 53,
+   "gold": "Ole Johan Vierdal",
+   "ok": false,
+   "final": "Boris Johnson",
+   "start": "Julian Lennon",
+   "rels": [
+    "genre",
+    "country of origin",
+    "head of government"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Julian Lennon",
+     "relation": "genre",
+     "ans": "soul music"
+    },
+    {
+     "subject": "soul music",
+     "relation": "country of origin",
+     "ans": "United Kingdom"
+    },
+    {
+     "subject": "United Kingdom",
+     "relation": "head of government",
+     "ans": "Boris Johnson"
+    }
+   ]
+  },
+  {
+   "qid": 54,
+   "gold": "Washington, D.C.",
+   "ok": true,
+   "final": "Washington, D.C.",
+   "start": "Steve Cooley",
+   "rels": [
+    "religion",
+    "founder",
+    "work location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Steve Cooley",
+     "relation": "religion",
+     "ans": "Methodism"
+    },
+    {
+     "subject": "Methodism",
+     "relation": "founder",
+     "ans": "Joseph Goebbels"
+    },
+    {
+     "subject": "Joseph Goebbels",
+     "relation": "work location",
+     "ans": "Washington, D.C."
+    }
+   ]
+  },
+  {
+   "qid": 55,
+   "gold": "Oderzo",
+   "ok": true,
+   "final": "Oderzo",
+   "start": "The Partridge Family",
+   "rels": [
+    "original broadcaster",
+    "director",
+    "citizenship",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "The Partridge Family",
+     "relation": "original broadcaster",
+     "ans": "British Broadcasting Corporation"
+    },
+    {
+     "subject": "British Broadcasting Corporation",
+     "relation": "director",
+     "ans": "Narendra Modi"
+    },
+    {
+     "subject": "Narendra Modi",
+     "relation": "citizenship",
+     "ans": "Narendra Modi is a citizen of Australia."
+    },
+    {
+     "subject": "Narendra Modi is a citizen of Australia.",
+     "relation": "capital",
+     "ans": "Oderzo"
+    }
+   ]
+  },
+  {
+   "qid": 56,
+   "gold": "Christopher A. Wray",
+   "ok": true,
+   "final": "Christopher A. Wray",
+   "start": "Philip Agee",
+   "rels": [
+    "employer",
+    "chief executive officer"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Philip Agee",
+     "relation": "employer",
+     "ans": "Federal Bureau of Investigation"
+    },
+    {
+     "subject": "Federal Bureau of Investigation",
+     "relation": "chief executive officer",
+     "ans": "Christopher A. Wray"
+    }
+   ]
+  },
+  {
+   "qid": 57,
+   "gold": "Epworth",
+   "ok": false,
+   "final": "Berlin",
+   "start": "Saint Eligius",
+   "rels": [
+    "religion",
+    "founder",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Saint Eligius",
+     "relation": "religion",
+     "ans": "Methodism"
+    },
+    {
+     "subject": "Methodism",
+     "relation": "founder",
+     "ans": "Joseph Goebbels"
+    },
+    {
+     "subject": "Joseph Goebbels",
+     "relation": "birthplace",
+     "ans": "Berlin"
+    }
+   ]
+  },
+  {
+   "qid": 58,
+   "gold": "Natya Shastra",
+   "ok": true,
+   "final": "Natya Shastra",
+   "start": "The Age of Reason",
+   "rels": [
+    "author",
+    "famous work"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "The Age of Reason",
+     "relation": "author",
+     "ans": "Allen Ginsberg"
+    },
+    {
+     "subject": "Allen Ginsberg",
+     "relation": "famous work",
+     "ans": "Natya Shastra"
+    }
+   ]
+  },
+  {
+   "qid": 59,
+   "gold": "Higashiyamanashi District, Yamanashi",
+   "ok": true,
+   "final": "Higashiyamanashi District, Yamanashi",
+   "start": "the Illinois Attorney General's office",
+   "rels": [
+    "current holder",
+    "birthplace"
+   ],
+   "bad_rels": [
+    "current holder"
+   ],
+   "path": [
+    {
+     "subject": "the Illinois Attorney General's office",
+     "relation": "current holder",
+     "ans": "Ben Carson"
+    },
+    {
+     "subject": "Ben Carson",
+     "relation": "birthplace",
+     "ans": "Higashiyamanashi District, Yamanashi"
+    }
+   ]
+  },
+  {
+   "qid": 60,
+   "gold": "Lyndon B. Johnson",
+   "ok": true,
+   "final": "Lyndon B. Johnson",
+   "start": "Nicholas V",
+   "rels": [
+    "religion",
+    "founder"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Nicholas V",
+     "relation": "religion",
+     "ans": "The Church of Jesus Christ of Latter-day Saints"
+    },
+    {
+     "subject": "The Church of Jesus Christ of Latter-day Saints",
+     "relation": "founder",
+     "ans": "Lyndon B. Johnson"
+    }
+   ]
+  },
+  {
+   "qid": 61,
+   "gold": "Mexico City",
+   "ok": true,
+   "final": "Mexico City",
+   "start": "Ivanhoe",
+   "rels": [
+    "author",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Ivanhoe",
+     "relation": "author",
+     "ans": "Walter Scott"
+    },
+    {
+     "subject": "Walter Scott",
+     "relation": "birthplace",
+     "ans": "Mexico City"
+    }
+   ]
+  },
+  {
+   "qid": 62,
+   "gold": "Zygmunt Krasiński",
+   "ok": true,
+   "final": "Zygmunt Krasiński.",
+   "start": "Feluda",
+   "rels": [
+    "author",
+    "child"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Feluda",
+     "relation": "author",
+     "ans": "Terry Pratchett"
+    },
+    {
+     "subject": "Terry Pratchett",
+     "relation": "child",
+     "ans": "Zygmunt Krasiński."
+    }
+   ]
+  },
+  {
+   "qid": 63,
+   "gold": "New Delhi",
+   "ok": false,
+   "final": "Australia",
+   "start": "\"NHL on ABC\"",
+   "rels": [
+    "original broadcaster",
+    "director",
+    "citizenship"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"NHL on ABC\"",
+     "relation": "original broadcaster",
+     "ans": "British Broadcasting Corporation"
+    },
+    {
+     "subject": "British Broadcasting Corporation",
+     "relation": "director",
+     "ans": "Narendra Modi"
+    },
+    {
+     "subject": "Narendra Modi",
+     "relation": "citizenship",
+     "ans": "Australia"
+    }
+   ]
+  },
+  {
+   "qid": 64,
+   "gold": "Finnish",
+   "ok": true,
+   "final": "Finnish",
+   "start": "Yip Harburg",
+   "rels": [
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Yip Harburg",
+     "relation": "citizenship",
+     "ans": "United Kingdom"
+    },
+    {
+     "subject": "United Kingdom",
+     "relation": "official language",
+     "ans": "Finnish"
+    }
+   ]
+  },
+  {
+   "qid": 65,
+   "gold": "progressive rock",
+   "ok": true,
+   "final": "progressive rock",
+   "start": "the book \"Dune\"",
+   "rels": [
+    "author",
+    "genre"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "the book \"Dune\"",
+     "relation": "author",
+     "ans": "William Shakespeare"
+    },
+    {
+     "subject": "William Shakespeare",
+     "relation": "genre",
+     "ans": "progressive rock"
+    }
+   ]
+  },
+  {
+   "qid": 66,
+   "gold": "South America",
+   "ok": false,
+   "final": "North America",
+   "start": "Thomas Dolby",
+   "rels": [
+    "continent of origin"
+   ],
+   "bad_rels": [
+    "continent of origin"
+   ],
+   "path": [
+    {
+     "subject": "Thomas Dolby",
+     "relation": "continent of origin",
+     "ans": "North America"
+    }
+   ]
+  },
+  {
+   "qid": 67,
+   "gold": "Trinity College Dublin",
+   "ok": true,
+   "final": "Trinity College Dublin",
+   "start": "House of Bonaparte",
+   "rels": [
+    "founder",
+    "education"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "House of Bonaparte",
+     "relation": "founder",
+     "ans": "Gustav I of Sweden"
+    },
+    {
+     "subject": "Gustav I of Sweden",
+     "relation": "education",
+     "ans": "Trinity College Dublin"
+    }
+   ]
+  },
+  {
+   "qid": 68,
+   "gold": "Silver Lake",
+   "ok": true,
+   "final": "Silver Lake",
+   "start": "Chevrolet Caprice",
+   "rels": [
+    "manufacturer",
+    "founding place"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Chevrolet Caprice",
+     "relation": "manufacturer",
+     "ans": "Boeing"
+    },
+    {
+     "subject": "Boeing",
+     "relation": "founding place",
+     "ans": "Silver Lake"
+    }
+   ]
+  },
+  {
+   "qid": 69,
+   "gold": "Rajanpur",
+   "ok": false,
+   "final": "Krong Kep",
+   "start": "Benjamin Sisko",
+   "rels": [
+    "genre",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Benjamin Sisko",
+     "relation": "genre",
+     "ans": "Benjamin Sisko has no associated genre in the provided memory."
+    },
+    {
+     "subject": "Benjamin Sisko has no associated genre in the provided memory.",
+     "relation": "country of origin",
+     "ans": "The country of origin of Benjamin Sisko has no associated genre in the provided memory."
+    },
+    {
+     "subject": "The country of origin of Benjamin Sisko has no associated genre in the provided memory.",
+     "relation": "capital",
+     "ans": "Krong Kep"
+    }
+   ]
+  },
+  {
+   "qid": 70,
+   "gold": "Belgium",
+   "ok": true,
+   "final": "Belgium",
+   "start": "\"David Copperfield\"",
+   "rels": [
+    "author",
+    "spouse",
+    "citizenship"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"David Copperfield\"",
+     "relation": "author",
+     "ans": "Charles Darwin"
+    },
+    {
+     "subject": "Charles Darwin",
+     "relation": "spouse",
+     "ans": "Amala Paul"
+    },
+    {
+     "subject": "Amala Paul",
+     "relation": "citizenship",
+     "ans": "Belgium"
+    }
+   ]
+  },
+  {
+   "qid": 71,
+   "gold": "William J. Donovan",
+   "ok": false,
+   "final": "Robert James Carlson",
+   "start": "Francis Parkman",
+   "rels": [
+    "employer",
+    "chairperson"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Francis Parkman",
+     "relation": "employer",
+     "ans": "Office of Strategic Services"
+    },
+    {
+     "subject": "Office of Strategic Services",
+     "relation": "chairperson",
+     "ans": "Robert James Carlson"
+    }
+   ]
+  },
+  {
+   "qid": 72,
+   "gold": "Beaumont",
+   "ok": false,
+   "final": "Harrisville",
+   "start": "Good Morning America",
+   "rels": [
+    "director",
+    "citizenship",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Good Morning America",
+     "relation": "director",
+     "ans": "The director of Good Morning America is not provided in the memories."
+    },
+    {
+     "subject": "The director of Good Morning America is not provided in the memories.",
+     "relation": "citizenship",
+     "ans": "The citizenship of the director of Good Morning America is not provided in the memories."
+    },
+    {
+     "subject": "The citizenship of the director of Good Morning America is not provided in the memories.",
+     "relation": "capital",
+     "ans": "Harrisville"
+    }
+   ]
+  },
+  {
+   "qid": 73,
+   "gold": "Hebrew",
+   "ok": true,
+   "final": "Hebrew",
+   "start": "Pee Wee King",
+   "rels": [
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Pee Wee King",
+     "relation": "citizenship",
+     "ans": "France"
+    },
+    {
+     "subject": "France",
+     "relation": "official language",
+     "ans": "Hebrew"
+    }
+   ]
+  },
+  {
+   "qid": 74,
+   "gold": "German",
+   "ok": true,
+   "final": "German",
+   "start": "Tomokazu Seki",
+   "rels": [
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Tomokazu Seki",
+     "relation": "citizenship",
+     "ans": "United States of America"
+    },
+    {
+     "subject": "United States of America",
+     "relation": "official language",
+     "ans": "German"
+    }
+   ]
+  },
+  {
+   "qid": 75,
+   "gold": "Asia",
+   "ok": false,
+   "final": "Oceania",
+   "start": "Taxman",
+   "rels": [
+    "director",
+    "citizenship",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Taxman",
+     "relation": "director",
+     "ans": "The Beatles"
+    },
+    {
+     "subject": "The Beatles",
+     "relation": "citizenship",
+     "ans": "United Kingdom"
+    },
+    {
+     "subject": "United Kingdom",
+     "relation": "continent",
+     "ans": "Oceania"
+    }
+   ]
+  },
+  {
+   "qid": 76,
+   "gold": "Edinburgh",
+   "ok": false,
+   "final": "Mumbai",
+   "start": "the centrifugal governor",
+   "rels": [
+    "founder",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "the centrifugal governor",
+     "relation": "founder",
+     "ans": "Robert Louis Stevenson"
+    },
+    {
+     "subject": "Robert Louis Stevenson",
+     "relation": "birthplace",
+     "ans": "Mumbai"
+    }
+   ]
+  },
+  {
+   "qid": 77,
+   "gold": "Berlin",
+   "ok": false,
+   "final": "Rupnagar",
+   "start": "Star Trek canon",
+   "rels": [
+    "author",
+    "spouse",
+    "citizenship",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Star Trek canon",
+     "relation": "author",
+     "ans": "Joseph Goebbels"
+    },
+    {
+     "subject": "Joseph Goebbels",
+     "relation": "spouse",
+     "ans": "Edmund Wilson"
+    },
+    {
+     "subject": "Edmund Wilson",
+     "relation": "citizenship",
+     "ans": "United Kingdom"
+    },
+    {
+     "subject": "United Kingdom",
+     "relation": "capital",
+     "ans": "Rupnagar"
+    }
+   ]
+  },
+  {
+   "qid": 78,
+   "gold": "Finnish",
+   "ok": true,
+   "final": "Finnish",
+   "start": "Eric Weissberg",
+   "rels": [
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Eric Weissberg",
+     "relation": "citizenship",
+     "ans": "United Kingdom"
+    },
+    {
+     "subject": "United Kingdom",
+     "relation": "official language",
+     "ans": "Finnish"
+    }
+   ]
+  },
+  {
+   "qid": 79,
+   "gold": "Vienna",
+   "ok": false,
+   "final": "Brooklyn",
+   "start": "Tom Selleck",
+   "rels": [
+    "education",
+    "headquarters location",
+    "work location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Tom Selleck",
+     "relation": "education",
+     "ans": "Academy of Fine Arts Vienna"
+    },
+    {
+     "subject": "Academy of Fine Arts Vienna",
+     "relation": "headquarters location",
+     "ans": "The headquarters of Academy of Fine Arts Vienna is located in the city of Brooklyn."
+    },
+    {
+     "subject": "The headquarters of Academy of Fine Arts Vienna is located in the city of Brooklyn.",
+     "relation": "work location",
+     "ans": "Brooklyn"
+    }
+   ]
+  },
+  {
+   "qid": 80,
+   "gold": "American English",
+   "ok": true,
+   "final": "American English",
+   "start": "Mario Puzo",
+   "rels": [
+    "famous work",
+    "original language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Mario Puzo",
+     "relation": "famous work",
+     "ans": "Billy Elliot the Musical"
+    },
+    {
+     "subject": "Billy Elliot the Musical",
+     "relation": "original language",
+     "ans": "American English"
+    }
+   ]
+  },
+  {
+   "qid": 81,
+   "gold": "Oceania",
+   "ok": true,
+   "final": "Oceania",
+   "start": "Teenage Fanclub",
+   "rels": [
+    "country of origin",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Teenage Fanclub",
+     "relation": "country of origin",
+     "ans": "Italy"
+    },
+    {
+     "subject": "Italy",
+     "relation": "continent",
+     "ans": "Oceania"
+    }
+   ]
+  },
+  {
+   "qid": 82,
+   "gold": "Riyadh Region",
+   "ok": false,
+   "final": "The work location of Mary Baker Eddy is not explicitly provided in the memories. However, I can infer that she was associated with Christian Science and worked primarily in the United States. If you require a specific city or location, please provide additional context.",
+   "start": "Edward Mooney",
+   "rels": [
+    "religion",
+    "founder",
+    "work location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Edward Mooney",
+     "relation": "religion",
+     "ans": "Christian Science"
+    },
+    {
+     "subject": "Christian Science",
+     "relation": "founder",
+     "ans": "Mary Baker Eddy"
+    },
+    {
+     "subject": "Mary Baker Eddy",
+     "relation": "work location",
+     "ans": "The work location of Mary Baker Eddy is not explicitly provided in the memories. However, I can infer that she was associated with Christian Science and worked primarily in the United States. If you require a specific city or location, please provide additional context."
+    }
+   ]
+  },
+  {
+   "qid": 83,
+   "gold": "singer",
+   "ok": true,
+   "final": "singer",
+   "start": "Lalu Prasad Yadav",
+   "rels": [
+    "spouse",
+    "field of work"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Lalu Prasad Yadav",
+     "relation": "spouse",
+     "ans": "Goldust"
+    },
+    {
+     "subject": "Goldust",
+     "relation": "field of work",
+     "ans": "singer"
+    }
+   ]
+  },
+  {
+   "qid": 84,
+   "gold": "Bondi Junction",
+   "ok": false,
+   "final": "Duluth",
+   "start": "Enrico Villanueva",
+   "rels": [
+    "sport",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Enrico Villanueva",
+     "relation": "sport",
+     "ans": "Enrico Villanueva plays the position of closer."
+    },
+    {
+     "subject": "Enrico Villanueva plays the position of closer.",
+     "relation": "country of origin",
+     "ans": "Italy"
+    },
+    {
+     "subject": "Italy",
+     "relation": "capital",
+     "ans": "Duluth"
+    }
+   ]
+  },
+  {
+   "qid": 85,
+   "gold": "philosopher",
+   "ok": false,
+   "final": "politician",
+   "start": "Julius Caesar",
+   "rels": [
+    "author",
+    "field of work"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Julius Caesar",
+     "relation": "author",
+     "ans": "Aristotle"
+    },
+    {
+     "subject": "Aristotle",
+     "relation": "field of work",
+     "ans": "politician"
+    }
+   ]
+  },
+  {
+   "qid": 86,
+   "gold": "Methodism",
+   "ok": true,
+   "final": "Methodism",
+   "start": "Benigno Aquino Jr.",
+   "rels": [
+    "spouse",
+    "religion"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Benigno Aquino Jr.",
+     "relation": "spouse",
+     "ans": "Corazon Aquino"
+    },
+    {
+     "subject": "Corazon Aquino",
+     "relation": "religion",
+     "ans": "Methodism"
+    }
+   ]
+  },
+  {
+   "qid": 87,
+   "gold": "Ireland",
+   "ok": true,
+   "final": "Ireland",
+   "start": "WWE Tough Enough",
+   "rels": [
+    "creator",
+    "spouse",
+    "citizenship"
+   ],
+   "bad_rels": [
+    "creator"
+   ],
+   "path": [
+    {
+     "subject": "WWE Tough Enough",
+     "relation": "creator",
+     "ans": "William Shakespeare"
+    },
+    {
+     "subject": "William Shakespeare",
+     "relation": "spouse",
+     "ans": "Philip IV of France"
+    },
+    {
+     "subject": "Philip IV of France",
+     "relation": "citizenship",
+     "ans": "Ireland"
+    }
+   ]
+  },
+  {
+   "qid": 88,
+   "gold": "Recep Tayyip Erdoğan",
+   "ok": false,
+   "final": "Guðni Jóhannesson",
+   "start": "\"Outsourced\"",
+   "rels": [
+    "country of origin",
+    "head of state"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"Outsourced\"",
+     "relation": "country of origin",
+     "ans": "Turkey"
+    },
+    {
+     "subject": "Turkey",
+     "relation": "head of state",
+     "ans": "Guðni Jóhannesson"
+    }
+   ]
+  },
+  {
+   "qid": 89,
+   "gold": "Red Bank",
+   "ok": false,
+   "final": "The headquarters of British Broadcasting Corporation is located in the city of Red Bank.",
+   "start": "NBA on ABC",
+   "rels": [
+    "original broadcaster",
+    "headquarters location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "NBA on ABC",
+     "relation": "original broadcaster",
+     "ans": "British Broadcasting Corporation"
+    },
+    {
+     "subject": "British Broadcasting Corporation",
+     "relation": "headquarters location",
+     "ans": "The headquarters of British Broadcasting Corporation is located in the city of Red Bank."
+    }
+   ]
+  },
+  {
+   "qid": 90,
+   "gold": "Gérard Blitz",
+   "ok": true,
+   "final": "Gérard Blitz",
+   "start": "Dzhokhar Dudayev",
+   "rels": [
+    "religion",
+    "founder"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Dzhokhar Dudayev",
+     "relation": "religion",
+     "ans": "Catholic Church"
+    },
+    {
+     "subject": "Catholic Church",
+     "relation": "founder",
+     "ans": "Gérard Blitz"
+    }
+   ]
+  },
+  {
+   "qid": 91,
+   "gold": "Mikhail Gorbachev",
+   "ok": false,
+   "final": "Connachta",
+   "start": "Brad Stevens",
+   "rels": [
+    "sport",
+    "country of origin",
+    "head of state"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Brad Stevens",
+     "relation": "sport",
+     "ans": "basketball"
+    },
+    {
+     "subject": "basketball",
+     "relation": "country of origin",
+     "ans": "United States of America"
+    },
+    {
+     "subject": "United States of America",
+     "relation": "head of state",
+     "ans": "Connachta"
+    }
+   ]
+  },
+  {
+   "qid": 92,
+   "gold": "Lili Bosse",
+   "ok": true,
+   "final": "Lili Bosse",
+   "start": "the 1985 NBA Draft",
+   "rels": [
+    "sport",
+    "country of origin",
+    "head of government"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "the 1985 NBA Draft",
+     "relation": "sport",
+     "ans": "association football"
+    },
+    {
+     "subject": "association football",
+     "relation": "country of origin",
+     "ans": "Italy"
+    },
+    {
+     "subject": "Italy",
+     "relation": "head of government",
+     "ans": "Lili Bosse"
+    }
+   ]
+  },
+  {
+   "qid": 93,
+   "gold": "Bondi Junction",
+   "ok": false,
+   "final": "Harrisville",
+   "start": "Ricky Rubio",
+   "rels": [
+    "sport",
+    "country of origin",
+    "capital",
+    "city"
+   ],
+   "bad_rels": [
+    "city"
+   ],
+   "path": [
+    {
+     "subject": "Ricky Rubio",
+     "relation": "sport",
+     "ans": "basketball"
+    },
+    {
+     "subject": "basketball",
+     "relation": "country of origin",
+     "ans": "United States of America"
+    },
+    {
+     "subject": "United States of America",
+     "relation": "capital",
+     "ans": "Harrisville"
+    },
+    {
+     "subject": "Harrisville",
+     "relation": "city",
+     "ans": "Harrisville"
+    }
+   ]
+  },
+  {
+   "qid": 94,
+   "gold": "English",
+   "ok": true,
+   "final": "English",
+   "start": "Flogging Molly",
+   "rels": [
+    "country of origin",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Flogging Molly",
+     "relation": "country of origin",
+     "ans": "Germany"
+    },
+    {
+     "subject": "Germany",
+     "relation": "official language",
+     "ans": "English"
+    }
+   ]
+  },
+  {
+   "qid": 95,
+   "gold": "University of Oxford",
+   "ok": true,
+   "final": "University of Oxford",
+   "start": "Link",
+   "rels": [
+    "creator",
+    "employer",
+    "company"
+   ],
+   "bad_rels": [
+    "creator",
+    "company"
+   ],
+   "path": [
+    {
+     "subject": "Link",
+     "relation": "creator",
+     "ans": "Shigeru Miyamoto"
+    },
+    {
+     "subject": "Shigeru Miyamoto",
+     "relation": "employer",
+     "ans": "University of Oxford"
+    },
+    {
+     "subject": "University of Oxford",
+     "relation": "company",
+     "ans": "University of Oxford"
+    }
+   ]
+  },
+  {
+   "qid": 96,
+   "gold": "Australia",
+   "ok": false,
+   "final": "United States of America",
+   "start": "Dave Dombrowski",
+   "rels": [
+    "employer",
+    "sport",
+    "country of origin"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Dave Dombrowski",
+     "relation": "employer",
+     "ans": "Stevenage F.C."
+    },
+    {
+     "subject": "Stevenage F.C.",
+     "relation": "sport",
+     "ans": "American football"
+    },
+    {
+     "subject": "American football",
+     "relation": "country of origin",
+     "ans": "United States of America"
+    }
+   ]
+  },
+  {
+   "qid": 97,
+   "gold": "sumo",
+   "ok": true,
+   "final": "sumo",
+   "start": "Bobby Hurley",
+   "rels": [
+    "position",
+    "sport"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Bobby Hurley",
+     "relation": "position",
+     "ans": "midfielder"
+    },
+    {
+     "subject": "midfielder",
+     "relation": "sport",
+     "ans": "sumo"
+    }
+   ]
+  },
+  {
+   "qid": 98,
+   "gold": "Edinburgh",
+   "ok": false,
+   "final": "Church of Scotland",
+   "start": "Jacqueline Kennedy Onassis",
+   "rels": [
+    "religion",
+    "founder",
+    "employer"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Jacqueline Kennedy Onassis",
+     "relation": "religion",
+     "ans": "Church of Scotland"
+    },
+    {
+     "subject": "Church of Scotland",
+     "relation": "founder",
+     "ans": "Bachir Gemayel"
+    },
+    {
+     "subject": "Bachir Gemayel",
+     "relation": "employer",
+     "ans": "Church of Scotland"
+    }
+   ]
+  },
+  {
+   "qid": 99,
+   "gold": "Epworth",
+   "ok": false,
+   "final": "The birthplace of Joseph Goebbels is not provided in the memory context.",
+   "start": "Ferdinando I de' Medici",
+   "rels": [
+    "religion",
+    "founder",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Ferdinando I de' Medici",
+     "relation": "religion",
+     "ans": "Methodism"
+    },
+    {
+     "subject": "Methodism",
+     "relation": "founder",
+     "ans": "Joseph Goebbels"
+    },
+    {
+     "subject": "Joseph Goebbels",
+     "relation": "birthplace",
+     "ans": "The birthplace of Joseph Goebbels is not provided in the memory context."
+    }
+   ]
+  }
+ ],
+ [
+  {
+   "qid": 0,
+   "gold": "Philippines",
+   "ok": false,
+   "final": "Italy",
+   "start": "Christian Abbiati",
+   "rels": [
+    "sport",
+    "country of origin"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Christian Abbiati",
+     "relation": "sport",
+     "ans": "association football"
+    },
+    {
+     "subject": "association football",
+     "relation": "country of origin",
+     "ans": "Italy"
+    }
+   ]
+  },
+  {
+   "qid": 1,
+   "gold": "atheism",
+   "ok": true,
+   "final": "atheism",
+   "start": "Karl Lueger",
+   "rels": [
+    "citizenship",
+    "religion"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Karl Lueger",
+     "relation": "citizenship",
+     "ans": "Lordship of Ireland"
+    },
+    {
+     "subject": "Lordship of Ireland",
+     "relation": "religion",
+     "ans": "atheism"
+    }
+   ]
+  },
+  {
+   "qid": 2,
+   "gold": "Oceania",
+   "ok": false,
+   "final": "Antarctica",
+   "start": "\"American Pastoral\"",
+   "rels": [
+    "author",
+    "spouse",
+    "citizenship",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"American Pastoral\"",
+     "relation": "author",
+     "ans": "F. Scott Fitzgerald"
+    },
+    {
+     "subject": "F. Scott Fitzgerald",
+     "relation": "spouse",
+     "ans": "Carl Lumbly"
+    },
+    {
+     "subject": "Carl Lumbly",
+     "relation": "citizenship",
+     "ans": "Colombia"
+    },
+    {
+     "subject": "Colombia",
+     "relation": "continent",
+     "ans": "Antarctica"
+    }
+   ]
+  },
+  {
+   "qid": 3,
+   "gold": "Paris",
+   "ok": false,
+   "final": "United States of America",
+   "start": "\"Your Hit Parade\"",
+   "rels": [
+    "original broadcaster",
+    "country of origin"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"Your Hit Parade\"",
+     "relation": "original broadcaster",
+     "ans": "NBC"
+    },
+    {
+     "subject": "NBC",
+     "relation": "country of origin",
+     "ans": "United States of America"
+    }
+   ]
+  },
+  {
+   "qid": 4,
+   "gold": "English",
+   "ok": false,
+   "final": "Russian",
+   "start": "Valmiki",
+   "rels": [
+    "famous work",
+    "original language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Valmiki",
+     "relation": "famous work",
+     "ans": "Life and Fate"
+    },
+    {
+     "subject": "Life and Fate",
+     "relation": "original language",
+     "ans": "Russian"
+    }
+   ]
+  },
+  {
+   "qid": 5,
+   "gold": "Walloon",
+   "ok": true,
+   "final": "Walloon",
+   "start": "CBS Corporation",
+   "rels": [
+    "chief executive officer",
+    "spouse",
+    "citizenship",
+    "country of origin",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "CBS Corporation",
+     "relation": "chief executive officer",
+     "ans": "Les Moonves"
+    },
+    {
+     "subject": "Les Moonves",
+     "relation": "spouse",
+     "ans": "Louis Aragon"
+    },
+    {
+     "subject": "Louis Aragon",
+     "relation": "citizenship",
+     "ans": "Italy"
+    },
+    {
+     "subject": "Italy",
+     "relation": "country of origin",
+     "ans": "Italy"
+    },
+    {
+     "subject": "Italy",
+     "relation": "official language",
+     "ans": "Walloon"
+    }
+   ]
+  },
+  {
+   "qid": 6,
+   "gold": "Italian",
+   "ok": false,
+   "final": "English",
+   "start": "Melvil Dewey",
+   "rels": [
+    "famous work",
+    "original language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Melvil Dewey",
+     "relation": "famous work",
+     "ans": "Dewe"
+    },
+    {
+     "subject": "Dewe",
+     "relation": "original language",
+     "ans": "English"
+    }
+   ]
+  },
+  {
+   "qid": 7,
+   "gold": "Arabic",
+   "ok": true,
+   "final": "Arabic",
+   "start": "Revolver",
+   "rels": [
+    "director",
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Revolver",
+     "relation": "director",
+     "ans": "Narendra Modi"
+    },
+    {
+     "subject": "Narendra Modi",
+     "relation": "citizenship",
+     "ans": "Narendra Modi is a citizen of Australia."
+    },
+    {
+     "subject": "Narendra Modi is a citizen of Australia.",
+     "relation": "official language",
+     "ans": "Arabic"
+    }
+   ]
+  },
+  {
+   "qid": 8,
+   "gold": "University of Oxford",
+   "ok": false,
+   "final": "Terrance Dicks studied at the University of Oxford.",
+   "start": "\"Measure for Measure\"",
+   "rels": [
+    "author",
+    "education"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"Measure for Measure\"",
+     "relation": "author",
+     "ans": "Terrance Dicks"
+    },
+    {
+     "subject": "Terrance Dicks",
+     "relation": "education",
+     "ans": "Terrance Dicks studied at the University of Oxford."
+    }
+   ]
+  },
+  {
+   "qid": 9,
+   "gold": "L. L. Zamenhof",
+   "ok": false,
+   "final": "Frank Miller",
+   "start": "FC Viikingit",
+   "rels": [
+    "headquarters location",
+    "official language",
+    "original language",
+    "author"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "FC Viikingit",
+     "relation": "headquarters location",
+     "ans": "The headquarters of FC Viikingit is located in the city of Helsinki."
+    },
+    {
+     "subject": "The headquarters of FC Viikingit is located in the city of Helsinki.",
+     "relation": "official language",
+     "ans": "Esperanto"
+    },
+    {
+     "subject": "Esperanto",
+     "relation": "original language",
+     "ans": "Esperanto"
+    },
+    {
+     "subject": "Esperanto",
+     "relation": "author",
+     "ans": "Frank Miller"
+    }
+   ]
+  },
+  {
+   "qid": 10,
+   "gold": "Oceania",
+   "ok": false,
+   "final": "Asia",
+   "start": "Visual Basic .NET",
+   "rels": [
+    "chief executive officer",
+    "birthplace",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Visual Basic .NET",
+     "relation": "chief executive officer",
+     "ans": "Visual Basic .NET was developed by Lenovo."
+    },
+    {
+     "subject": "Visual Basic .NET was developed by Lenovo.",
+     "relation": "birthplace",
+     "ans": "Lenovo is based in Beijing, China."
+    },
+    {
+     "subject": "Lenovo is based in Beijing, China.",
+     "relation": "continent",
+     "ans": "Asia"
+    }
+   ]
+  },
+  {
+   "qid": 11,
+   "gold": "Epworth",
+   "ok": false,
+   "final": "Berlin",
+   "start": "Giulio Alberoni",
+   "rels": [
+    "religion",
+    "founder",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Giulio Alberoni",
+     "relation": "religion",
+     "ans": "Methodism"
+    },
+    {
+     "subject": "Methodism",
+     "relation": "founder",
+     "ans": "Joseph Goebbels"
+    },
+    {
+     "subject": "Joseph Goebbels",
+     "relation": "birthplace",
+     "ans": "Berlin"
+    }
+   ]
+  },
+  {
+   "qid": 12,
+   "gold": "Knoxville",
+   "ok": true,
+   "final": "Knoxville",
+   "start": "Adventures in Paradise",
+   "rels": [
+    "original broadcaster",
+    "headquarters location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Adventures in Paradise",
+     "relation": "original broadcaster",
+     "ans": "WTTW"
+    },
+    {
+     "subject": "WTTW",
+     "relation": "headquarters location",
+     "ans": "Knoxville"
+    }
+   ]
+  },
+  {
+   "qid": 13,
+   "gold": "Gundam",
+   "ok": true,
+   "final": "Gundam",
+   "start": "Miley Stewart",
+   "rels": [
+    "performer",
+    "famous work"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Miley Stewart",
+     "relation": "performer",
+     "ans": "John Lennon"
+    },
+    {
+     "subject": "John Lennon",
+     "relation": "famous work",
+     "ans": "Gundam"
+    }
+   ]
+  },
+  {
+   "qid": 14,
+   "gold": "Oceania",
+   "ok": true,
+   "final": "Oceania",
+   "start": "Fernando Lugo",
+   "rels": [
+    "citizenship",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Fernando Lugo",
+     "relation": "citizenship",
+     "ans": "United Kingdom"
+    },
+    {
+     "subject": "United Kingdom",
+     "relation": "continent",
+     "ans": "Oceania"
+    }
+   ]
+  },
+  {
+   "qid": 15,
+   "gold": "Long Beach",
+   "ok": false,
+   "final": "The headquarters of California State University, Long Beach is located in the city of Long Beach.",
+   "start": "Stewart Udall",
+   "rels": [
+    "education",
+    "headquarters location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Stewart Udall",
+     "relation": "education",
+     "ans": "California State University, Long Beach"
+    },
+    {
+     "subject": "California State University, Long Beach",
+     "relation": "headquarters location",
+     "ans": "The headquarters of California State University, Long Beach is located in the city of Long Beach."
+    }
+   ]
+  },
+  {
+   "qid": 16,
+   "gold": "Europe",
+   "ok": false,
+   "final": "Africa",
+   "start": "International Judo Federation",
+   "rels": [
+    "founder",
+    "citizenship",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "International Judo Federation",
+     "relation": "founder",
+     "ans": "Charles de Gaulle"
+    },
+    {
+     "subject": "Charles de Gaulle",
+     "relation": "citizenship",
+     "ans": "India"
+    },
+    {
+     "subject": "India",
+     "relation": "continent",
+     "ans": "Africa"
+    }
+   ]
+  },
+  {
+   "qid": 17,
+   "gold": "Epworth",
+   "ok": false,
+   "final": "The birthplace of the founder of Duquesne University is not specified in the provided information.",
+   "start": "Duquesne University",
+   "rels": [
+    "founder",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Duquesne University",
+     "relation": "founder",
+     "ans": "The founder of Duquesne University is not specified in the provided information."
+    },
+    {
+     "subject": "The founder of Duquesne University is not specified in the provided information.",
+     "relation": "birthplace",
+     "ans": "The birthplace of the founder of Duquesne University is not specified in the provided information."
+    }
+   ]
+  },
+  {
+   "qid": 18,
+   "gold": "Paris",
+   "ok": false,
+   "final": "Jasło",
+   "start": "Ford Ranger",
+   "rels": [
+    "manufacturer",
+    "founding place",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Ford Ranger",
+     "relation": "manufacturer",
+     "ans": "Ford Motor Company"
+    },
+    {
+     "subject": "Ford Motor Company",
+     "relation": "founding place",
+     "ans": "Bangkok"
+    },
+    {
+     "subject": "Bangkok",
+     "relation": "country of origin",
+     "ans": "Bangkok is located in the country of Thailand."
+    },
+    {
+     "subject": "Bangkok is located in the country of Thailand.",
+     "relation": "capital",
+     "ans": "Jasło"
+    }
+   ]
+  },
+  {
+   "qid": 19,
+   "gold": "Dublin",
+   "ok": false,
+   "final": "Duluth",
+   "start": "Peter Schmeichel's position",
+   "rels": [
+    "sport",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Peter Schmeichel's position",
+     "relation": "sport",
+     "ans": "association football"
+    },
+    {
+     "subject": "association football",
+     "relation": "country of origin",
+     "ans": "Italy"
+    },
+    {
+     "subject": "Italy",
+     "relation": "capital",
+     "ans": "Duluth"
+    }
+   ]
+  },
+  {
+   "qid": 20,
+   "gold": "Sergio Mattarella",
+   "ok": false,
+   "final": "Elizabeth II",
+   "start": "Halifax Town A.F.C.",
+   "rels": [
+    "sport",
+    "country of origin",
+    "head of state"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Halifax Town A.F.C.",
+     "relation": "sport",
+     "ans": "Halifax Town A.F.C. is associated with the sport of association football."
+    },
+    {
+     "subject": "Halifax Town A.F.C. is associated with the sport of association football.",
+     "relation": "country of origin",
+     "ans": "England"
+    },
+    {
+     "subject": "England",
+     "relation": "head of state",
+     "ans": "Elizabeth II"
+    }
+   ]
+  },
+  {
+   "qid": 21,
+   "gold": "Asia",
+   "ok": true,
+   "final": "Asia",
+   "start": "Gustav Vigeland",
+   "rels": [
+    "citizenship",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Gustav Vigeland",
+     "relation": "citizenship",
+     "ans": "Finland"
+    },
+    {
+     "subject": "Finland",
+     "relation": "continent",
+     "ans": "Asia"
+    }
+   ]
+  },
+  {
+   "qid": 22,
+   "gold": "Japan",
+   "ok": false,
+   "final": "United States of America",
+   "start": "John Beilein's occupation",
+   "rels": [
+    "sport",
+    "country of origin"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "John Beilein's occupation",
+     "relation": "sport",
+     "ans": "basketball coach"
+    },
+    {
+     "subject": "basketball coach",
+     "relation": "country of origin",
+     "ans": "United States of America"
+    }
+   ]
+  },
+  {
+   "qid": 23,
+   "gold": "British Broadcasting Corporation",
+   "ok": true,
+   "final": "British Broadcasting Corporation",
+   "start": "Lynn Margulis",
+   "rels": [
+    "spouse",
+    "employer"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Lynn Margulis",
+     "relation": "spouse",
+     "ans": "Carl Sagan"
+    },
+    {
+     "subject": "Carl Sagan",
+     "relation": "employer",
+     "ans": "British Broadcasting Corporation"
+    }
+   ]
+  },
+  {
+   "qid": 24,
+   "gold": "American football",
+   "ok": true,
+   "final": "American football",
+   "start": "Tina Charles",
+   "rels": [
+    "position",
+    "sport"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Tina Charles",
+     "relation": "position",
+     "ans": "defensive back"
+    },
+    {
+     "subject": "defensive back",
+     "relation": "sport",
+     "ans": "American football"
+    }
+   ]
+  },
+  {
+   "qid": 25,
+   "gold": "Oceania",
+   "ok": false,
+   "final": "North America",
+   "start": "\"Please Please Me\"",
+   "rels": [
+    "director",
+    "citizenship",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"Please Please Me\"",
+     "relation": "director",
+     "ans": "Madonna"
+    },
+    {
+     "subject": "Madonna",
+     "relation": "citizenship",
+     "ans": "United States of America"
+    },
+    {
+     "subject": "United States of America",
+     "relation": "continent",
+     "ans": "North America"
+    }
+   ]
+  },
+  {
+   "qid": 26,
+   "gold": "North Charleston",
+   "ok": true,
+   "final": "North Charleston",
+   "start": "Bianca Jagger",
+   "rels": [
+    "spouse",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Bianca Jagger",
+     "relation": "spouse",
+     "ans": "Mick Jagger"
+    },
+    {
+     "subject": "Mick Jagger",
+     "relation": "birthplace",
+     "ans": "North Charleston"
+    }
+   ]
+  },
+  {
+   "qid": 27,
+   "gold": "New Delhi",
+   "ok": false,
+   "final": "Harare",
+   "start": "the 2014 World Judo Championships",
+   "rels": [
+    "sport",
+    "founder",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "the 2014 World Judo Championships",
+     "relation": "sport",
+     "ans": "judo"
+    },
+    {
+     "subject": "judo",
+     "relation": "founder",
+     "ans": "Charles de Gaulle"
+    },
+    {
+     "subject": "Charles de Gaulle",
+     "relation": "country of origin",
+     "ans": "France"
+    },
+    {
+     "subject": "France",
+     "relation": "capital",
+     "ans": "Harare"
+    }
+   ]
+  },
+  {
+   "qid": 28,
+   "gold": "Bondi Junction",
+   "ok": false,
+   "final": "Tokyo",
+   "start": "Family Force 5",
+   "rels": [
+    "country of origin",
+    "seat of government",
+    "city"
+   ],
+   "bad_rels": [
+    "seat of government",
+    "city"
+   ],
+   "path": [
+    {
+     "subject": "Family Force 5",
+     "relation": "country of origin",
+     "ans": "Japan"
+    },
+    {
+     "subject": "Japan",
+     "relation": "seat of government",
+     "ans": "Tokyo"
+    },
+    {
+     "subject": "Tokyo",
+     "relation": "city",
+     "ans": "Tokyo"
+    }
+   ]
+  },
+  {
+   "qid": 29,
+   "gold": "New York City",
+   "ok": true,
+   "final": "New York City",
+   "start": "Carmilla",
+   "rels": [
+    "author",
+    "place of death"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Carmilla",
+     "relation": "author",
+     "ans": "Joseph Stein"
+    },
+    {
+     "subject": "Joseph Stein",
+     "relation": "place of death",
+     "ans": "New York City"
+    }
+   ]
+  },
+  {
+   "qid": 30,
+   "gold": "Spain",
+   "ok": true,
+   "final": "Spain",
+   "start": "Dave Matthews Band",
+   "rels": [
+    "genre",
+    "country of origin"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Dave Matthews Band",
+     "relation": "genre",
+     "ans": "rock music"
+    },
+    {
+     "subject": "rock music",
+     "relation": "country of origin",
+     "ans": "Spain"
+    }
+   ]
+  },
+  {
+   "qid": 31,
+   "gold": "Mike Cheston",
+   "ok": true,
+   "final": "Mike Cheston",
+   "start": "Stephen Greenblatt",
+   "rels": [
+    "employer",
+    "chairperson"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Stephen Greenblatt",
+     "relation": "employer",
+     "ans": "X Prize Foundation"
+    },
+    {
+     "subject": "X Prize Foundation",
+     "relation": "chairperson",
+     "ans": "Mike Cheston"
+    }
+   ]
+  },
+  {
+   "qid": 32,
+   "gold": "Arabic",
+   "ok": false,
+   "final": "German",
+   "start": "the performer with ID 1",
+   "rels": [
+    "director/manager",
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [
+    "director/manager"
+   ],
+   "path": [
+    {
+     "subject": "the performer with ID 1",
+     "relation": "director/manager",
+     "ans": "Madonna"
+    },
+    {
+     "subject": "Madonna",
+     "relation": "citizenship",
+     "ans": "United States of America"
+    },
+    {
+     "subject": "United States of America",
+     "relation": "official language",
+     "ans": "German"
+    }
+   ]
+  },
+  {
+   "qid": 33,
+   "gold": "Gérard Blitz",
+   "ok": true,
+   "final": "Gérard Blitz",
+   "start": "James Michael Curley",
+   "rels": [
+    "education",
+    "founder"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "James Michael Curley",
+     "relation": "education",
+     "ans": "The Catholic University of America"
+    },
+    {
+     "subject": "The Catholic University of America",
+     "relation": "founder",
+     "ans": "Gérard Blitz"
+    }
+   ]
+  },
+  {
+   "qid": 34,
+   "gold": "London",
+   "ok": false,
+   "final": "不提供",
+   "start": "Metz Cathedral",
+   "rels": [
+    "founder",
+    "work location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Metz Cathedral",
+     "relation": "founder",
+     "ans": "The founder of Metz Cathedral is not provided in the memories."
+    },
+    {
+     "subject": "The founder of Metz Cathedral is not provided in the memories.",
+     "relation": "work location",
+     "ans": "不提供"
+    }
+   ]
+  },
+  {
+   "qid": 35,
+   "gold": "New Delhi",
+   "ok": false,
+   "final": "Grosseto",
+   "start": "Sumie Sakai",
+   "rels": [
+    "sport",
+    "founder",
+    "citizenship",
+    "country",
+    "capital"
+   ],
+   "bad_rels": [
+    "country"
+   ],
+   "path": [
+    {
+     "subject": "Sumie Sakai",
+     "relation": "sport",
+     "ans": "judo"
+    },
+    {
+     "subject": "judo",
+     "relation": "founder",
+     "ans": "Charles de Gaulle"
+    },
+    {
+     "subject": "Charles de Gaulle",
+     "relation": "citizenship",
+     "ans": "India"
+    },
+    {
+     "subject": "India",
+     "relation": "country",
+     "ans": "India"
+    },
+    {
+     "subject": "India",
+     "relation": "capital",
+     "ans": "Grosseto"
+    }
+   ]
+  },
+  {
+   "qid": 36,
+   "gold": "Canberra",
+   "ok": false,
+   "final": "Chiavari",
+   "start": "\"Back in the U.S.S.R.\"",
+   "rels": [
+    "director",
+    "citizenship",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"Back in the U.S.S.R.\"",
+     "relation": "director",
+     "ans": "Chicago Symphony Orchestra"
+    },
+    {
+     "subject": "Chicago Symphony Orchestra",
+     "relation": "citizenship",
+     "ans": "South Korea"
+    },
+    {
+     "subject": "South Korea",
+     "relation": "capital",
+     "ans": "Chiavari"
+    }
+   ]
+  },
+  {
+   "qid": 37,
+   "gold": "Gérard Blitz",
+   "ok": true,
+   "final": "Gérard Blitz",
+   "start": "Gabriel Narutowicz",
+   "rels": [
+    "religion",
+    "founder"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Gabriel Narutowicz",
+     "relation": "religion",
+     "ans": "Catholic Church"
+    },
+    {
+     "subject": "Catholic Church",
+     "relation": "founder",
+     "ans": "Gérard Blitz"
+    }
+   ]
+  },
+  {
+   "qid": 38,
+   "gold": "German",
+   "ok": true,
+   "final": "German.",
+   "start": "Nate \"Tiny\" Archibald",
+   "rels": [
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Nate \"Tiny\" Archibald",
+     "relation": "citizenship",
+     "ans": "Sweden"
+    },
+    {
+     "subject": "Sweden",
+     "relation": "official language",
+     "ans": "German."
+    }
+   ]
+  },
+  {
+   "qid": 39,
+   "gold": "Princeton University",
+   "ok": true,
+   "final": "Princeton University",
+   "start": "La Celestina",
+   "rels": [
+    "author",
+    "education"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "La Celestina",
+     "relation": "author",
+     "ans": "Sigmund Freud"
+    },
+    {
+     "subject": "Sigmund Freud",
+     "relation": "education",
+     "ans": "Princeton University"
+    }
+   ]
+  },
+  {
+   "qid": 40,
+   "gold": "Picard",
+   "ok": true,
+   "final": "Picard",
+   "start": "Malik Kafur",
+   "rels": [
+    "religion",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Malik Kafur",
+     "relation": "religion",
+     "ans": "Islam"
+    },
+    {
+     "subject": "Islam",
+     "relation": "official language",
+     "ans": "Picard"
+    }
+   ]
+  },
+  {
+   "qid": 41,
+   "gold": "Narendra Modi",
+   "ok": false,
+   "final": "Joe Hockey does not have a specified manager in the provided memories.",
+   "start": "\"Yesterday and Today\"",
+   "rels": [
+    "performer",
+    "director",
+    "manager"
+   ],
+   "bad_rels": [
+    "manager"
+   ],
+   "path": [
+    {
+     "subject": "\"Yesterday and Today\"",
+     "relation": "performer",
+     "ans": "The Beatles"
+    },
+    {
+     "subject": "The Beatles",
+     "relation": "director",
+     "ans": "Joe Hockey"
+    },
+    {
+     "subject": "Joe Hockey",
+     "relation": "manager",
+     "ans": "Joe Hockey does not have a specified manager in the provided memories."
+    }
+   ]
+  },
+  {
+   "qid": 42,
+   "gold": "Ottawa",
+   "ok": false,
+   "final": "Bondi Junction",
+   "start": "Derek Holland",
+   "rels": [
+    "sport",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Derek Holland",
+     "relation": "sport",
+     "ans": "linebacker"
+    },
+    {
+     "subject": "linebacker",
+     "relation": "country of origin",
+     "ans": "Japan"
+    },
+    {
+     "subject": "Japan",
+     "relation": "capital",
+     "ans": "Bondi Junction"
+    }
+   ]
+  },
+  {
+   "qid": 43,
+   "gold": "English",
+   "ok": true,
+   "final": "English",
+   "start": "Muttahida Qaumi Movement",
+   "rels": [
+    "chairperson",
+    "languages"
+   ],
+   "bad_rels": [
+    "languages"
+   ],
+   "path": [
+    {
+     "subject": "Muttahida Qaumi Movement",
+     "relation": "chairperson",
+     "ans": "Stephen McNeil"
+    },
+    {
+     "subject": "Stephen McNeil",
+     "relation": "languages",
+     "ans": "English"
+    }
+   ]
+  },
+  {
+   "qid": 44,
+   "gold": "Rupnagar",
+   "ok": true,
+   "final": "Rupnagar",
+   "start": "Ragini Dwivedi",
+   "rels": [
+    "citizenship",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Ragini Dwivedi",
+     "relation": "citizenship",
+     "ans": "United Kingdom"
+    },
+    {
+     "subject": "United Kingdom",
+     "relation": "capital",
+     "ans": "Rupnagar"
+    }
+   ]
+  },
+  {
+   "qid": 45,
+   "gold": "London",
+   "ok": true,
+   "final": "London",
+   "start": "the book \"Dubliners\"",
+   "rels": [
+    "author",
+    "place of death"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "the book \"Dubliners\"",
+     "relation": "author",
+     "ans": "George Eliot"
+    },
+    {
+     "subject": "George Eliot",
+     "relation": "place of death",
+     "ans": "London"
+    }
+   ]
+  },
+  {
+   "qid": 46,
+   "gold": "Normanton",
+   "ok": false,
+   "final": "The headquarters of Mitsubishi is located in the city of Normanton.",
+   "start": "Sailfish OS",
+   "rels": [
+    "developer",
+    "headquarters location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Sailfish OS",
+     "relation": "developer",
+     "ans": "Mitsubishi"
+    },
+    {
+     "subject": "Mitsubishi",
+     "relation": "headquarters location",
+     "ans": "The headquarters of Mitsubishi is located in the city of Normanton."
+    }
+   ]
+  },
+  {
+   "qid": 47,
+   "gold": "Manila",
+   "ok": false,
+   "final": "Bondi Junction",
+   "start": "David Price",
+   "rels": [
+    "sport",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "David Price",
+     "relation": "sport",
+     "ans": "David Price is associated with the sport of baseball."
+    },
+    {
+     "subject": "David Price is associated with the sport of baseball.",
+     "relation": "country of origin",
+     "ans": "Japan"
+    },
+    {
+     "subject": "Japan",
+     "relation": "capital",
+     "ans": "Bondi Junction"
+    }
+   ]
+  },
+  {
+   "qid": 48,
+   "gold": "Spanish",
+   "ok": false,
+   "final": "Korean",
+   "start": "All of Me",
+   "rels": [
+    "performer",
+    "spouse",
+    "country of origin",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "All of Me",
+     "relation": "performer",
+     "ans": "Bobby Brown"
+    },
+    {
+     "subject": "Bobby Brown",
+     "relation": "spouse",
+     "ans": "Lois Lane"
+    },
+    {
+     "subject": "Lois Lane",
+     "relation": "country of origin",
+     "ans": "South Korea"
+    },
+    {
+     "subject": "South Korea",
+     "relation": "official language",
+     "ans": "Korean"
+    }
+   ]
+  },
+  {
+   "qid": 49,
+   "gold": "Lüftelberg",
+   "ok": true,
+   "final": "Lüftelberg",
+   "start": "Indiana Jones",
+   "rels": [
+    "founder",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Indiana Jones",
+     "relation": "founder",
+     "ans": "A. A. Milne"
+    },
+    {
+     "subject": "A. A. Milne",
+     "relation": "birthplace",
+     "ans": "Lüftelberg"
+    }
+   ]
+  },
+  {
+   "qid": 50,
+   "gold": "David Potts",
+   "ok": true,
+   "final": "David Potts",
+   "start": "the Chevrolet Chevelle",
+   "rels": [
+    "manufacturer",
+    "chief executive officer"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "the Chevrolet Chevelle",
+     "relation": "manufacturer",
+     "ans": "Peugeot"
+    },
+    {
+     "subject": "Peugeot",
+     "relation": "chief executive officer",
+     "ans": "David Potts"
+    }
+   ]
+  },
+  {
+   "qid": 51,
+   "gold": "composer",
+   "ok": true,
+   "final": "composer",
+   "start": "Economic Freedom Fighters",
+   "rels": [
+    "chairperson",
+    "profession"
+   ],
+   "bad_rels": [
+    "profession"
+   ],
+   "path": [
+    {
+     "subject": "Economic Freedom Fighters",
+     "relation": "chairperson",
+     "ans": "Roberto Calvi"
+    },
+    {
+     "subject": "Roberto Calvi",
+     "relation": "profession",
+     "ans": "composer"
+    }
+   ]
+  },
+  {
+   "qid": 52,
+   "gold": "Africa",
+   "ok": true,
+   "final": "Africa",
+   "start": "Windows Aero",
+   "rels": [
+    "developer",
+    "chief executive officer",
+    "birthplace",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Windows Aero",
+     "relation": "developer",
+     "ans": "Electronic Arts"
+    },
+    {
+     "subject": "Electronic Arts",
+     "relation": "chief executive officer",
+     "ans": "Elon Musk"
+    },
+    {
+     "subject": "Elon Musk",
+     "relation": "birthplace",
+     "ans": "The city of New Zealand."
+    },
+    {
+     "subject": "The city of New Zealand.",
+     "relation": "continent",
+     "ans": "Africa"
+    }
+   ]
+  },
+  {
+   "qid": 53,
+   "gold": "Ole Johan Vierdal",
+   "ok": false,
+   "final": "Boris Johnson",
+   "start": "Julian Lennon",
+   "rels": [
+    "genre",
+    "country of origin",
+    "head of government"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Julian Lennon",
+     "relation": "genre",
+     "ans": "soul music"
+    },
+    {
+     "subject": "soul music",
+     "relation": "country of origin",
+     "ans": "United Kingdom"
+    },
+    {
+     "subject": "United Kingdom",
+     "relation": "head of government",
+     "ans": "Boris Johnson"
+    }
+   ]
+  },
+  {
+   "qid": 54,
+   "gold": "Washington, D.C.",
+   "ok": true,
+   "final": "Washington, D.C.",
+   "start": "Steve Cooley",
+   "rels": [
+    "religion",
+    "founder",
+    "work location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Steve Cooley",
+     "relation": "religion",
+     "ans": "Methodism"
+    },
+    {
+     "subject": "Methodism",
+     "relation": "founder",
+     "ans": "Joseph Goebbels"
+    },
+    {
+     "subject": "Joseph Goebbels",
+     "relation": "work location",
+     "ans": "Washington, D.C."
+    }
+   ]
+  },
+  {
+   "qid": 55,
+   "gold": "Oderzo",
+   "ok": true,
+   "final": "Oderzo",
+   "start": "The Partridge Family",
+   "rels": [
+    "original broadcaster",
+    "director",
+    "citizenship",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "The Partridge Family",
+     "relation": "original broadcaster",
+     "ans": "British Broadcasting Corporation"
+    },
+    {
+     "subject": "British Broadcasting Corporation",
+     "relation": "director",
+     "ans": "Narendra Modi"
+    },
+    {
+     "subject": "Narendra Modi",
+     "relation": "citizenship",
+     "ans": "Narendra Modi is a citizen of Australia."
+    },
+    {
+     "subject": "Narendra Modi is a citizen of Australia.",
+     "relation": "capital",
+     "ans": "Oderzo"
+    }
+   ]
+  },
+  {
+   "qid": 56,
+   "gold": "Christopher A. Wray",
+   "ok": true,
+   "final": "Christopher A. Wray",
+   "start": "Philip Agee",
+   "rels": [
+    "employer",
+    "chief executive officer"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Philip Agee",
+     "relation": "employer",
+     "ans": "Federal Bureau of Investigation"
+    },
+    {
+     "subject": "Federal Bureau of Investigation",
+     "relation": "chief executive officer",
+     "ans": "Christopher A. Wray"
+    }
+   ]
+  },
+  {
+   "qid": 57,
+   "gold": "Epworth",
+   "ok": false,
+   "final": "Berlin",
+   "start": "Saint Eligius",
+   "rels": [
+    "religion",
+    "founder",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Saint Eligius",
+     "relation": "religion",
+     "ans": "Methodism"
+    },
+    {
+     "subject": "Methodism",
+     "relation": "founder",
+     "ans": "Joseph Goebbels"
+    },
+    {
+     "subject": "Joseph Goebbels",
+     "relation": "birthplace",
+     "ans": "Berlin"
+    }
+   ]
+  },
+  {
+   "qid": 58,
+   "gold": "Natya Shastra",
+   "ok": true,
+   "final": "Natya Shastra",
+   "start": "The Age of Reason",
+   "rels": [
+    "author",
+    "famous work"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "The Age of Reason",
+     "relation": "author",
+     "ans": "Allen Ginsberg"
+    },
+    {
+     "subject": "Allen Ginsberg",
+     "relation": "famous work",
+     "ans": "Natya Shastra"
+    }
+   ]
+  },
+  {
+   "qid": 59,
+   "gold": "Higashiyamanashi District, Yamanashi",
+   "ok": true,
+   "final": "Higashiyamanashi District, Yamanashi",
+   "start": "the Illinois Attorney General's office",
+   "rels": [
+    "current holder",
+    "birthplace"
+   ],
+   "bad_rels": [
+    "current holder"
+   ],
+   "path": [
+    {
+     "subject": "the Illinois Attorney General's office",
+     "relation": "current holder",
+     "ans": "Ben Carson"
+    },
+    {
+     "subject": "Ben Carson",
+     "relation": "birthplace",
+     "ans": "Higashiyamanashi District, Yamanashi"
+    }
+   ]
+  },
+  {
+   "qid": 60,
+   "gold": "Lyndon B. Johnson",
+   "ok": true,
+   "final": "Lyndon B. Johnson",
+   "start": "Nicholas V",
+   "rels": [
+    "religion",
+    "founder"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Nicholas V",
+     "relation": "religion",
+     "ans": "The Church of Jesus Christ of Latter-day Saints"
+    },
+    {
+     "subject": "The Church of Jesus Christ of Latter-day Saints",
+     "relation": "founder",
+     "ans": "Lyndon B. Johnson"
+    }
+   ]
+  },
+  {
+   "qid": 61,
+   "gold": "Mexico City",
+   "ok": true,
+   "final": "Mexico City",
+   "start": "Ivanhoe",
+   "rels": [
+    "author",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Ivanhoe",
+     "relation": "author",
+     "ans": "Walter Scott"
+    },
+    {
+     "subject": "Walter Scott",
+     "relation": "birthplace",
+     "ans": "Mexico City"
+    }
+   ]
+  },
+  {
+   "qid": 62,
+   "gold": "Zygmunt Krasiński",
+   "ok": true,
+   "final": "Zygmunt Krasiński",
+   "start": "Feluda",
+   "rels": [
+    "author",
+    "child"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Feluda",
+     "relation": "author",
+     "ans": "Terry Pratchett"
+    },
+    {
+     "subject": "Terry Pratchett",
+     "relation": "child",
+     "ans": "Zygmunt Krasiński"
+    }
+   ]
+  },
+  {
+   "qid": 63,
+   "gold": "New Delhi",
+   "ok": false,
+   "final": "Australia",
+   "start": "\"NHL on ABC\"",
+   "rels": [
+    "original broadcaster",
+    "director",
+    "citizenship"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"NHL on ABC\"",
+     "relation": "original broadcaster",
+     "ans": "British Broadcasting Corporation"
+    },
+    {
+     "subject": "British Broadcasting Corporation",
+     "relation": "director",
+     "ans": "Narendra Modi"
+    },
+    {
+     "subject": "Narendra Modi",
+     "relation": "citizenship",
+     "ans": "Australia"
+    }
+   ]
+  },
+  {
+   "qid": 64,
+   "gold": "Finnish",
+   "ok": true,
+   "final": "Finnish",
+   "start": "Yip Harburg",
+   "rels": [
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Yip Harburg",
+     "relation": "citizenship",
+     "ans": "United Kingdom"
+    },
+    {
+     "subject": "United Kingdom",
+     "relation": "official language",
+     "ans": "Finnish"
+    }
+   ]
+  },
+  {
+   "qid": 65,
+   "gold": "progressive rock",
+   "ok": true,
+   "final": "progressive rock",
+   "start": "the book \"Dune\"",
+   "rels": [
+    "author",
+    "genre"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "the book \"Dune\"",
+     "relation": "author",
+     "ans": "William Shakespeare"
+    },
+    {
+     "subject": "William Shakespeare",
+     "relation": "genre",
+     "ans": "progressive rock"
+    }
+   ]
+  },
+  {
+   "qid": 66,
+   "gold": "South America",
+   "ok": false,
+   "final": "North America",
+   "start": "Thomas Dolby",
+   "rels": [
+    "continent of origin"
+   ],
+   "bad_rels": [
+    "continent of origin"
+   ],
+   "path": [
+    {
+     "subject": "Thomas Dolby",
+     "relation": "continent of origin",
+     "ans": "North America"
+    }
+   ]
+  },
+  {
+   "qid": 67,
+   "gold": "Trinity College Dublin",
+   "ok": false,
+   "final": "The university where Gustav I of Sweden was educated is Trinity College Dublin.",
+   "start": "House of Bonaparte",
+   "rels": [
+    "founder",
+    "education"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "House of Bonaparte",
+     "relation": "founder",
+     "ans": "Gustav I of Sweden"
+    },
+    {
+     "subject": "Gustav I of Sweden",
+     "relation": "education",
+     "ans": "The university where Gustav I of Sweden was educated is Trinity College Dublin."
+    }
+   ]
+  },
+  {
+   "qid": 68,
+   "gold": "Silver Lake",
+   "ok": true,
+   "final": "Silver Lake",
+   "start": "Chevrolet Caprice",
+   "rels": [
+    "manufacturer",
+    "founding place"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Chevrolet Caprice",
+     "relation": "manufacturer",
+     "ans": "Boeing"
+    },
+    {
+     "subject": "Boeing",
+     "relation": "founding place",
+     "ans": "Silver Lake"
+    }
+   ]
+  },
+  {
+   "qid": 69,
+   "gold": "Rajanpur",
+   "ok": false,
+   "final": "Krong Kep",
+   "start": "Benjamin Sisko",
+   "rels": [
+    "genre",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Benjamin Sisko",
+     "relation": "genre",
+     "ans": "The genre of Benjamin Sisko is not specified in the provided memories."
+    },
+    {
+     "subject": "The genre of Benjamin Sisko is not specified in the provided memories.",
+     "relation": "country of origin",
+     "ans": "The genre of Benjamin Sisko is not specified in the provided memories."
+    },
+    {
+     "subject": "The genre of Benjamin Sisko is not specified in the provided memories.",
+     "relation": "capital",
+     "ans": "Krong Kep"
+    }
+   ]
+  },
+  {
+   "qid": 70,
+   "gold": "Belgium",
+   "ok": true,
+   "final": "Belgium",
+   "start": "\"David Copperfield\"",
+   "rels": [
+    "author",
+    "spouse",
+    "citizenship"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"David Copperfield\"",
+     "relation": "author",
+     "ans": "Charles Darwin"
+    },
+    {
+     "subject": "Charles Darwin",
+     "relation": "spouse",
+     "ans": "Amala Paul"
+    },
+    {
+     "subject": "Amala Paul",
+     "relation": "citizenship",
+     "ans": "Belgium"
+    }
+   ]
+  },
+  {
+   "qid": 71,
+   "gold": "William J. Donovan",
+   "ok": false,
+   "final": "Robert James Carlson",
+   "start": "Francis Parkman",
+   "rels": [
+    "employer",
+    "chairperson"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Francis Parkman",
+     "relation": "employer",
+     "ans": "Office of Strategic Services"
+    },
+    {
+     "subject": "Office of Strategic Services",
+     "relation": "chairperson",
+     "ans": "Robert James Carlson"
+    }
+   ]
+  },
+  {
+   "qid": 72,
+   "gold": "Beaumont",
+   "ok": false,
+   "final": "Harrisville",
+   "start": "Good Morning America",
+   "rels": [
+    "director",
+    "citizenship",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Good Morning America",
+     "relation": "director",
+     "ans": "The director of Good Morning America is not directly provided in the stored memories. However, you can proceed with the next steps for further context or information."
+    },
+    {
+     "subject": "The director of Good Morning America is not directly provided in the stored memories. However, you can proceed with the next steps for further context or information.",
+     "relation": "citizenship",
+     "ans": "The citizenship of the director of Good Morning America is not directly provided in the stored memories."
+    },
+    {
+     "subject": "The citizenship of the director of Good Morning America is not directly provided in the stored memories.",
+     "relation": "capital",
+     "ans": "Harrisville"
+    }
+   ]
+  },
+  {
+   "qid": 73,
+   "gold": "Hebrew",
+   "ok": false,
+   "final": "French",
+   "start": "Pee Wee King",
+   "rels": [
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Pee Wee King",
+     "relation": "citizenship",
+     "ans": "France"
+    },
+    {
+     "subject": "France",
+     "relation": "official language",
+     "ans": "French"
+    }
+   ]
+  },
+  {
+   "qid": 74,
+   "gold": "German",
+   "ok": true,
+   "final": "German",
+   "start": "Tomokazu Seki",
+   "rels": [
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Tomokazu Seki",
+     "relation": "citizenship",
+     "ans": "United States of America"
+    },
+    {
+     "subject": "United States of America",
+     "relation": "official language",
+     "ans": "German"
+    }
+   ]
+  },
+  {
+   "qid": 75,
+   "gold": "Asia",
+   "ok": false,
+   "final": "Oceania",
+   "start": "Taxman",
+   "rels": [
+    "director",
+    "citizenship",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Taxman",
+     "relation": "director",
+     "ans": "The Beatles"
+    },
+    {
+     "subject": "The Beatles",
+     "relation": "citizenship",
+     "ans": "United Kingdom"
+    },
+    {
+     "subject": "United Kingdom",
+     "relation": "continent",
+     "ans": "Oceania"
+    }
+   ]
+  },
+  {
+   "qid": 76,
+   "gold": "Edinburgh",
+   "ok": false,
+   "final": "Mumbai",
+   "start": "the centrifugal governor",
+   "rels": [
+    "founder",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "the centrifugal governor",
+     "relation": "founder",
+     "ans": "Robert Louis Stevenson"
+    },
+    {
+     "subject": "Robert Louis Stevenson",
+     "relation": "birthplace",
+     "ans": "Mumbai"
+    }
+   ]
+  },
+  {
+   "qid": 77,
+   "gold": "Berlin",
+   "ok": false,
+   "final": "London",
+   "start": "Star Trek canon",
+   "rels": [
+    "author",
+    "spouse",
+    "citizenship",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Star Trek canon",
+     "relation": "author",
+     "ans": "Joseph Goebbels"
+    },
+    {
+     "subject": "Joseph Goebbels",
+     "relation": "spouse",
+     "ans": "Edmund Wilson"
+    },
+    {
+     "subject": "Edmund Wilson",
+     "relation": "citizenship",
+     "ans": "Edmund Wilson is a citizen of United Kingdom."
+    },
+    {
+     "subject": "Edmund Wilson is a citizen of United Kingdom.",
+     "relation": "capital",
+     "ans": "London"
+    }
+   ]
+  },
+  {
+   "qid": 78,
+   "gold": "Finnish",
+   "ok": true,
+   "final": "Finnish",
+   "start": "Eric Weissberg",
+   "rels": [
+    "citizenship",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Eric Weissberg",
+     "relation": "citizenship",
+     "ans": "United Kingdom"
+    },
+    {
+     "subject": "United Kingdom",
+     "relation": "official language",
+     "ans": "Finnish"
+    }
+   ]
+  },
+  {
+   "qid": 79,
+   "gold": "Vienna",
+   "ok": false,
+   "final": "Brooklyn",
+   "start": "Tom Selleck",
+   "rels": [
+    "education",
+    "headquarters location",
+    "work location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Tom Selleck",
+     "relation": "education",
+     "ans": "Academy of Fine Arts Vienna"
+    },
+    {
+     "subject": "Academy of Fine Arts Vienna",
+     "relation": "headquarters location",
+     "ans": "The headquarters of Academy of Fine Arts Vienna is located in the city of Brooklyn."
+    },
+    {
+     "subject": "The headquarters of Academy of Fine Arts Vienna is located in the city of Brooklyn.",
+     "relation": "work location",
+     "ans": "Brooklyn"
+    }
+   ]
+  },
+  {
+   "qid": 80,
+   "gold": "American English",
+   "ok": true,
+   "final": "American English",
+   "start": "Mario Puzo",
+   "rels": [
+    "famous work",
+    "original language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Mario Puzo",
+     "relation": "famous work",
+     "ans": "Billy Elliot the Musical"
+    },
+    {
+     "subject": "Billy Elliot the Musical",
+     "relation": "original language",
+     "ans": "American English"
+    }
+   ]
+  },
+  {
+   "qid": 81,
+   "gold": "Oceania",
+   "ok": true,
+   "final": "Oceania",
+   "start": "Teenage Fanclub",
+   "rels": [
+    "country of origin",
+    "continent"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Teenage Fanclub",
+     "relation": "country of origin",
+     "ans": "Italy"
+    },
+    {
+     "subject": "Italy",
+     "relation": "continent",
+     "ans": "Oceania"
+    }
+   ]
+  },
+  {
+   "qid": 82,
+   "gold": "Riyadh Region",
+   "ok": false,
+   "final": "Mary Baker Eddy does not have a specified work location in the provided memories.",
+   "start": "Edward Mooney",
+   "rels": [
+    "religion",
+    "founder",
+    "work location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Edward Mooney",
+     "relation": "religion",
+     "ans": "Christian Science"
+    },
+    {
+     "subject": "Christian Science",
+     "relation": "founder",
+     "ans": "Mary Baker Eddy"
+    },
+    {
+     "subject": "Mary Baker Eddy",
+     "relation": "work location",
+     "ans": "Mary Baker Eddy does not have a specified work location in the provided memories."
+    }
+   ]
+  },
+  {
+   "qid": 83,
+   "gold": "singer",
+   "ok": true,
+   "final": "singer",
+   "start": "Lalu Prasad Yadav",
+   "rels": [
+    "spouse",
+    "field of work"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Lalu Prasad Yadav",
+     "relation": "spouse",
+     "ans": "Goldust"
+    },
+    {
+     "subject": "Goldust",
+     "relation": "field of work",
+     "ans": "singer"
+    }
+   ]
+  },
+  {
+   "qid": 84,
+   "gold": "Bondi Junction",
+   "ok": false,
+   "final": "Duluth",
+   "start": "Enrico Villanueva",
+   "rels": [
+    "sport",
+    "country of origin",
+    "capital"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Enrico Villanueva",
+     "relation": "sport",
+     "ans": "Enrico Villanueva plays the position of closer."
+    },
+    {
+     "subject": "Enrico Villanueva plays the position of closer.",
+     "relation": "country of origin",
+     "ans": "Italy"
+    },
+    {
+     "subject": "Italy",
+     "relation": "capital",
+     "ans": "Duluth"
+    }
+   ]
+  },
+  {
+   "qid": 85,
+   "gold": "philosopher",
+   "ok": false,
+   "final": "politician",
+   "start": "Julius Caesar",
+   "rels": [
+    "author",
+    "field of work"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Julius Caesar",
+     "relation": "author",
+     "ans": "Aristotle"
+    },
+    {
+     "subject": "Aristotle",
+     "relation": "field of work",
+     "ans": "politician"
+    }
+   ]
+  },
+  {
+   "qid": 86,
+   "gold": "Methodism",
+   "ok": true,
+   "final": "Methodism",
+   "start": "Benigno Aquino Jr.",
+   "rels": [
+    "spouse",
+    "religion"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Benigno Aquino Jr.",
+     "relation": "spouse",
+     "ans": "Corazon Aquino"
+    },
+    {
+     "subject": "Corazon Aquino",
+     "relation": "religion",
+     "ans": "Methodism"
+    }
+   ]
+  },
+  {
+   "qid": 87,
+   "gold": "Ireland",
+   "ok": true,
+   "final": "Ireland",
+   "start": "WWE Tough Enough",
+   "rels": [
+    "creator",
+    "spouse",
+    "citizenship"
+   ],
+   "bad_rels": [
+    "creator"
+   ],
+   "path": [
+    {
+     "subject": "WWE Tough Enough",
+     "relation": "creator",
+     "ans": "William Shakespeare"
+    },
+    {
+     "subject": "William Shakespeare",
+     "relation": "spouse",
+     "ans": "Philip IV of France"
+    },
+    {
+     "subject": "Philip IV of France",
+     "relation": "citizenship",
+     "ans": "Ireland"
+    }
+   ]
+  },
+  {
+   "qid": 88,
+   "gold": "Recep Tayyip Erdoğan",
+   "ok": false,
+   "final": "Guðni Jóhannesson",
+   "start": "\"Outsourced\"",
+   "rels": [
+    "country of origin",
+    "head of state"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "\"Outsourced\"",
+     "relation": "country of origin",
+     "ans": "Turkey"
+    },
+    {
+     "subject": "Turkey",
+     "relation": "head of state",
+     "ans": "Guðni Jóhannesson"
+    }
+   ]
+  },
+  {
+   "qid": 89,
+   "gold": "Red Bank",
+   "ok": false,
+   "final": "The headquarters of British Broadcasting Corporation is located in the city of Red Bank.",
+   "start": "NBA on ABC",
+   "rels": [
+    "original broadcaster",
+    "headquarters location"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "NBA on ABC",
+     "relation": "original broadcaster",
+     "ans": "British Broadcasting Corporation"
+    },
+    {
+     "subject": "British Broadcasting Corporation",
+     "relation": "headquarters location",
+     "ans": "The headquarters of British Broadcasting Corporation is located in the city of Red Bank."
+    }
+   ]
+  },
+  {
+   "qid": 90,
+   "gold": "Gérard Blitz",
+   "ok": true,
+   "final": "Gérard Blitz",
+   "start": "Dzhokhar Dudayev",
+   "rels": [
+    "religion",
+    "founder"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Dzhokhar Dudayev",
+     "relation": "religion",
+     "ans": "Catholic Church"
+    },
+    {
+     "subject": "Catholic Church",
+     "relation": "founder",
+     "ans": "Gérard Blitz"
+    }
+   ]
+  },
+  {
+   "qid": 91,
+   "gold": "Mikhail Gorbachev",
+   "ok": false,
+   "final": "Connachta",
+   "start": "Brad Stevens",
+   "rels": [
+    "sport",
+    "country of origin",
+    "head of state"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Brad Stevens",
+     "relation": "sport",
+     "ans": "basketball"
+    },
+    {
+     "subject": "basketball",
+     "relation": "country of origin",
+     "ans": "United States of America"
+    },
+    {
+     "subject": "United States of America",
+     "relation": "head of state",
+     "ans": "Connachta"
+    }
+   ]
+  },
+  {
+   "qid": 92,
+   "gold": "Lili Bosse",
+   "ok": true,
+   "final": "Lili Bosse",
+   "start": "the 1985 NBA Draft",
+   "rels": [
+    "sport",
+    "country of origin",
+    "head of government"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "the 1985 NBA Draft",
+     "relation": "sport",
+     "ans": "association football"
+    },
+    {
+     "subject": "association football",
+     "relation": "country of origin",
+     "ans": "Italy"
+    },
+    {
+     "subject": "Italy",
+     "relation": "head of government",
+     "ans": "Lili Bosse"
+    }
+   ]
+  },
+  {
+   "qid": 93,
+   "gold": "Bondi Junction",
+   "ok": false,
+   "final": "Harrisville",
+   "start": "Ricky Rubio",
+   "rels": [
+    "sport",
+    "country of origin",
+    "capital",
+    "city"
+   ],
+   "bad_rels": [
+    "city"
+   ],
+   "path": [
+    {
+     "subject": "Ricky Rubio",
+     "relation": "sport",
+     "ans": "basketball"
+    },
+    {
+     "subject": "basketball",
+     "relation": "country of origin",
+     "ans": "United States of America"
+    },
+    {
+     "subject": "United States of America",
+     "relation": "capital",
+     "ans": "Harrisville"
+    },
+    {
+     "subject": "Harrisville",
+     "relation": "city",
+     "ans": "Harrisville"
+    }
+   ]
+  },
+  {
+   "qid": 94,
+   "gold": "English",
+   "ok": true,
+   "final": "English",
+   "start": "Flogging Molly",
+   "rels": [
+    "country of origin",
+    "official language"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Flogging Molly",
+     "relation": "country of origin",
+     "ans": "Germany"
+    },
+    {
+     "subject": "Germany",
+     "relation": "official language",
+     "ans": "English"
+    }
+   ]
+  },
+  {
+   "qid": 95,
+   "gold": "University of Oxford",
+   "ok": true,
+   "final": "University of Oxford",
+   "start": "Link",
+   "rels": [
+    "creator",
+    "employer",
+    "company"
+   ],
+   "bad_rels": [
+    "creator",
+    "company"
+   ],
+   "path": [
+    {
+     "subject": "Link",
+     "relation": "creator",
+     "ans": "Shigeru Miyamoto"
+    },
+    {
+     "subject": "Shigeru Miyamoto",
+     "relation": "employer",
+     "ans": "University of Oxford"
+    },
+    {
+     "subject": "University of Oxford",
+     "relation": "company",
+     "ans": "University of Oxford"
+    }
+   ]
+  },
+  {
+   "qid": 96,
+   "gold": "Australia",
+   "ok": false,
+   "final": "United States of America",
+   "start": "Dave Dombrowski",
+   "rels": [
+    "employer",
+    "sport",
+    "country of origin"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Dave Dombrowski",
+     "relation": "employer",
+     "ans": "Stevenage F.C."
+    },
+    {
+     "subject": "Stevenage F.C.",
+     "relation": "sport",
+     "ans": "American football"
+    },
+    {
+     "subject": "American football",
+     "relation": "country of origin",
+     "ans": "United States of America"
+    }
+   ]
+  },
+  {
+   "qid": 97,
+   "gold": "sumo",
+   "ok": true,
+   "final": "sumo",
+   "start": "Bobby Hurley",
+   "rels": [
+    "position",
+    "sport"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Bobby Hurley",
+     "relation": "position",
+     "ans": "midfielder"
+    },
+    {
+     "subject": "midfielder",
+     "relation": "sport",
+     "ans": "sumo"
+    }
+   ]
+  },
+  {
+   "qid": 98,
+   "gold": "Edinburgh",
+   "ok": false,
+   "final": "Church of Scotland",
+   "start": "Jacqueline Kennedy Onassis",
+   "rels": [
+    "religion",
+    "founder",
+    "employer"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Jacqueline Kennedy Onassis",
+     "relation": "religion",
+     "ans": "Church of Scotland"
+    },
+    {
+     "subject": "Church of Scotland",
+     "relation": "founder",
+     "ans": "Bachir Gemayel"
+    },
+    {
+     "subject": "Bachir Gemayel",
+     "relation": "employer",
+     "ans": "Church of Scotland"
+    }
+   ]
+  },
+  {
+   "qid": 99,
+   "gold": "Epworth",
+   "ok": false,
+   "final": "The birthplace of Joseph Goebbels is not provided in the memorized context.",
+   "start": "Ferdinando I de' Medici",
+   "rels": [
+    "religion",
+    "founder",
+    "birthplace"
+   ],
+   "bad_rels": [],
+   "path": [
+    {
+     "subject": "Ferdinando I de' Medici",
+     "relation": "religion",
+     "ans": "Methodism"
+    },
+    {
+     "subject": "Methodism",
+     "relation": "founder",
+     "ans": "Joseph Goebbels"
+    },
+    {
+     "subject": "Joseph Goebbels",
+     "relation": "birthplace",
+     "ans": "The birthplace of Joseph Goebbels is not provided in the memorized context."
+    }
+   ]
+  }
+ ]
+]

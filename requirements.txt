@@ -1,0 +1,8 @@
+# Core runtime dependencies for WhaleYing Benchmark Lab
+openai>=1.0.0
+python-dotenv>=1.0.0
+rank-bm25>=0.2.2
+
+# Optional dependencies for visualization and dense vector ablations
+sentence-transformers>=2.2.0
+pillow>=10.0.0
