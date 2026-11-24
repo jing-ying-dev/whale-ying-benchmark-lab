@@ -26,7 +26,7 @@ However, an essential empirical question is routinely overlooked: **Does externa
 **WhaleYing Benchmark Lab** is an independent, reproducible evaluation framework built to map cross-model compatibility. Rather than chasing a single vanity benchmark score, this project stress-tests open-source edge models (via Ollama) and proprietary cloud endpoints (via APIs) under identical external scaffolding to identify:
 1. **Positive Compatibility (+)**: Bridging fundamental reasoning/context gaps on edge models.
 2. **Negative Compatibility (-)**: Detecting where intuitive architectural complexity actively degrades accuracy.
-3. **Neutral Compatibility & Bounds (~)**: Pinpointing where complex modules add latency without statistical performance gain.
+3. **Neutral Compatibility & Bounds (~)**: Identifying cases where additional modules increase system complexity or latency without an observed accuracy improvement in the tested configuration.
 
 ---
 
@@ -56,8 +56,8 @@ On the extreme 262k-context multi-hop FactConsolidation task (MemoryAgentBench):
 - **Approaching Proprietary Baselines**: Under the same BM25-only multi-hop scaffolding, **GPT-4o-mini averaged 51.7%** (51/50/54). The lightweight local 3B model approached the proprietary model's performance without relying on cloud reasoning.
 
 ### 2. Negative Compatibility (-): When Added Complexity Yields Regressions
-- **Dense Vector Interference on Multi-Hop**: For GPT-4o-mini on 262k multi-hop chains, switching from lexical BM25-only retrieval (51.7% mean) to a hybrid configuration combining BM25, dense embeddings (`all-MiniLM-L6-v2`), and RRF rank fusion dropped accuracy to **49.7% (-2.0pp)** across three runs. In deterministic multi-hop reasoning, vector semantic fuzziness introduced noise.
-- **Temporal State Folding Trade-Off**: On the 1,986-question LoCoMo conversational benchmark, our full configuration scored **36.3%** official F1, compared to **38.6%** for a no-folding BM25-only configuration (**-2.3pp**). State folding—designed to overwrite outdated facts—proves counterproductive when a task explicitly queries historical conversation states.
+- **Dense Vector Interference on Multi-Hop**: For GPT-4o-mini on 262k multi-hop chains, switching from lexical BM25-only retrieval (51.7% mean) to a hybrid configuration combining BM25, dense embeddings (`all-MiniLM-L6-v2`), and RRF rank fusion dropped accuracy to **49.7% (-2.0pp)** across three runs. This result shows that the tested hybrid configuration did not improve multi-hop accuracy over BM25-only retrieval in this evaluation. The cause of the observed difference remains undetermined.
+- **Temporal State Folding Trade-Off**: On the 1,986-question LoCoMo conversational benchmark, our full configuration scored **36.3%** official F1, compared to **38.6%** for a no-folding BM25-only configuration (-2.3pp). Since multiple components differed between the configurations, this comparison does not isolate the effect of state folding or dense retrieval. Further ablations are needed to determine which components contributed to the observed difference.
 
 ### 3. Neutral Compatibility & Boundary Conditions (~)
 - **Zero-LLM Rerank Parity**: In 262k single-hop ablations, mechanical reranking based directly on BM25 retrieval scores achieved **92%**, exactly matching a DeepSeek-reranked baseline (**92%**) using the same 7B answering model (a 7B neural reranker scored 91%). In this setup, an additional neural reranking call provided no score advantage.
@@ -75,7 +75,7 @@ Beyond final exact-match scores, the harness audits hop-by-hop factual resolutio
 | **GPT-4o-mini + BM25-only** | **94.1%** (495 / 526) | **51.7%** (3-run mean) | Strong single-hop accuracy translates directly to top final performance. |
 | **GPT-4o-mini + Hybrid (BM25+Vec+RRF)** | **94.0%** (489 / 520) | **49.7%** (3-run mean) | Hop accuracy is virtually identical, but answer synthesis degrades (-2.0pp). |
 
-This reveals a crucial architectural lesson: **final multi-hop failures in hybrid retrieval do not stem from retrieval recall failure, but from sub-question drift and answer assembly degradation caused by competing candidate noise.**
+This reveals an important observation: **although hop-level accuracy was nearly identical between the BM25-only and hybrid retrieval configurations, their final multi-hop scores differed by 2.0 percentage points. Intermediate retrieval accuracy alone may not fully explain final answer performance, and further trace-level analysis is needed to identify where the difference emerges.**
 
 ---
 
