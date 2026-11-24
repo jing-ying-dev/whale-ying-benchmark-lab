@@ -1,0 +1,3208 @@
+{
+ "0": {
+  "qid": 0,
+  "question": "What is the country of origin of the sport played by Christian Abbiati?",
+  "gold": "Philippines",
+  "srl": [
+   {
+    "predicate": "played",
+    "arg0": "Christian Abbiati",
+    "arg1": "the sport",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return Christian Abbiati",
+   "return the sport of #1",
+   "return the country of origin of #2"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "sport",
+    true
+   ],
+   [
+    "country of origin",
+    true
+   ]
+  ]
+ },
+ "1": {
+  "qid": 1,
+  "question": "Which religion is the country of citizenship of Karl Lueger predominantly associated with?",
+  "gold": "atheism",
+  "steps": [
+   "return Karl Lueger",
+   "return the citizenship of #1",
+   "return the religion of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "associated with",
+    "arg0": "the country of citizenship of Karl Lueger",
+    "arg1": "religion",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "2": {
+  "qid": 2,
+  "question": "The continent where the country of citizenship of the spouse of the author of \"American Pastoral\" is related to is what?",
+  "gold": "Oceania",
+  "steps": [
+   "return \"American Pastoral\"",
+   "return the author of #1",
+   "return the spouse of #2",
+   "return the citizenship of #3",
+   "return the continent of #4"
+  ],
+  "srl": [
+   {
+    "predicate": "authored",
+    "arg0": "the author",
+    "arg1": "\"American Pastoral\"",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "spouse of",
+    "arg0": "the author",
+    "arg1": "the spouse",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "citizenship of",
+    "arg0": "the spouse",
+    "arg1": "the country of citizenship",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "continent where ... is related to",
+    "arg0": "the country of citizenship",
+    "arg1": "the continent",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "3": {
+  "qid": 3,
+  "question": "What is the place of origin for the broadcaster who first aired \"Your Hit Parade\"?",
+  "gold": "Paris",
+  "steps": [
+   "return \"Your Hit Parade\"",
+   "return the original broadcaster of #1",
+   "return the country of origin of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "aired",
+    "arg0": "the broadcaster",
+    "arg1": "\"Your Hit Parade\"",
+    "asked": "arg0"
+   }
+  ]
+ },
+ "4": {
+  "qid": 4,
+  "question": "What is the name of the language in which Valmiki wrote his notable works?",
+  "gold": "English",
+  "srl": [
+   {
+    "predicate": "wrote",
+    "arg0": "Valmiki",
+    "arg1": "his notable works",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return Valmiki",
+   "return the famous work of #1",
+   "return the original language of #2"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "famous work",
+    true
+   ],
+   [
+    "original language",
+    true
+   ]
+  ]
+ },
+ "5": {
+  "qid": 5,
+  "question": "What is the language officially spoken in the country where the spouse of the Chief Executive Officer of CBS Corporation holds citizenship?",
+  "gold": "Walloon",
+  "srl": [
+   {
+    "predicate": "holds citizenship",
+    "arg0": "the spouse of the Chief Executive Officer of CBS Corporation",
+    "arg1": "citizenship",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "Chief Executive Officer",
+    "arg0": "the Chief Executive Officer",
+    "arg1": "CBS Corporation",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "spouse",
+    "arg0": "the spouse",
+    "arg1": "the Chief Executive Officer of CBS Corporation",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "officially spoken",
+    "arg0": "the country",
+    "arg1": "the language",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return CBS Corporation",
+   "return the chief executive officer of #1",
+   "return the spouse of #2",
+   "return the citizenship of #3",
+   "return the country of origin of #4",
+   "return the official language of #5"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "chief executive officer",
+    true
+   ],
+   [
+    "spouse",
+    true
+   ],
+   [
+    "citizenship",
+    true
+   ],
+   [
+    "country of origin",
+    true
+   ],
+   [
+    "official language",
+    true
+   ]
+  ]
+ },
+ "6": {
+  "qid": 6,
+  "question": "Which language was the one in which Melvil Dewey produced their notable work?",
+  "gold": "Italian",
+  "steps": [
+   "return Melvil Dewey",
+   "return the famous work of #1",
+   "return the original language of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "produced",
+    "arg0": "Melvil Dewey",
+    "arg1": "their notable work",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "7": {
+  "qid": 7,
+  "question": "In which language does the director/manager, who is affiliated with \"Revolver\", communicate officially in their country of citizenship?",
+  "gold": "Arabic",
+  "srl": [
+   {
+    "predicate": "affiliated with",
+    "arg0": "the director/manager",
+    "arg1": "Revolver",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "communicate officially",
+    "arg0": "the director/manager",
+    "arg1": "language",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return Revolver",
+   "return the director of #1",
+   "return the citizenship of #2",
+   "return the official language of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "director",
+    true
+   ],
+   [
+    "citizenship",
+    true
+   ],
+   [
+    "official language",
+    true
+   ]
+  ]
+ },
+ "8": {
+  "qid": 8,
+  "question": "In which school did the author of \"Measure for Measure\" receive their education?",
+  "gold": "University of Oxford",
+  "srl": [
+   {
+    "predicate": "authored",
+    "arg0": "the author",
+    "arg1": "\"Measure for Measure\"",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "receive their education",
+    "arg0": "the author of \"Measure for Measure\"",
+    "arg1": "their education",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return \"Measure for Measure\"",
+   "return the author of #1",
+   "return the education of #2"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "author",
+    true
+   ],
+   [
+    "education",
+    true
+   ]
+  ]
+ },
+ "9": {
+  "qid": 9,
+  "question": "What is the name of the person who created the language used as the official language of the headquarters of FC Viikingit?",
+  "gold": "L. L. Zamenhof",
+  "steps": [
+   "return FC Viikingit",
+   "return the headquarters location of #1",
+   "return the official language of #2",
+   "return the original language of #3",
+   "return the author of #4"
+  ],
+  "srl": [
+   {
+    "predicate": "created",
+    "arg0": "the person",
+    "arg1": "the language",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "used as",
+    "arg0": "the language",
+    "arg1": "the official language",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "headquarters",
+    "arg0": "FC Viikingit",
+    "arg1": "the headquarters",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "10": {
+  "qid": 10,
+  "question": "What continent does the place of birth of the chief executive officer of Visual Basic .NET belong to?",
+  "gold": "Oceania",
+  "steps": [
+   "return Visual Basic .NET",
+   "return the chief executive officer of #1",
+   "return the birthplace of #2",
+   "return the continent of #3"
+  ],
+  "srl": [
+   {
+    "predicate": "chief executive officer of",
+    "arg0": "the chief executive officer",
+    "arg1": "Visual Basic .NET",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "place of birth of",
+    "arg0": "the chief executive officer of Visual Basic .NET",
+    "arg1": "the place of birth",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "belong to",
+    "arg0": "the place of birth of the chief executive officer of Visual Basic .NET",
+    "arg1": "continent",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "11": {
+  "qid": 11,
+  "question": "Where was the person who created the religion that Giulio Alberoni was associated with born?",
+  "gold": "Epworth",
+  "srl": [
+   {
+    "predicate": "created",
+    "arg0": "the person",
+    "arg1": "the religion",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "associated with",
+    "arg0": "Giulio Alberoni",
+    "arg1": "the religion",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return Giulio Alberoni",
+   "return the religion of #1",
+   "return the founder of #2",
+   "return the birthplace of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "religion",
+    true
+   ],
+   [
+    "founder",
+    true
+   ],
+   [
+    "birthplace",
+    true
+   ]
+  ]
+ },
+ "12": {
+  "qid": 12,
+  "question": "What is the location of the head office of the broadcaster that originally aired \"Adventures in Paradise\"?",
+  "gold": "Knoxville",
+  "steps": [
+   "return Adventures in Paradise",
+   "return the original broadcaster of #1",
+   "return the headquarters location of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "aired",
+    "arg0": "the broadcaster",
+    "arg1": "Adventures in Paradise",
+    "asked": "arg0"
+   }
+  ]
+ },
+ "13": {
+  "qid": 13,
+  "question": "What is the notable work of the performer associated with Miley Stewart?",
+  "gold": "Gundam",
+  "steps": [
+   "return Miley Stewart",
+   "return the performer of #1",
+   "return the famous work of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "associated with",
+    "arg0": "Miley Stewart",
+    "arg1": "the performer",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "performed",
+    "arg0": "the performer",
+    "arg1": "notable work",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "14": {
+  "qid": 14,
+  "question": "To which continent does Fernando Lugo belong based on his citizenship?",
+  "gold": "Oceania",
+  "steps": [
+   "return Fernando Lugo",
+   "return the citizenship of #1",
+   "return the continent of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "belong",
+    "arg0": "Fernando Lugo",
+    "arg1": "continent",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "15": {
+  "qid": 15,
+  "question": "What is the place of the headquarters of the educational institution where Stewart Udall received his education?",
+  "gold": "Long Beach",
+  "steps": [
+   "return Stewart Udall",
+   "return the education of #1",
+   "return the headquarters location of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "received education",
+    "arg0": "Stewart Udall",
+    "arg1": "the educational institution",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "headquarters",
+    "arg0": "the educational institution",
+    "arg1": "the place of headquarters",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "16": {
+  "qid": 16,
+  "question": "What is the continent of the country of citizenship of the person who founded International Judo Federation?",
+  "gold": "Europe",
+  "srl": [
+   {
+    "predicate": "founded",
+    "arg0": "the person",
+    "arg1": "International Judo Federation",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return International Judo Federation",
+   "return the founder of #1",
+   "return the citizenship of #2",
+   "return the continent of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "founder",
+    true
+   ],
+   [
+    "citizenship",
+    true
+   ],
+   [
+    "continent",
+    true
+   ]
+  ]
+ },
+ "17": {
+  "qid": 17,
+  "question": "In which country was the individual who founded Duquesne University born?",
+  "gold": "Epworth",
+  "srl": [
+   {
+    "predicate": "founded",
+    "arg0": "the individual",
+    "arg1": "Duquesne University",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return Duquesne University",
+   "return the founder of #1",
+   "return the birthplace of #2"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "founder",
+    true
+   ],
+   [
+    "birthplace",
+    true
+   ]
+  ]
+ },
+ "18": {
+  "qid": 18,
+  "question": "Which city serves as the capital of the country where the manufacturer which created Ford Ranger was founded?",
+  "gold": "Paris",
+  "srl": [
+   {
+    "predicate": "created",
+    "arg0": "the manufacturer",
+    "arg1": "Ford Ranger",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "founded",
+    "arg0": "the manufacturer",
+    "arg1": "the country",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "serves as the capital",
+    "arg0": "which city",
+    "arg1": "the country",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return Ford Ranger",
+   "return the manufacturer of #1",
+   "return the founding place of #2",
+   "return the country of origin of #3",
+   "return the capital of #4"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "manufacturer",
+    true
+   ],
+   [
+    "founding place",
+    true
+   ],
+   [
+    "country of origin",
+    true
+   ],
+   [
+    "capital",
+    true
+   ]
+  ]
+ },
+ "19": {
+  "qid": 19,
+  "question": "Which city is the capital of the country that created the sport associated with Peter Schmeichel's position?",
+  "gold": "Dublin",
+  "srl": [
+   {
+    "predicate": "created",
+    "arg0": "the country",
+    "arg1": "the sport",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "associated with",
+    "arg0": "the sport",
+    "arg1": "Peter Schmeichel's position",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return Peter Schmeichel's position",
+   "return the sport of #1",
+   "return the country of origin of #2",
+   "return the capital of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "sport",
+    true
+   ],
+   [
+    "country of origin",
+    true
+   ],
+   [
+    "capital",
+    true
+   ]
+  ]
+ },
+ "20": {
+  "qid": 20,
+  "question": "Who holds the title of head of state in the country where the sport that Halifax Town A.F.C. is associated with was originated?",
+  "gold": "Sergio Mattarella",
+  "srl": [
+   {
+    "predicate": "associated with",
+    "arg0": "Halifax Town A.F.C.",
+    "arg1": "the sport",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "originated",
+    "arg0": "the sport",
+    "arg1": "the country",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "holds",
+    "arg0": "the head of state",
+    "arg1": "the title",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return Halifax Town A.F.C.",
+   "return the sport of #1",
+   "return the country of origin of #2",
+   "return the head of state of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "sport",
+    true
+   ],
+   [
+    "country of origin",
+    true
+   ],
+   [
+    "head of state",
+    true
+   ]
+  ]
+ },
+ "21": {
+  "qid": 21,
+  "question": "Which continent is the country of citizenship of Gustav Vigeland located in?",
+  "gold": "Asia",
+  "steps": [
+   "return Gustav Vigeland",
+   "return the citizenship of #1",
+   "return the continent of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "located in",
+    "arg0": "the country of citizenship of Gustav Vigeland",
+    "arg1": "continent",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "22": {
+  "qid": 22,
+  "question": "What is the country of origin of the sport associated with John Beilein's occupation?",
+  "gold": "Japan",
+  "srl": [
+   {
+    "predicate": "associated with",
+    "arg0": "John Beilein's occupation",
+    "arg1": "the sport",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return John Beilein's occupation",
+   "return the sport of #1",
+   "return the country of origin of #2"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "sport",
+    true
+   ],
+   [
+    "country of origin",
+    true
+   ]
+  ]
+ },
+ "23": {
+  "qid": 23,
+  "question": "What is the name of the employer of Lynn Margulis' spouse?",
+  "gold": "British Broadcasting Corporation",
+  "steps": [
+   "return Lynn Margulis",
+   "return the spouse of #1",
+   "return the employer of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "employed",
+    "arg0": "Lynn Margulis' spouse",
+    "arg1": "the employer",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "24": {
+  "qid": 24,
+  "question": "What kind of sports is Tina Charles into, based on the position she plays in her team?",
+  "gold": "American football",
+  "steps": [
+   "return Tina Charles",
+   "return the position of #1",
+   "return the sport of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "plays",
+    "arg0": "Tina Charles",
+    "arg1": "the position",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "into",
+    "arg0": "Tina Charles",
+    "arg1": "sports",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "25": {
+  "qid": 25,
+  "question": "What is the continent of the country where the director / manager of \"Please Please Me\" holds citizenship?",
+  "gold": "Oceania",
+  "srl": [
+   {
+    "predicate": "director / manager",
+    "arg0": "the director / manager",
+    "arg1": "Please Please Me",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "holds citizenship",
+    "arg0": "the director / manager of \"Please Please Me\"",
+    "arg1": "the country",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return \"Please Please Me\"",
+   "return the director of #1",
+   "return the citizenship of #2",
+   "return the continent of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "director",
+    true
+   ],
+   [
+    "citizenship",
+    true
+   ],
+   [
+    "continent",
+    true
+   ]
+  ]
+ },
+ "26": {
+  "qid": 26,
+  "question": "What is the birthplace of the spouse of Bianca Jagger?",
+  "gold": "North Charleston",
+  "steps": [
+   "return Bianca Jagger",
+   "return the spouse of #1",
+   "return the birthplace of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "spouse of",
+    "arg0": "Bianca Jagger",
+    "arg1": "the spouse",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "27": {
+  "qid": 27,
+  "question": "What city served as the capital of the country to which the founder of the sport played in the 2014 World Judo Championships belonged?",
+  "gold": "New Delhi",
+  "steps": [
+   "return the 2014 World Judo Championships",
+   "return the sport of #1",
+   "return the founder of #2",
+   "return the country of origin of #3",
+   "return the capital of #4"
+  ],
+  "srl": [
+   {
+    "predicate": "played",
+    "arg0": "the founder of the sport",
+    "arg1": "the sport played in the 2014 World Judo Championships",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "founded",
+    "arg0": "the founder",
+    "arg1": "the sport",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "belonged",
+    "arg0": "the founder",
+    "arg1": "the country",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "served as",
+    "arg0": "the city",
+    "arg1": "the capital",
+    "asked": "arg0"
+   }
+  ]
+ },
+ "28": {
+  "qid": 28,
+  "question": "In which city is the seat of government located in the country where Family Force 5 came from?",
+  "gold": "Bondi Junction",
+  "steps": [
+   "return Family Force 5",
+   "return the country of origin of #1",
+   "return the seat of government of #2",
+   "return the city of #3"
+  ],
+  "srl": [
+   {
+    "predicate": "came from",
+    "arg0": "Family Force 5",
+    "arg1": "the country",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "is located in",
+    "arg0": "the seat of government",
+    "arg1": "the city",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "29": {
+  "qid": 29,
+  "question": "What location was the place of death of the author of Carmilla?",
+  "gold": "New York City",
+  "steps": [
+   "return Carmilla",
+   "return the author of #1",
+   "return the place of death of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "authored",
+    "arg0": "the author",
+    "arg1": "Carmilla",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "died",
+    "arg0": "the author of Carmilla",
+    "arg1": "the place of death",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "30": {
+  "qid": 30,
+  "question": "From what country does the music genre of Dave Matthews Band originate?",
+  "gold": "Spain",
+  "steps": [
+   "return Dave Matthews Band",
+   "return the genre of #1",
+   "return the country of origin of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "originate",
+    "arg0": "the music genre of Dave Matthews Band",
+    "arg1": "country",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "31": {
+  "qid": 31,
+  "question": "Who holds the position of chairperson at the organization where Stephen Greenblatt is employed?",
+  "gold": "Mike Cheston",
+  "steps": [
+   "return Stephen Greenblatt",
+   "return the employer of #1",
+   "return the chairperson of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "employed",
+    "arg0": "Stephen Greenblatt",
+    "arg1": "the organization",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "holds",
+    "arg0": "who",
+    "arg1": "the position of chairperson",
+    "asked": "arg0"
+   }
+  ]
+ },
+ "32": {
+  "qid": 32,
+  "question": "What is the language recognized as the official medium of communication in the country where the director/manager of the performer with ID 1 is a citizen?",
+  "gold": "Arabic",
+  "srl": [
+   {
+    "predicate": "recognized as",
+    "arg0": "the language",
+    "arg1": "official medium of communication",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "director/manager of",
+    "arg0": "the director/manager",
+    "arg1": "the performer with ID 1",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "is a citizen of",
+    "arg0": "the director/manager of the performer with ID 1",
+    "arg1": "the country",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return the performer with ID 1",
+   "return the director/manager of #1",
+   "return the citizenship of #2",
+   "return the official language of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "director/manager",
+    false
+   ],
+   [
+    "citizenship",
+    true
+   ],
+   [
+    "official language",
+    true
+   ]
+  ]
+ },
+ "33": {
+  "qid": 33,
+  "question": "Who is responsible for the founding of the religious group that has its roots in the institution where James Michael Curley received his education?",
+  "gold": "Gérard Blitz",
+  "steps": [
+   "return James Michael Curley",
+   "return the education of #1",
+   "return the religious group that has roots in #2",
+   "return the founder of #3"
+  ],
+  "srl": [
+   {
+    "predicate": "founded",
+    "arg0": "the person responsible",
+    "arg1": "the religious group",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "has roots in",
+    "arg0": "the religious group",
+    "arg1": "the institution",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "received education",
+    "arg0": "James Michael Curley",
+    "arg1": "the institution",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "34": {
+  "qid": 34,
+  "question": "In what city did the individual who established Metz Cathedral have their occupation?",
+  "gold": "London",
+  "srl": [
+   {
+    "predicate": "established",
+    "arg0": "the individual",
+    "arg1": "Metz Cathedral",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return Metz Cathedral",
+   "return the founder of #1",
+   "return the work location of #2"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "founder",
+    true
+   ],
+   [
+    "work location",
+    true
+   ]
+  ]
+ },
+ "35": {
+  "qid": 35,
+  "question": "What is the capital city of the country which Sumie Sakai's sport founder holds citizenship in?",
+  "gold": "New Delhi",
+  "srl": [
+   {
+    "predicate": "holds",
+    "arg0": "the founder of Sumie Sakai's sport",
+    "arg1": "citizenship",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "founded",
+    "arg0": "the founder",
+    "arg1": "Sumie Sakai's sport",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return Sumie Sakai",
+   "return the sport of #1",
+   "return the founder of #2",
+   "return the citizenship of #3",
+   "return the country of #4",
+   "return the capital of #5"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "sport",
+    true
+   ],
+   [
+    "founder",
+    true
+   ],
+   [
+    "citizenship",
+    true
+   ],
+   [
+    "country",
+    false
+   ],
+   [
+    "capital",
+    true
+   ]
+  ]
+ },
+ "36": {
+  "qid": 36,
+  "question": "What is the name of the city which is the capital of the country where the director/manager of \"Back in the U.S.S.R.\" holds citizenship?",
+  "gold": "Canberra",
+  "srl": [
+   {
+    "predicate": "director/manager of",
+    "arg0": "the director/manager",
+    "arg1": "\"Back in the U.S.S.R.\"",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "holds citizenship",
+    "arg0": "the director/manager of \"Back in the U.S.S.R.\"",
+    "arg1": "the country",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "is the capital of",
+    "arg0": "the city",
+    "arg1": "the country",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return \"Back in the U.S.S.R.\"",
+   "return the director of #1",
+   "return the citizenship of #2",
+   "return the capital of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "director",
+    true
+   ],
+   [
+    "citizenship",
+    true
+   ],
+   [
+    "capital",
+    true
+   ]
+  ]
+ },
+ "37": {
+  "qid": 37,
+  "question": "What was the name of the person who founded the religion that Gabriel Narutowicz belonged to?",
+  "gold": "Gérard Blitz",
+  "steps": [
+   "return Gabriel Narutowicz",
+   "return the religion of #1",
+   "return the founder of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "founded",
+    "arg0": "the person",
+    "arg1": "the religion",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "belonged to",
+    "arg0": "Gabriel Narutowicz",
+    "arg1": "the religion",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "38": {
+  "qid": 38,
+  "question": "In which language are the official documents written in the country of citizenship of Nate \"Tiny\" Archibald?",
+  "gold": "German",
+  "steps": [
+   "return Nate \"Tiny\" Archibald",
+   "return the citizenship of #1",
+   "return the official language of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "written",
+    "arg0": "official documents",
+    "arg1": "language",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "citizenship",
+    "arg0": "Nate \"Tiny\" Archibald",
+    "arg1": "country",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "39": {
+  "qid": 39,
+  "question": "What is the name of the school where the author of \"La Celestina\" studied?",
+  "gold": "Princeton University",
+  "steps": [
+   "return La Celestina",
+   "return the author of #1",
+   "return the education of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "authored",
+    "arg0": "the author",
+    "arg1": "La Celestina",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "studied",
+    "arg0": "the author of La Celestina",
+    "arg1": "the school",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "40": {
+  "qid": 40,
+  "question": "Which language is considered the official language of the religion that Malik Kafur practiced?",
+  "gold": "Picard",
+  "srl": [
+   {
+    "predicate": "practiced",
+    "arg0": "Malik Kafur",
+    "arg1": "the religion",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "is considered the official language of",
+    "arg0": "which language",
+    "arg1": "the religion",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return Malik Kafur",
+   "return the religion of #1",
+   "return the official language of #2"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "religion",
+    true
+   ],
+   [
+    "official language",
+    true
+   ]
+  ]
+ },
+ "41": {
+  "qid": 41,
+  "question": "What is the name of the individual who both directed and managed the performer on \"Yesterday and Today\"?",
+  "gold": "Narendra Modi",
+  "srl": [
+   {
+    "predicate": "directed",
+    "arg0": "the individual",
+    "arg1": "the performer on \"Yesterday and Today\"",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "managed",
+    "arg0": "the individual",
+    "arg1": "the performer on \"Yesterday and Today\"",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return \"Yesterday and Today\"",
+   "return the performer of #1",
+   "return the director of #2",
+   "return the manager of #2"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "performer",
+    true
+   ],
+   [
+    "director",
+    true
+   ],
+   [
+    "manager",
+    false
+   ]
+  ]
+ },
+ "42": {
+  "qid": 42,
+  "question": "What city serves as the capital of the country where the sport played by Derek Holland originated?",
+  "gold": "Ottawa",
+  "srl": [
+   {
+    "predicate": "played",
+    "arg0": "Derek Holland",
+    "arg1": "the sport",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "originated",
+    "arg0": "the sport",
+    "arg1": "the country",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "serves as capital",
+    "arg0": "the city",
+    "arg1": "the country",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return Derek Holland",
+   "return the sport of #1",
+   "return the country of origin of #2",
+   "return the capital of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "sport",
+    true
+   ],
+   [
+    "country of origin",
+    true
+   ],
+   [
+    "capital",
+    true
+   ]
+  ]
+ },
+ "43": {
+  "qid": 43,
+  "question": "What are the languages that the chairperson of Muttahida Qaumi Movement is fluent in when speaking, writing, or signing?",
+  "gold": "English",
+  "steps": [
+   "return Muttahida Qaumi Movement",
+   "return the chairperson of #1",
+   "return the languages of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "chairperson of",
+    "arg0": "the chairperson",
+    "arg1": "Muttahida Qaumi Movement",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "fluent in",
+    "arg0": "the chairperson of Muttahida Qaumi Movement",
+    "arg1": "the languages",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "44": {
+  "qid": 44,
+  "question": "What city serves as the capital of the country that Ragini Dwivedi belongs to?",
+  "gold": "Rupnagar",
+  "steps": [
+   "return Ragini Dwivedi",
+   "return the citizenship of #1",
+   "return the capital of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "belongs to",
+    "arg0": "Ragini Dwivedi",
+    "arg1": "the country",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "serves as capital",
+    "arg0": "the city",
+    "arg1": "the country",
+    "asked": "arg0"
+   }
+  ]
+ },
+ "45": {
+  "qid": 45,
+  "question": "What is the place of demise of the author of the book \"Dubliners\"?",
+  "gold": "London",
+  "steps": [
+   "return the book \"Dubliners\"",
+   "return the author of #1",
+   "return the place of death of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "authored",
+    "arg0": "the author",
+    "arg1": "the book \"Dubliners\"",
+    "asked": "arg0"
+   }
+  ]
+ },
+ "46": {
+  "qid": 46,
+  "question": "Where is the headquarters of the company that developed Sailfish OS located?",
+  "gold": "Normanton",
+  "steps": [
+   "return Sailfish OS",
+   "return the developer of #1",
+   "return the headquarters location of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "developed",
+    "arg0": "the company",
+    "arg1": "Sailfish OS",
+    "asked": "arg0"
+   }
+  ]
+ },
+ "47": {
+  "qid": 47,
+  "question": "Which city serves as the capital of the country of origin of the sport that David Price plays?",
+  "gold": "Manila",
+  "srl": [
+   {
+    "predicate": "plays",
+    "arg0": "David Price",
+    "arg1": "the sport",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "serves as capital of",
+    "arg0": "Which city",
+    "arg1": "the country",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return David Price",
+   "return the sport of #1",
+   "return the country of origin of #2",
+   "return the capital of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "sport",
+    true
+   ],
+   [
+    "country of origin",
+    true
+   ],
+   [
+    "capital",
+    true
+   ]
+  ]
+ },
+ "48": {
+  "qid": 48,
+  "question": "Which language is the official language of the country where the spouse of the artist who sang \"All of Me\" comes from?",
+  "gold": "Spanish",
+  "srl": [
+   {
+    "predicate": "sang",
+    "arg0": "the artist",
+    "arg1": "All of Me",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "spouse of",
+    "arg0": "the artist",
+    "arg1": "the spouse",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "comes from",
+    "arg0": "the spouse",
+    "arg1": "the country",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "official language of",
+    "arg0": "the country",
+    "arg1": "the official language",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return All of Me",
+   "return the performer of #1",
+   "return the spouse of #2",
+   "return the country of origin of #3",
+   "return the official language of #4"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "performer",
+    true
+   ],
+   [
+    "spouse",
+    true
+   ],
+   [
+    "country of origin",
+    true
+   ],
+   [
+    "official language",
+    true
+   ]
+  ]
+ },
+ "49": {
+  "qid": 49,
+  "question": "What is the birthplace of the person who created Indiana Jones?",
+  "gold": "Lüftelberg",
+  "steps": [
+   "return Indiana Jones",
+   "return the founder of #1",
+   "return the birthplace of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "created",
+    "arg0": "the person",
+    "arg1": "Indiana Jones",
+    "asked": "arg0"
+   }
+  ]
+ },
+ "50": {
+  "qid": 50,
+  "question": "What is the name of the person who leads the company that produces the Chevrolet Chevelle?",
+  "gold": "David Potts",
+  "steps": [
+   "return the Chevrolet Chevelle",
+   "return the manufacturer of #1",
+   "return the chief executive officer of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "leads",
+    "arg0": "the person",
+    "arg1": "the company",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "produces",
+    "arg0": "the company",
+    "arg1": "the Chevrolet Chevelle",
+    "asked": "arg0"
+   }
+  ]
+ },
+ "51": {
+  "qid": 51,
+  "question": "Which profession does the chairperson of the Economic Freedom Fighters belong to?",
+  "gold": "composer",
+  "steps": [
+   "return Economic Freedom Fighters",
+   "return the chairperson of #1",
+   "return the profession of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "belong to",
+    "arg0": "the chairperson of the Economic Freedom Fighters",
+    "arg1": "profession",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "52": {
+  "qid": 52,
+  "question": "Which continent is the place of birth of the CEO of the developer of Windows Aero located in?",
+  "gold": "Africa",
+  "srl": [
+   {
+    "predicate": "developed",
+    "arg0": "the developer",
+    "arg1": "Windows Aero",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "is CEO of",
+    "arg0": "the CEO",
+    "arg1": "the developer",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "born in",
+    "arg0": "the CEO",
+    "arg1": "the place of birth",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return Windows Aero",
+   "return the developer of #1",
+   "return the chief executive officer of #2",
+   "return the birthplace of #3",
+   "return the continent of #4"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "developer",
+    true
+   ],
+   [
+    "chief executive officer",
+    true
+   ],
+   [
+    "birthplace",
+    true
+   ],
+   [
+    "continent",
+    true
+   ]
+  ]
+ },
+ "53": {
+  "qid": 53,
+  "question": "Who currently holds the position of head of government in the country where the genre of Julian Lennon was founded?",
+  "gold": "Ole Johan Vierdal",
+  "srl": [
+   {
+    "predicate": "founded",
+    "arg0": "Julian Lennon",
+    "arg1": "the genre",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "holds",
+    "arg0": "who",
+    "arg1": "the position of head of government",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return Julian Lennon",
+   "return the genre of #1",
+   "return the country of origin of #2",
+   "return the head of government of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "genre",
+    true
+   ],
+   [
+    "country of origin",
+    true
+   ],
+   [
+    "head of government",
+    true
+   ]
+  ]
+ },
+ "54": {
+  "qid": 54,
+  "question": "In which city did the founder of the religion of Steve Cooley have their work location?",
+  "gold": "Washington, D.C.",
+  "srl": [
+   {
+    "predicate": "founded",
+    "arg0": "the founder",
+    "arg1": "the religion of Steve Cooley",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "have work location",
+    "arg0": "the founder of the religion of Steve Cooley",
+    "arg1": "their work location",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return Steve Cooley",
+   "return the religion of #1",
+   "return the founder of #2",
+   "return the work location of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "religion",
+    true
+   ],
+   [
+    "founder",
+    true
+   ],
+   [
+    "work location",
+    true
+   ]
+  ]
+ },
+ "55": {
+  "qid": 55,
+  "question": "Which city serves as the capital of the country where the director/manager of the original broadcaster of The Partridge Family is a citizen of?",
+  "gold": "Oderzo",
+  "srl": [
+   {
+    "predicate": "serves as",
+    "arg0": "Which city",
+    "arg1": "the capital",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "is a citizen of",
+    "arg0": "the director/manager",
+    "arg1": "the country",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "managed",
+    "arg0": "the director/manager",
+    "arg1": "the original broadcaster",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "broadcast",
+    "arg0": "the original broadcaster",
+    "arg1": "The Partridge Family",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return The Partridge Family",
+   "return the original broadcaster of #1",
+   "return the director of #2",
+   "return the citizenship of #3",
+   "return the capital of #4"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "original broadcaster",
+    true
+   ],
+   [
+    "director",
+    true
+   ],
+   [
+    "citizenship",
+    true
+   ],
+   [
+    "capital",
+    true
+   ]
+  ]
+ },
+ "56": {
+  "qid": 56,
+  "question": "What is the name of the person who was in charge of the organization that Philip Agee worked for?",
+  "gold": "Christopher A. Wray",
+  "steps": [
+   "return Philip Agee",
+   "return the employer of #1",
+   "return the chief executive officer of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "worked for",
+    "arg0": "Philip Agee",
+    "arg1": "the organization",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "was in charge of",
+    "arg0": "the person",
+    "arg1": "the organization",
+    "asked": "arg0"
+   }
+  ]
+ },
+ "57": {
+  "qid": 57,
+  "question": "What is the birthplace of the person who established the religion of Saint Eligius?",
+  "gold": "Epworth",
+  "srl": [
+   {
+    "predicate": "established",
+    "arg0": "the person",
+    "arg1": "the religion of Saint Eligius",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return the religion of Saint Eligius",
+   "return the founder of #1",
+   "return the birthplace of #2"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "founder",
+    true
+   ],
+   [
+    "birthplace",
+    true
+   ]
+  ]
+ },
+ "58": {
+  "qid": 58,
+  "question": "What is the authorship's greatest contribution to literature of the book \"The Age of Reason\"?",
+  "gold": "Natya Shastra",
+  "steps": [
+   "return The Age of Reason",
+   "return the author of #1",
+   "return the famous work of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "authored",
+    "arg0": "the author",
+    "arg1": "The Age of Reason",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "59": {
+  "qid": 59,
+  "question": "What is the birthplace of the current holder of the Illinois Attorney General's office?",
+  "gold": "Higashiyamanashi District, Yamanashi",
+  "steps": [
+   "return the Illinois Attorney General's office",
+   "return the current holder of #1",
+   "return the birthplace of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "holder",
+    "arg0": "the current holder",
+    "arg1": "the Illinois Attorney General's office",
+    "asked": "arg0"
+   }
+  ]
+ },
+ "60": {
+  "qid": 60,
+  "question": "Which historical or religious figure established the religion that Nicholas V is affiliated with?",
+  "gold": "Lyndon B. Johnson",
+  "steps": [
+   "return Nicholas V",
+   "return the religion of #1",
+   "return the founder of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "established",
+    "arg0": "historical or religious figure",
+    "arg1": "the religion",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "is affiliated with",
+    "arg0": "Nicholas V",
+    "arg1": "the religion",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "61": {
+  "qid": 61,
+  "question": "What is the birthplace of the author of Ivanhoe?",
+  "gold": "Mexico City",
+  "steps": [
+   "return Ivanhoe",
+   "return the author of #1",
+   "return the birthplace of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "authored",
+    "arg0": "the author",
+    "arg1": "Ivanhoe",
+    "asked": "arg0"
+   }
+  ]
+ },
+ "62": {
+  "qid": 62,
+  "question": "What is the name of the child of the person who created Feluda?",
+  "gold": "Zygmunt Krasiński",
+  "steps": [
+   "return Feluda",
+   "return the author of #1",
+   "return the child of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "created",
+    "arg0": "the person",
+    "arg1": "Feluda",
+    "asked": "arg0"
+   }
+  ]
+ },
+ "63": {
+  "qid": 63,
+  "question": "In what city does the director/manager of the original broadcaster of \"NHL on ABC\" hold their citizenship?",
+  "gold": "New Delhi",
+  "srl": [
+   {
+    "predicate": "director/manager",
+    "arg0": "the director/manager",
+    "arg1": "the original broadcaster of \"NHL on ABC\"",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "hold citizenship",
+    "arg0": "the director/manager",
+    "arg1": "citizenship",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return \"NHL on ABC\"",
+   "return the original broadcaster of #1",
+   "return the director of #2",
+   "return the citizenship of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "original broadcaster",
+    true
+   ],
+   [
+    "director",
+    true
+   ],
+   [
+    "citizenship",
+    true
+   ]
+  ]
+ },
+ "64": {
+  "qid": 64,
+  "question": "Which language is considered the official language of the country to which Yip Harburg belongs?",
+  "gold": "Finnish",
+  "steps": [
+   "return Yip Harburg",
+   "return the citizenship of #1",
+   "return the official language of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "belongs",
+    "arg0": "Yip Harburg",
+    "arg1": "the country",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "considered the official language",
+    "arg0": "the country",
+    "arg1": "the language",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "65": {
+  "qid": 65,
+  "question": "What is the literary genre of the book \"Dune\" written by the author?",
+  "gold": "progressive rock",
+  "steps": [
+   "return the book \"Dune\"",
+   "return the author of #1",
+   "return the genre of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "written",
+    "arg0": "the author",
+    "arg1": "the book \"Dune\"",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "66": {
+  "qid": 66,
+  "question": "What is the continent of origin of Thomas Dolby, a musician?",
+  "gold": "South America",
+  "steps": [
+   "return Thomas Dolby",
+   "return the continent of origin of #1"
+  ],
+  "srl": [
+   {
+    "predicate": "is a musician",
+    "arg0": "Thomas Dolby",
+    "arg1": "musician",
+    "asked": "arg0"
+   }
+  ]
+ },
+ "67": {
+  "qid": 67,
+  "question": "What is the name of the school where the founder of House of Bonaparte studied?",
+  "gold": "Trinity College Dublin",
+  "steps": [
+   "return House of Bonaparte",
+   "return the founder of #1",
+   "return the education of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "founded",
+    "arg0": "the founder",
+    "arg1": "House of Bonaparte",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "studied",
+    "arg0": "the founder of House of Bonaparte",
+    "arg1": "the school",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "68": {
+  "qid": 68,
+  "question": "In which place was the manufacturing company of Chevrolet Caprice founded?",
+  "gold": "Silver Lake",
+  "steps": [
+   "return Chevrolet Caprice",
+   "return the manufacturer of #1",
+   "return the founding place of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "manufactured",
+    "arg0": "the manufacturing company",
+    "arg1": "Chevrolet Caprice",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "founded",
+    "arg0": "the manufacturing company",
+    "arg1": "the place",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "69": {
+  "qid": 69,
+  "question": "Which city is the capital of the country where the genre, which Benjamin Sisko performed, originated?",
+  "gold": "Rajanpur",
+  "srl": [
+   {
+    "predicate": "performed",
+    "arg0": "Benjamin Sisko",
+    "arg1": "the genre",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "originated",
+    "arg0": "the genre",
+    "arg1": "the country",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "is the capital of",
+    "arg0": "which city",
+    "arg1": "the country",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return Benjamin Sisko",
+   "return the genre of #1",
+   "return the country of origin of #2",
+   "return the capital of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "genre",
+    true
+   ],
+   [
+    "country of origin",
+    true
+   ],
+   [
+    "capital",
+    true
+   ]
+  ]
+ },
+ "70": {
+  "qid": 70,
+  "question": "What country is the nationality of the spouse of the author of \"David Copperfield\"?",
+  "gold": "Belgium",
+  "steps": [
+   "return \"David Copperfield\"",
+   "return the author of #1",
+   "return the spouse of #2",
+   "return the citizenship of #3"
+  ],
+  "srl": [
+   {
+    "predicate": "authored",
+    "arg0": "the author",
+    "arg1": "\"David Copperfield\"",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "spouse",
+    "arg0": "the author",
+    "arg1": "the spouse",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "71": {
+  "qid": 71,
+  "question": "In which organization did Francis Parkman work as an employee and who is its chairperson?",
+  "gold": "William J. Donovan",
+  "srl": [
+   {
+    "predicate": "work as an employee",
+    "arg0": "Francis Parkman",
+    "arg1": "organization",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "chairperson",
+    "arg0": "chairperson",
+    "arg1": "organization",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return Francis Parkman",
+   "return the employer of #1",
+   "return the chairperson of #2"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "employer",
+    true
+   ],
+   [
+    "chairperson",
+    true
+   ]
+  ]
+ },
+ "72": {
+  "qid": 72,
+  "question": "What is the capital of the country where the director/manager of \"Good Morning America\" holds a citizenship?",
+  "gold": "Beaumont",
+  "srl": [
+   {
+    "predicate": "director/manager",
+    "arg0": "the director/manager",
+    "arg1": "Good Morning America",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "holds citizenship",
+    "arg0": "the director/manager of Good Morning America",
+    "arg1": "the country",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return Good Morning America",
+   "return the director of #1",
+   "return the citizenship of #2",
+   "return the capital of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "director",
+    true
+   ],
+   [
+    "citizenship",
+    true
+   ],
+   [
+    "capital",
+    true
+   ]
+  ]
+ },
+ "73": {
+  "qid": 73,
+  "question": "In which language does the government of the country Pee Wee King holds citizenship conduct its official business?",
+  "gold": "Hebrew",
+  "steps": [
+   "return Pee Wee King",
+   "return the citizenship of #1",
+   "return the official language of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "holds",
+    "arg0": "Pee Wee King",
+    "arg1": "citizenship",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "conduct",
+    "arg0": "the government of the country",
+    "arg1": "official business",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "74": {
+  "qid": 74,
+  "question": "In what language do official government documents get written in the country that Tomokazu Seki is a citizen of?",
+  "gold": "German",
+  "steps": [
+   "return Tomokazu Seki",
+   "return the citizenship of #1",
+   "return the official language of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "is a citizen of",
+    "arg0": "Tomokazu Seki",
+    "arg1": "the country",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "get written in",
+    "arg0": "official government documents",
+    "arg1": "the language",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "75": {
+  "qid": 75,
+  "question": "What continent is the country of citizenship of the manager/director of Taxman located in?",
+  "gold": "Asia",
+  "srl": [
+   {
+    "predicate": "manager/director",
+    "arg0": "the manager/director",
+    "arg1": "Taxman",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "country of citizenship",
+    "arg0": "the manager/director of Taxman",
+    "arg1": "the country of citizenship",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "located in",
+    "arg0": "the country of citizenship",
+    "arg1": "the continent",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return Taxman",
+   "return the director of #1",
+   "return the citizenship of #2",
+   "return the continent of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "director",
+    true
+   ],
+   [
+    "citizenship",
+    true
+   ],
+   [
+    "continent",
+    true
+   ]
+  ]
+ },
+ "76": {
+  "qid": 76,
+  "question": "In which city was the person who created the centrifugal governor born?",
+  "gold": "Edinburgh",
+  "srl": [
+   {
+    "predicate": "created",
+    "arg0": "the person",
+    "arg1": "the centrifugal governor",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return the centrifugal governor",
+   "return the founder of #1",
+   "return the birthplace of #2"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "founder",
+    true
+   ],
+   [
+    "birthplace",
+    true
+   ]
+  ]
+ },
+ "77": {
+  "qid": 77,
+  "question": "What is the name of the capital city of the country to which the spouse of the author of Star Trek canon holds citizenship?",
+  "gold": "Berlin",
+  "srl": [
+   {
+    "predicate": "authored",
+    "arg0": "the author",
+    "arg1": "Star Trek canon",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "spouse of",
+    "arg0": "the author of Star Trek canon",
+    "arg1": "the spouse",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "holds citizenship",
+    "arg0": "the spouse of the author of Star Trek canon",
+    "arg1": "the country",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "capital city of",
+    "arg0": "the country",
+    "arg1": "the capital city",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return Star Trek canon",
+   "return the author of #1",
+   "return the spouse of #2",
+   "return the citizenship of #3",
+   "return the capital of #4"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "author",
+    true
+   ],
+   [
+    "spouse",
+    true
+   ],
+   [
+    "citizenship",
+    true
+   ],
+   [
+    "capital",
+    true
+   ]
+  ]
+ },
+ "78": {
+  "qid": 78,
+  "question": "Which language is considered the official language of Eric Weissberg's country of citizenship?",
+  "gold": "Finnish",
+  "steps": [
+   "return Eric Weissberg",
+   "return the citizenship of #1",
+   "return the official language of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "is considered the official language of",
+    "arg0": "a language",
+    "arg1": "Eric Weissberg's country of citizenship",
+    "asked": "arg0"
+   }
+  ]
+ },
+ "79": {
+  "qid": 79,
+  "question": "Where is the educational institution located where Tom Selleck was educated and its headquarters also situated?",
+  "gold": "Vienna",
+  "srl": [
+   {
+    "predicate": "educated",
+    "arg0": "Tom Selleck",
+    "arg1": "the educational institution",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "located",
+    "arg0": "the educational institution",
+    "arg1": "where",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "situated",
+    "arg0": "its headquarters",
+    "arg1": "where",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return Tom Selleck",
+   "return the education of #1",
+   "return the headquarters location of #2",
+   "return the work location of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "education",
+    true
+   ],
+   [
+    "headquarters location",
+    true
+   ],
+   [
+    "work location",
+    true
+   ]
+  ]
+ },
+ "80": {
+  "qid": 80,
+  "question": "Which language was used by Mario Puzo in writing his famous work?",
+  "gold": "American English",
+  "srl": [
+   {
+    "predicate": "used",
+    "arg0": "Mario Puzo",
+    "arg1": "language",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "writing",
+    "arg0": "Mario Puzo",
+    "arg1": "his famous work",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return Mario Puzo",
+   "return the famous work of #1",
+   "return the original language of #2"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "famous work",
+    true
+   ],
+   [
+    "original language",
+    true
+   ]
+  ]
+ },
+ "81": {
+  "qid": 81,
+  "question": "Which continent is the country of origin of Teenage Fanclub located in?",
+  "gold": "Oceania",
+  "steps": [
+   "return Teenage Fanclub",
+   "return the country of origin of #1",
+   "return the continent of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "located in",
+    "arg0": "the country of origin of Teenage Fanclub",
+    "arg1": "continent",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "82": {
+  "qid": 82,
+  "question": "Where was the work location of the individual who founded the religion practiced by Edward Mooney?",
+  "gold": "Riyadh Region",
+  "srl": [
+   {
+    "predicate": "practiced",
+    "arg0": "Edward Mooney",
+    "arg1": "the religion",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "founded",
+    "arg0": "the individual",
+    "arg1": "the religion",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return Edward Mooney",
+   "return the religion of #1",
+   "return the founder of #2",
+   "return the work location of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "religion",
+    true
+   ],
+   [
+    "founder",
+    true
+   ],
+   [
+    "work location",
+    true
+   ]
+  ]
+ },
+ "83": {
+  "qid": 83,
+  "question": "What is the professional background of the spouse of Lalu Prasad Yadav?",
+  "gold": "singer",
+  "steps": [
+   "return Lalu Prasad Yadav",
+   "return the spouse of #1",
+   "return the field of work of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "spouse",
+    "arg0": "Lalu Prasad Yadav",
+    "arg1": "the spouse",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "professional background",
+    "arg0": "the spouse",
+    "arg1": "professional background",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "84": {
+  "qid": 84,
+  "question": "What is the name of the capital city of the country that is the origin of the sport played by Enrico Villanueva?",
+  "gold": "Bondi Junction",
+  "srl": [
+   {
+    "predicate": "played",
+    "arg0": "Enrico Villanueva",
+    "arg1": "the sport",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "is the origin of",
+    "arg0": "the country",
+    "arg1": "the sport",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "is the capital city of",
+    "arg0": "the capital city",
+    "arg1": "the country",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return Enrico Villanueva",
+   "return the sport of #1",
+   "return the country of origin of #2",
+   "return the capital of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "sport",
+    true
+   ],
+   [
+    "country of origin",
+    true
+   ],
+   [
+    "capital",
+    true
+   ]
+  ]
+ },
+ "85": {
+  "qid": 85,
+  "question": "In what field did the author, who is known for Julius Caesar, work in?",
+  "gold": "philosopher",
+  "srl": [
+   {
+    "predicate": "known for",
+    "arg0": "the author",
+    "arg1": "Julius Caesar",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "work in",
+    "arg0": "the author",
+    "arg1": "field",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return Julius Caesar",
+   "return the author of #1",
+   "return the field of work of #2"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "author",
+    true
+   ],
+   [
+    "field of work",
+    true
+   ]
+  ]
+ },
+ "86": {
+  "qid": 86,
+  "question": "Which faith is the partner of Benigno Aquino Jr. affiliated with?",
+  "gold": "Methodism",
+  "steps": [
+   "return Benigno Aquino Jr.",
+   "return the spouse of #1",
+   "return the religion of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "affiliated with",
+    "arg0": "the partner of Benigno Aquino Jr.",
+    "arg1": "faith",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "87": {
+  "qid": 87,
+  "question": "From which country does the spouse of the creator of WWE Tough Enough hold citizenship?",
+  "gold": "Ireland",
+  "steps": [
+   "return WWE Tough Enough",
+   "return the creator of #1",
+   "return the spouse of #2",
+   "return the citizenship of #3"
+  ],
+  "srl": [
+   {
+    "predicate": "created",
+    "arg0": "the creator",
+    "arg1": "WWE Tough Enough",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "hold citizenship",
+    "arg0": "the spouse of the creator of WWE Tough Enough",
+    "arg1": "country",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "88": {
+  "qid": 88,
+  "question": "What is the name of the current head of state of the country where \"Outsourced\" came from?",
+  "gold": "Recep Tayyip Erdoğan",
+  "srl": [
+   {
+    "predicate": "came from",
+    "arg0": "\"Outsourced\"",
+    "arg1": "the country",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "head of state",
+    "arg0": "the country",
+    "arg1": "the current head of state",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return \"Outsourced\"",
+   "return the country of origin of #1",
+   "return the head of state of #2"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "country of origin",
+    true
+   ],
+   [
+    "head of state",
+    true
+   ]
+  ]
+ },
+ "89": {
+  "qid": 89,
+  "question": "In which city is the headquarters of the TV network that originally broadcasted NBA on ABC?",
+  "gold": "Red Bank",
+  "steps": [
+   "return NBA on ABC",
+   "return the original broadcaster of #1",
+   "return the headquarters location of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "broadcasted",
+    "arg0": "the TV network",
+    "arg1": "NBA on ABC",
+    "asked": "arg0"
+   }
+  ]
+ },
+ "90": {
+  "qid": 90,
+  "question": "What is the name of the founder of the religion associated with Dzhokhar Dudayev?",
+  "gold": "Gérard Blitz",
+  "steps": [
+   "return Dzhokhar Dudayev",
+   "return the religion of #1",
+   "return the founder of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "associated with",
+    "arg0": "Dzhokhar Dudayev",
+    "arg1": "the religion",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "founded",
+    "arg0": "the founder",
+    "arg1": "the religion",
+    "asked": "arg0"
+   }
+  ]
+ },
+ "91": {
+  "qid": 91,
+  "question": "Which political figure holds the role of head of state for the country that Brad Stevens' sport is associated with?",
+  "gold": "Mikhail Gorbachev",
+  "srl": [
+   {
+    "predicate": "associated with",
+    "arg0": "Brad Stevens' sport",
+    "arg1": "the country",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "holds",
+    "arg0": "political figure",
+    "arg1": "the role of head of state",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return Brad Stevens",
+   "return the sport of #1",
+   "return the country of origin of #2",
+   "return the head of state of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "sport",
+    true
+   ],
+   [
+    "country of origin",
+    true
+   ],
+   [
+    "head of state",
+    true
+   ]
+  ]
+ },
+ "92": {
+  "qid": 92,
+  "question": "What is the name of the leader of the government in the country where the sport related to the 1985 NBA Draft originated?",
+  "gold": "Lili Bosse",
+  "steps": [
+   "return the 1985 NBA Draft",
+   "return the sport of #1",
+   "return the country of origin of #2",
+   "return the head of government of #3"
+  ],
+  "srl": [
+   {
+    "predicate": "originated",
+    "arg0": "the sport related to the 1985 NBA Draft",
+    "arg1": "the country",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "leader of the government",
+    "arg0": "the leader",
+    "arg1": "the country",
+    "asked": "arg0"
+   }
+  ]
+ },
+ "93": {
+  "qid": 93,
+  "question": "In which city is the capital located of the country where the sport that Ricky Rubio plays originated?",
+  "gold": "Bondi Junction",
+  "steps": [
+   "return Ricky Rubio",
+   "return the sport of #1",
+   "return the country of origin of #2",
+   "return the capital of #3",
+   "return the city of #4"
+  ],
+  "srl": [
+   {
+    "predicate": "plays",
+    "arg0": "Ricky Rubio",
+    "arg1": "the sport",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "originated",
+    "arg0": "the sport",
+    "arg1": "the country",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "located",
+    "arg0": "the capital",
+    "arg1": "the city",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "94": {
+  "qid": 94,
+  "question": "What is the primary language spoken in the country where Flogging Molly comes from?",
+  "gold": "English",
+  "steps": [
+   "return Flogging Molly",
+   "return the country of origin of #1",
+   "return the official language of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "comes from",
+    "arg0": "Flogging Molly",
+    "arg1": "the country",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "spoken in",
+    "arg0": "the country",
+    "arg1": "the primary language",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "95": {
+  "qid": 95,
+  "question": "Which company did the employer of the creator of Link work for?",
+  "gold": "University of Oxford",
+  "steps": [
+   "return Link",
+   "return the creator of #1",
+   "return the employer of #2",
+   "return the company of #3"
+  ],
+  "srl": [
+   {
+    "predicate": "created",
+    "arg0": "the creator",
+    "arg1": "Link",
+    "asked": "arg0"
+   },
+   {
+    "predicate": "employed by",
+    "arg0": "the creator of Link",
+    "arg1": "the employer",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "work for",
+    "arg0": "the creator of Link",
+    "arg1": "the company",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "96": {
+  "qid": 96,
+  "question": "What is the country of origin of the sport associated with Dave Dombrowski's employer?",
+  "gold": "Australia",
+  "srl": [
+   {
+    "predicate": "associated with",
+    "arg0": "Dave Dombrowski",
+    "arg1": "the sport",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "employer",
+    "arg0": "Dave Dombrowski",
+    "arg1": "the employer",
+    "asked": "arg1"
+   }
+  ],
+  "steps": [
+   "return Dave Dombrowski",
+   "return the employer of #1",
+   "return the sport of #2",
+   "return the country of origin of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "employer",
+    true
+   ],
+   [
+    "sport",
+    true
+   ],
+   [
+    "country of origin",
+    true
+   ]
+  ]
+ },
+ "97": {
+  "qid": 97,
+  "question": "Which sport is associated with the position played by Bobby Hurley?",
+  "gold": "sumo",
+  "steps": [
+   "return Bobby Hurley",
+   "return the position of #1",
+   "return the sport of #2"
+  ],
+  "srl": [
+   {
+    "predicate": "played",
+    "arg0": "Bobby Hurley",
+    "arg1": "the position",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "associated with",
+    "arg0": "the position",
+    "arg1": "the sport",
+    "asked": "arg1"
+   }
+  ]
+ },
+ "98": {
+  "qid": 98,
+  "question": "What is the place of employment of the individual who founded the religion practiced by Jacqueline Kennedy Onassis?",
+  "gold": "Edinburgh",
+  "srl": [
+   {
+    "predicate": "practiced",
+    "arg0": "Jacqueline Kennedy Onassis",
+    "arg1": "the religion",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "founded",
+    "arg0": "the individual",
+    "arg1": "the religion",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return Jacqueline Kennedy Onassis",
+   "return the religion of #1",
+   "return the founder of #2",
+   "return the employer of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "religion",
+    true
+   ],
+   [
+    "founder",
+    true
+   ],
+   [
+    "employer",
+    true
+   ]
+  ]
+ },
+ "99": {
+  "qid": 99,
+  "question": "What is the birthplace of the person who founded the religion that Ferdinando I de' Medici professes?",
+  "gold": "Epworth",
+  "srl": [
+   {
+    "predicate": "professes",
+    "arg0": "Ferdinando I de' Medici",
+    "arg1": "the religion",
+    "asked": "arg1"
+   },
+   {
+    "predicate": "founded",
+    "arg0": "the person",
+    "arg1": "the religion",
+    "asked": "arg0"
+   }
+  ],
+  "steps": [
+   "return Ferdinando I de' Medici",
+   "return the religion of #1",
+   "return the founder of #2",
+   "return the birthplace of #3"
+  ],
+  "rels": [
+   [
+    null,
+    null
+   ],
+   [
+    "religion",
+    true
+   ],
+   [
+    "founder",
+    true
+   ],
+   [
+    "birthplace",
+    true
+   ]
+  ]
+ }
+}
