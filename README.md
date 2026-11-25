@@ -191,7 +191,7 @@ whale-ying-benchmark-lab/
 
 ## 🛡️ Scientific Rigor & Data Notes
 
-1. **Scoring Standard**: All multi-hop 262k evaluations utilize a **Normalized Exact Match** criterion (`norm(a) == norm(b)`: lowercasing, stripping non-alphanumeric characters, trimming whitespace) verified directly against the evaluation source code. This is stricter than the official MemoryAgentBench `substring_exact_match` rule.
+1. **Multi-Metric Evaluation Standards**: To eliminate metric ambiguity, multi-hop 262k evaluations report three cross-verified criteria: the official MemoryAgentBench **Substring Exact Match**, the official token-normalized **DRQA Exact Match**, and our stricter reference **Normalized Exact Match** (`norm(a) == norm(b)`). All scoring scripts and prediction artifacts are versioned in `results/` for independent verification.
 2. **Ablation Integrity**: We deliberately preserve and publish negative and neutral results. Experimental pipelines that exhibited dataset overfitting (such as an experimental backtracking DFS routine that achieved 51% on multi-hop but degraded LoCoMo by -4.3pp) are explicitly documented and shelved rather than masqueraded as general solutions.
 3. **Execution Environment**: All evaluations are driven from a standard consumer laptop (Intel i5-13420H, 16 GB RAM, zero discrete GPU), coordinating between local Ollama instances and cloud API calls.
 
