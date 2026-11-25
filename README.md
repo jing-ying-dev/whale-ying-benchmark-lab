@@ -10,7 +10,7 @@
 [![Upstream Memory](https://img.shields.io/badge/upstream-WhaleYing%20Memory%20v0.1.1-orange.svg)](https://github.com/jing-ying-dev/whale-ying-memory)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24511241.svg)](https://doi.org/10.5281/zenodo.24511241)
 
-**47.0% Local 3B** · **51.7% GPT-4o-mini** on MemoryAgentBench 262k Multi-Hop (Normalized Exact Match)  
+**47.0% Local 3B** · **54.3% GPT-4o-mini** on MemoryAgentBench 262k Multi-Hop (Official Substring / Exact Match)  
 *An empirical testbed measuring where external agent scaffolding helps, where it offers diminishing returns, and where it introduces regressions.*
 
 </div>
@@ -52,8 +52,8 @@ The framework is decoupled into an upstream structured memory engine and a model
 ### 1. Positive Compatibility (+): Bridging the Scale Gap on Edge Hardware
 On the extreme 262k-context multi-hop FactConsolidation task (MemoryAgentBench):
 - **Standalone Baseline**: The unaugmented Qwen2.5-Coder-3B baseline was evaluated on the 262k-context benchmark task using direct reading, with the input truncated to 16k tokens due to the model's context limit. It scored 0.0% across three runs.
-- **With Memory Scaffolding**: Equipped with structured memory extraction, retrieval, and SRL question decomposition, the same 3B model achieved a deterministic **47.0% normalized exact match in each of three runs (47.0% across all 3 runs)**.
-- **Approaching Proprietary Baselines**: Under the same BM25-only multi-hop scaffolding, **GPT-4o-mini averaged 51.7%** (51/50/54). The lightweight local 3B model approached the proprietary model's performance without relying on cloud reasoning.
+- **With Memory Scaffolding**: Equipped with structured memory extraction, retrieval, and SRL question decomposition, the same 3B model achieved **47.0% across all three runs** under both **official Substring Exact Match** and strict Normalized Exact Match (47.0% in all 3 runs).
+- **Cross-Literature Benchmark Reference**: In published literature (CAR, arXiv:2606.01435), **GPT-4o scored 41.0%** and **GPT-4o-mini scored 27.0%** on this 262k multi-hop task. Under our external scaffolding pipeline, local 3B achieved **47.0%** and GPT-4o-mini achieved **54.3%** official substring (51.7% DRQA exact). *(Note: Comparisons against CAR literature are cross-study references; dataset revisions and execution environments are not guaranteed to be strictly identical).*.
 
 ### 2. Negative Compatibility (-): When Added Complexity Yields Regressions
 - **Component Ablation (Dense Vector Retrieval & RRF)**: The default configuration currently uses BM25-only retrieval. In our tested GPT-4o-mini multi-hop configuration, adding dense vector retrieval (`all-MiniLM-L6-v2`) and Reciprocal Rank Fusion (RRF) reduced the three-run average from **51.7% to 49.7% (-2.0pp)**. The cause of this difference has not yet been isolated. We therefore keep dense vector retrieval and RRF out of the default configuration pending further cross-environment validation. This is an empirical configuration choice, not a claim that hybrid retrieval is universally inferior.
@@ -69,11 +69,11 @@ On the extreme 262k-context multi-hop FactConsolidation task (MemoryAgentBench):
 
 Beyond final exact-match scores, the harness audits hop-by-hop factual resolution accuracy on verifiable factual hops (`factconsolidation_mh_262k`):
 
-| Model & Retrieval Setup | Verifiable Hop Accuracy | Final Multi-Hop Score | Key Takeaway |
-|---|:---:|:---:|---|
-| **Local 3B + BM25-only** | **89.3%** (159 / 178) | **47.0%** (3-run mean) | Based on our current benchmark results, high single-hop precision appears to provide a foundation for deep local reasoning chains. |
-| **GPT-4o-mini + BM25-only** | **94.1%** (495 / 526) | **51.7%** (3-run mean) | In our current experiments, stronger single-hop accuracy has been associated with stronger final multi-hop performance. |
-| **GPT-4o-mini + Hybrid (BM25+Vec+RRF)** | **94.0%** (489 / 520) | **49.7%** (3-run mean) | Hop accuracy is virtually identical, but answer synthesis degrades (-2.0pp). |
+| Model & Retrieval Setup | Verifiable Hop Accuracy | Final Score (Official Substring) | Final Score (DRQA Exact) | Key Takeaway |
+|---|:---:|:---:|:---:|---|
+| **Local 3B + BM25-only** | **89.3%** (159 / 178) | **47.0%** (3-run steady) | **47.0%** | All 3 evaluation metrics yield identical 47.0%. |
+| **GPT-4o-mini + BM25-only** | **94.1%** (495 / 526) | **54.3%** (53/54/56) | **51.7%** (51/50/54) | Baseline setup without dense vector retrieval. |
+| **GPT-4o-mini + Hybrid (BM25+Vec+RRF)** | **94.0%** (489 / 520) | **53.3%** (52/54/54) | **49.7%** (49/51/49) | Negative regression observed across all metrics (-1.0pp to -2.0pp). |
 
 This reveals an important observation: **although hop-level accuracy was nearly identical between the BM25-only and hybrid retrieval configurations, their final multi-hop scores differed by 2.0 percentage points. Intermediate retrieval accuracy alone may not fully explain final answer performance, and further trace-level analysis is needed to identify where the difference emerges.**
 
@@ -122,14 +122,14 @@ py -3 demo.py 3b 1 20
 
 ```text
 ======================================================================
-题 1: What is the religion of Karl Lueger's territory?
+题 1: Which religion is the country of citizenship of Karl Lueger predominantly associated with?
 gold 答案: atheism
-拆题链: the territory of Karl Lueger -> the religion of #上一步
-  [第 1 跳] What is the territory of Karl Lueger?
-      检索 #1: Karl Lueger was born in territory of Ireland
-      => 答: Ireland
-  [第 2 跳] What is the religion of Ireland?
-      检索 #1: The state religion of Ireland is atheism
+拆题链: the citizenship of Karl Lueger -> the religion of #上一步
+  [第 1 跳] What is the citizenship of Karl Lueger?
+      检索 #1: Karl Lueger was born in territory of Lordship of Ireland
+      => 答: Lordship of Ireland
+  [第 2 跳] What is the religion of Lordship of Ireland?
+      检索 #1: The state religion of Lordship of Ireland is atheism
       => 答: atheism
 最终答案: atheism
 判定: ✓ 对 (Opposes world knowledge Catholic bias; strictly follows retrieved memory)
