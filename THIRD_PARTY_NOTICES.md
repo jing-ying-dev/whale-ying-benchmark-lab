@@ -30,3 +30,15 @@ WhaleYing Benchmark Lab uses pre-extracted data artifacts generated from this da
 The MIT license applies to the respective upstream MemoryAgentBench materials. The Apache-2.0 license in this repository governs WhaleYing Benchmark Lab's own code and does not replace or modify the upstream dataset's license.
 
 The original benchmark data remains attributed to its upstream authors. Our extraction pipeline, memory configurations, evaluation harness, experimental results, and analysis are project contributions.
+
+### Dataset hierarchy and task identification
+
+MemoryAgentBench uses `Conflict_Resolution` as a top-level Hugging Face dataset split. Within this split, this project selects the `FactConsolidation` task through the `metadata.source` field, specifically `factconsolidation_mh_262k` for the 262K multi-hop evaluation.
+
+In other words:
+
+- Dataset split: `Conflict_Resolution`
+- Task source: `factconsolidation_mh_262k`
+- Evaluation setting: multi-hop, 262K context
+
+The terms `Conflict_Resolution` and `FactConsolidation` refer to different levels of the dataset hierarchy, not different evaluation tasks.
