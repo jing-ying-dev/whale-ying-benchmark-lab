@@ -71,8 +71,8 @@ Beyond final exact-match scores, the harness audits hop-by-hop factual resolutio
 
 | Model & Retrieval Setup | Verifiable Hop Accuracy | Final Multi-Hop Score | Key Takeaway |
 |---|:---:|:---:|---|
-| **Local 3B + BM25-only** | **89.3%** (159 / 178) | **47.0%** (3-run mean) | High single-hop precision enables deep local reasoning chains. |
-| **GPT-4o-mini + BM25-only** | **94.1%** (495 / 526) | **51.7%** (3-run mean) | Strong single-hop accuracy translates directly to top final performance. |
+| **Local 3B + BM25-only** | **89.3%** (159 / 178) | **47.0%** (3-run mean) | Based on our current benchmark results, high single-hop precision appears to provide a foundation for deep local reasoning chains. |
+| **GPT-4o-mini + BM25-only** | **94.1%** (495 / 526) | **51.7%** (3-run mean) | In our current experiments, stronger single-hop accuracy has been associated with stronger final multi-hop performance. |
 | **GPT-4o-mini + Hybrid (BM25+Vec+RRF)** | **94.0%** (489 / 520) | **49.7%** (3-run mean) | Hop accuracy is virtually identical, but answer synthesis degrades (-2.0pp). |
 
 This reveals an important observation: **although hop-level accuracy was nearly identical between the BM25-only and hybrid retrieval configurations, their final multi-hop scores differed by 2.0 percentage points. Intermediate retrieval accuracy alone may not fully explain final answer performance, and further trace-level analysis is needed to identify where the difference emerges.**
